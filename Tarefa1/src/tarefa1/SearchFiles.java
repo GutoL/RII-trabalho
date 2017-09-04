@@ -27,6 +27,7 @@ import java.util.Date;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.CharArraySet;
+import org.apache.lucene.analysis.en.EnglishAnalyzer;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.DirectoryReader;
@@ -45,13 +46,7 @@ public class SearchFiles {
 
   /** Simple command-line based search demo. */
   public static void main(String[] args) throws Exception {
-    String usage =
-      "Usage:\tjava org.apache.lucene.demo.SearchFiles [-index dir] [-field f] [-repeat n] [-queries file] [-query string] [-raw] [-paging hitsPerPage]\n\nSee http://lucene.apache.org/core/4_1_0/demo/ for details.";
-    if (args.length > 0 && ("-h".equals(args[0]) || "-help".equals(args[0]))) {
-      System.out.println(usage);
-      System.exit(0);
-    }
-
+    
     String index = "index";
     String field = "contents";
     String queries = null;
@@ -90,8 +85,11 @@ public class SearchFiles {
     
     IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(index)));
     IndexSearcher searcher = new IndexSearcher(reader);
-    //Analyzer analyzer = new StandardAnalyzer(); // excluding stopwords
-    Analyzer analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET); // with stopwords
+    
+    //Analyzer analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET); // without stopwords filter/without stemming
+    //Analyzer analyzer = new StandardAnalyzer(); // with stopwords filter/without stemming
+    //Analyzer analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);// without stopwords filter/ with stemming
+    Analyzer analyzer = new EnglishAnalyzer(); // with stop words/with stemming
     
     BufferedReader in = null;
     if (queries != null) {

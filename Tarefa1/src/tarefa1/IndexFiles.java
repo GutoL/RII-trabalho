@@ -28,11 +28,19 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.SimpleFileVisitor;
 import java.nio.file.attribute.BasicFileAttributes;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.CharArraySet;
+import org.apache.lucene.analysis.StopFilter;
+import org.apache.lucene.analysis.TokenStream;
+import org.apache.lucene.analysis.core.StopAnalyzer;
+import org.apache.lucene.analysis.en.EnglishAnalyzer;
+import org.apache.lucene.analysis.en.PorterStemFilter;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
+import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.document.LongPoint;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
@@ -45,6 +53,7 @@ import org.apache.lucene.index.Term;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 
+
 /** Index all text files under a directory.
  * <p>
  * This is a command-line application demonstrating simple Lucene indexing.
@@ -56,10 +65,7 @@ public class IndexFiles {
 
   /** Index all text files under a directory. */
   public static void main(String[] args) {
-    String usage = "java org.apache.lucene.demo.IndexFiles"
-                 + " [-index INDEX_PATH] [-docs DOCS_PATH] [-update]\n\n"
-                 + "This indexes the documents in DOCS_PATH, creating a Lucene index"
-                 + "in INDEX_PATH that can be searched with SearchFiles";
+    
     String indexPath = "index";
     String docsPath = null;
     boolean create = true;
@@ -77,12 +83,7 @@ public class IndexFiles {
         create = false;
       }
     }*/
-
-    if (docsPath == null) {
-      System.err.println("Usage: " + usage);
-      System.exit(1);
-    }
-
+    
     final Path docDir = Paths.get(docsPath);
     if (!Files.isReadable(docDir)) {
       System.out.println("Document directory '" +docDir.toAbsolutePath()+ "' does not exist or is not readable, please check the path");
@@ -90,12 +91,17 @@ public class IndexFiles {
     }
     
     Date start = new Date();
+    
     try {
       System.out.println("Indexing to directory '" + indexPath + "'...");
 
       Directory dir = FSDirectory.open(Paths.get(indexPath));
-      //Analyzer analyzer = new StandardAnalyzer(); // excluding stopwords
-      Analyzer analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET); //with stopwords
+      
+      //Analyzer analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET); // without stopwords filter/without stemming
+      //Analyzer analyzer = new StandardAnalyzer(); // with stopwords filter/without stemming
+      //Analyzer analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);// without stopwords filter/ with stemming
+      Analyzer analyzer = new EnglishAnalyzer(); // with stop words/with stemming
+      
       IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
 
       if (create) {
@@ -116,14 +122,6 @@ public class IndexFiles {
 
       IndexWriter writer = new IndexWriter(dir, iwc);
       indexDocs(writer, docDir);
-
-      // NOTE: if you want to maximize search performance,
-      // you can optionally call forceMerge here.  This can be
-      // a terribly costly operation, so generally it's only
-      // worth it when your index is relatively static (ie
-      // you're done adding documents to it):
-      //
-      // writer.forceMerge(1);
 
       writer.close();
 
@@ -152,7 +150,8 @@ public class IndexFiles {
    * @throws IOException If there is a low-level I/O error
    */
   static void indexDocs(final IndexWriter writer, Path path) throws IOException {
-    if (Files.isDirectory(path)) {
+    
+      if (Files.isDirectory(path)) {
       Files.walkFileTree(path, new SimpleFileVisitor<Path>() {
         @Override
         public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
@@ -210,4 +209,23 @@ public class IndexFiles {
       }
     }
   }
+  
+    /*public List<String> stem(String term) throws Exception {
+        
+        Analyzer analyzer = new StandardAnalyzer();
+        TokenStream result = analyzer.tokenStream(null, term);
+        result = new PorterStemFilter(result);
+        result = new StopFilter(result, StopAnalyzer.ENGLISH_STOP_WORDS_SET);
+        CharTermAttribute resultAttr = result.addAttribute(CharTermAttribute.class);
+        result.reset();
+
+        List<String> tokens = new ArrayList<>();
+        while (result.incrementToken()) {
+            tokens.add(resultAttr.toString());
+        }
+        return tokens;
+    }*/
+  
+  
+  
 }
