@@ -31,6 +31,7 @@ import java.nio.file.attribute.BasicFileAttributes;
 import java.util.Date;
 
 import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.analysis.CharArraySet;
 import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.LongPoint;
 import org.apache.lucene.document.Document;
@@ -93,7 +94,8 @@ public class IndexFiles {
       System.out.println("Indexing to directory '" + indexPath + "'...");
 
       Directory dir = FSDirectory.open(Paths.get(indexPath));
-      Analyzer analyzer = new StandardAnalyzer();
+      //Analyzer analyzer = new StandardAnalyzer(); // excluding stopwords
+      Analyzer analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET); //with stopwords
       IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
 
       if (create) {
