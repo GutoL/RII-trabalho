@@ -87,9 +87,9 @@ public class SearchFiles {
     IndexSearcher searcher = new IndexSearcher(reader);
     
     //Analyzer analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET); // without stopwords filter/without stemming
-    //Analyzer analyzer = new StandardAnalyzer(); // with stopwords filter/without stemming
-    //Analyzer analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);// without stopwords filter/ with stemming
-    Analyzer analyzer = new EnglishAnalyzer(); // with stop words/with stemming
+    //Analyzer analyzer = new StandardAnalyzer();                       // with stopwords filter/without stemming
+    //Analyzer analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET); // without stopwords filter/ with stemming
+    Analyzer analyzer = new EnglishAnalyzer();                          // with stop words/with stemming
     
     BufferedReader in = null;
     if (queries != null) {
