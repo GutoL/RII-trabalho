@@ -19,9 +19,6 @@ package tarefa1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Date;
 
@@ -45,7 +42,7 @@ public class SearchFiles {
   public SearchFiles() {}
 
   /** Simple command-line based search demo. */
-  public void search(String line) throws Exception {
+  public SearchResults search(String line, char stopWords, char steamming) throws Exception {
     
     String index = "index";
     String field = "contents";
@@ -54,37 +51,55 @@ public class SearchFiles {
     boolean raw = false;
     String queryString = null;
     int hitsPerPage = 10;
+    //int numberFilesRetrieved = 0;
+    SearchResults searchResults = new SearchResults();
     
     IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(index)));
     IndexSearcher searcher = new IndexSearcher(reader);
     
-    //Analyzer analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET); // without stopwords filter/without stemming
-    //Analyzer analyzer = new StandardAnalyzer();                       // with stopwords filter/without stemming
-    //Analyzer analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET); // without stopwords filter/ with stemming
-    Analyzer analyzer = new EnglishAnalyzer();                          // with stop words/with stemming
+    Analyzer analyzer;
+    
+    if(stopWords=='0' && steamming=='0'){
+          
+           analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/without stemming
+          
+      }else if(stopWords=='1' && steamming=='0'){
+          
+           analyzer = new StandardAnalyzer();                           // with stopwords filter/without stemming
+          
+      }else if(stopWords=='0' && steamming=='1'){
+           
+           analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/ with stemming
+          
+      }else{
+          
+          analyzer = new EnglishAnalyzer();                            // with stop words/with stemming
+          
+      }
     
     
     QueryParser parser = new QueryParser(field, analyzer);
     
-    while (true) {
+    //while (true) {
       
-        if (queries == null && queryString == null) {                        // prompt the user
+        /*if (queries == null && queryString == null) {                        // prompt the user
             System.out.println("Enter query: ");
         }
 
         if (line == null || line.length() == -1) {
             break;
-        }
+        }*/
 
         line = line.trim();
         
-        if (line.length() == 0) {
+        /*if (line.length() == 0) {
             break;
-        }
+        }*/
       
         Query query = parser.parse(line);
-        System.out.println("Searching for: " + query.toString(field));
-            
+        //System.out.println("Searching for: " + query.toString(field));
+        searchResults.setSearchString(query.toString(field));
+        
         if (repeat > 0) {                           // repeat & time as benchmark
             
             Date start = new Date();
@@ -98,17 +113,44 @@ public class SearchFiles {
         }
 
         //doPagingSearch(in, searcher, query, hitsPerPage, raw, queries == null && queryString == null);
+        
         TopDocs results = searcher.search(query, 5 * hitsPerPage);
         ScoreDoc[] hits = results.scoreDocs;
-    
-    int numTotalHits = results.totalHits;
-    System.out.println(numTotalHits + " total matching documents");
+        int numTotalHits = results.totalHits;
+        //System.out.println(numTotalHits + " total matching documents");
+        searchResults.setNumerFilesRetrieved(numTotalHits);
         
-        if (queryString != null) {
-            break;
+        int start = 0;
+        int end = Math.min(numTotalHits, hitsPerPage);
+     
+        for (int i = start; i < end; i++) {
+        if (raw) {                              // output raw format
+          System.out.println("doc="+hits[i].doc+" score="+hits[i].score);
+          continue;
         }
-    }
+
+        Document doc = searcher.doc(hits[i].doc);
+        String path = doc.get("path");
+        
+        if (path != null) {
+          System.out.println((i+1) + ". " + path);
+          searchResults.files.add(path);
+          String title = doc.get("title");
+          
+          if (title != null) {
+            System.out.println("   Title: " + doc.get("title"));
+          }
+          
+        }else {
+          System.out.println((i+1) + ". " + "No path for this document");
+        }
+               
+      }
+    
+    
+    //}// fim do while true
     reader.close();
+    return searchResults;
   }
 
   /**
@@ -158,7 +200,9 @@ public class SearchFiles {
         String path = doc.get("path");
         if (path != null) {
           System.out.println((i+1) + ". " + path);
+          
           String title = doc.get("title");
+          
           if (title != null) {
             System.out.println("   Title: " + doc.get("title"));
           }

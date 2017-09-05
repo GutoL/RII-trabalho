@@ -61,30 +61,19 @@ import org.apache.lucene.store.FSDirectory;
  */
 public class IndexFiles {
   
-  private IndexFiles() {}
+  public IndexFiles() {}
 
   /** Index all text files under a directory. */
-  public static void main(String[] args) {
+  public void index(String docsPath,char stopWords,char steamming) {
     
     String indexPath = "index";
-    String docsPath = null;
+    //String docsPath = null;
     boolean create = true;
     
-    docsPath = "/home/guto/Dropbox/Mestrado/RII/arxIv/Scripts/arxiv_org_paper_crawler/arxiv_org_papers/cs.NI";
-    
-    /*for(int i=0;i<args.length;i++) {
-      if ("-index".equals(args[i])) {
-        indexPath = args[i+1];
-        i++;
-      } else if ("-docs".equals(args[i])) {
-        docsPath = args[i+1];
-        i++;
-      } else if ("-update".equals(args[i])) {
-        create = false;
-      }
-    }*/
-    
+    //docsPath = "/home/guto/Dropbox/Mestrado/RII/arxIv/Scripts/arxiv_org_paper_crawler/arxiv_org_papers/cs.NI";
+   
     final Path docDir = Paths.get(docsPath);
+    
     if (!Files.isReadable(docDir)) {
       System.out.println("Document directory '" +docDir.toAbsolutePath()+ "' does not exist or is not readable, please check the path");
       System.exit(1);
@@ -93,15 +82,29 @@ public class IndexFiles {
     Date start = new Date();
     
     try {
+      Analyzer analyzer;
       System.out.println("Indexing to directory '" + indexPath + "'...");
 
       Directory dir = FSDirectory.open(Paths.get(indexPath));
       
-      //Analyzer analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET);   // without stopwords filter/without stemming
-      //Analyzer analyzer = new StandardAnalyzer();                         // with stopwords filter/without stemming
-      //Analyzer analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);   // without stopwords filter/ with stemming
-      Analyzer analyzer = new EnglishAnalyzer();                            // with stop words/with stemming
-      
+      if(stopWords=='0' && steamming=='0'){
+          
+           analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/without stemming
+          
+      }else if(stopWords=='1' && steamming=='0'){
+          
+           analyzer = new StandardAnalyzer();                           // with stopwords filter/without stemming
+          
+      }else if(stopWords=='0' && steamming=='1'){
+           
+           analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/ with stemming
+          
+      }else{
+          
+          analyzer = new EnglishAnalyzer();                            // with stop words/with stemming
+          
+      }
+     
       IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
 
       if (create) {
@@ -149,7 +152,7 @@ public class IndexFiles {
    * @param path The file to index, or the directory to recurse into to find files to index
    * @throws IOException If there is a low-level I/O error
    */
-  static void indexDocs(final IndexWriter writer, Path path) throws IOException {
+  public void indexDocs(final IndexWriter writer, Path path) throws IOException {
     
       if (Files.isDirectory(path)) {
       Files.walkFileTree(path, new SimpleFileVisitor<Path>() {
@@ -169,7 +172,7 @@ public class IndexFiles {
   }
 
   /** Indexes a single document */
-  static void indexDoc(IndexWriter writer, Path file, long lastModified) throws IOException {
+  public void indexDoc(IndexWriter writer, Path file, long lastModified) throws IOException {
     try (InputStream stream = Files.newInputStream(file)) {
       // make a new, empty document
       Document doc = new Document();
