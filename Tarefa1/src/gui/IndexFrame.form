@@ -39,7 +39,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="jCheckBox2" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace pref="98" max="32767" attributes="0"/>
+                      <EmptySpace pref="105" max="32767" attributes="0"/>
                       <Component id="jButton2" min="-2" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="jButton1" min="-2" pref="63" max="-2" attributes="0"/>
@@ -91,8 +91,11 @@
     </Component>
     <Component class="javax.swing.JCheckBox" name="jCheckBox2">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Steamming Filter"/>
+        <Property name="text" type="java.lang.String" value="Stemming Filter"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jCheckBox2ActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>

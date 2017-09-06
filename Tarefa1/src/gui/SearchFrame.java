@@ -140,7 +140,7 @@ public class SearchFrame extends javax.swing.JFrame {
                 
                 String files = "";
                 for (int i = 0; i < results.getFiles().size(); i++) {
-                    files = files+i+"-"+results.getFiles().get(i)+"\n";
+                    files = files+(i+1)+"-"+results.getFiles().get(i)+"\n";
                 }
                 jTextArea2.setText(files);
                 

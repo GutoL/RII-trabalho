@@ -50,13 +50,13 @@ public class SearchFiles {
     int repeat = 0;
     boolean raw = false;
     String queryString = null;
-    int hitsPerPage = 10;
+    int hitsPerPage = 200;
     //int numberFilesRetrieved = 0;
     SearchResults searchResults = new SearchResults();
     
     IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(index)));
     IndexSearcher searcher = new IndexSearcher(reader);
-    
+    int max = 200;
     Analyzer analyzer;
     
     if(stopWords=='0' && steamming=='0'){
@@ -114,7 +114,7 @@ public class SearchFiles {
 
         //doPagingSearch(in, searcher, query, hitsPerPage, raw, queries == null && queryString == null);
         
-        TopDocs results = searcher.search(query, 5 * hitsPerPage);
+        TopDocs results = searcher.search(query, max * hitsPerPage);
         ScoreDoc[] hits = results.scoreDocs;
         int numTotalHits = results.totalHits;
         //System.out.println(numTotalHits + " total matching documents");
@@ -122,7 +122,7 @@ public class SearchFiles {
         
         int start = 0;
         int end = Math.min(numTotalHits, hitsPerPage);
-     
+        
         for (int i = start; i < end; i++) {
         if (raw) {                              // output raw format
           System.out.println("doc="+hits[i].doc+" score="+hits[i].score);
