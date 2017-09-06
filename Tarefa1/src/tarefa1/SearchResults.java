@@ -7,6 +7,7 @@ package tarefa1;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 import matrix.MatrixReader;
 
 /**
@@ -47,16 +48,47 @@ public class SearchResults {
         int relevantDocuments=0;
          for (String file : files){
              String filename=file.split("/")[2];
+             System.out.print("File name: "+filename);
              if(relevanceMatrix.get(filename).get(SearchString).equals("1")){
                  relevantDocuments+=1;
              }
          }
          
-         precision=relevantDocuments/(double)files.size();
-        
+         if(files.size()!=0){
+            precision=relevantDocuments/(double)files.size();
+         }
+         
         return precision;
     }
     
+    public double coverage(HashMap<String,HashMap> relevanceMatrix){
+        double coverage=0.0;
+        int relevantReturnedDocuments=0;
+        int relevantDocuments=0;
+        for (String file : files){
+            String filename=file.split("/")[2];
+            if(relevanceMatrix.get(filename).get(SearchString).equals("1")){
+                 relevantReturnedDocuments+=1;
+             }
+        }
+        
+        for (Map.Entry<String,HashMap> fileQuery: relevanceMatrix.entrySet()){
+            if(fileQuery.getValue().get(SearchString).equals("1")){
+                relevantDocuments+=1;
+            }
+        }
+        
+        if(relevantDocuments!=0){
+            coverage=(double)relevantReturnedDocuments/(double)relevantDocuments;
+        }
+        return coverage;
+    }
+    
+    public double fmeasure(HashMap<String,HashMap> relevanceMatrix){
+        double precision=precision(relevanceMatrix);
+        double coverage=coverage(relevanceMatrix);
+        return 2*precision*coverage/(precision+coverage);
+    }
     
     
     
