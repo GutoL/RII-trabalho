@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Misra, Amita", 
+        "Anand, Pranav", 
+        "Tree, Jean E Fox", 
+        "Walker, Marilyn"
+    ], 
+    "paper_comments": "@inproceedings{Misra2015UsingST,title={Using Summarization to Discover Argument Facets in Online Idealogical Dialog},author={Amita Misra and Pranav Anand and Jean E. Fox Tree and Marilyn A. Walker},booktitle={HLT-NAACL},year={2015}}", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00662", 
+    "paper_abstract": "More and more of the information available on the web is dialogic, and a\nsignificant portion of it takes place in online forum conversations about\ncurrent social and political topics. We aim to develop tools to summarize what\nthese conversations are about. What are the CENTRAL PROPOSITIONS associated\nwith different stances on an issue, what are the abstract objects under\ndiscussion that are central to a speaker's argument? How can we recognize that\ntwo CENTRAL PROPOSITIONS realize the same FACET of the argument? We hypothesize\nthat the CENTRAL PROPOSITIONS are exactly those arguments that people find most\nsalient, and use human summarization as a probe for discovering them. We\ndescribe our corpus of human summaries of opinionated dialogs, then show how we\ncan identify similar repeated arguments, and group them into FACETS across many\ndiscussions of a topic. We define a new task, ARGUMENT FACET SIMILARITY (AFS),\nand show that we can predict AFS with a .54 correlation score, versus an ngram\nsystem baseline of .39 and a semantic textual similarity system baseline of\n.45.", 
+    "paper_subjects": [
+        "Computation and Language (cs.CL)"
+    ], 
+    "paper_code": "1709.00662", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Using Summarization to Discover Argument Facets in Online Ideological Dialog"
+}

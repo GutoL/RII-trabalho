@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Ji, Zhong", 
+        "Xiong, Kailin", 
+        "Pang, Yanwei", 
+        "Li, Xuelong"
+    ], 
+    "paper_comments": "9 pages, 7 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09545", 
+    "paper_abstract": "This paper addresses the problem of supervised video summarization by\nformulating it as a sequence-to-sequence learning problem, where the input is a\nsequence of original video frames, the output is a keyshot sequence. Our key\nidea is to learn a deep summarization network with attention mechanism to mimic\nthe way of selecting the keyshots of human. To this end, we propose a novel\nvideo summarization framework named Attentive encoder-decoder networks for\nVideo Summarization (AVS), in which the encoder uses a Bidirectional Long\nShort-Term Memory (BiLSTM) to encode the contextual information among the input\nvideo frames. As for the decoder, two attention-based LSTM networks are\nexplored by using additive and multiplicative objective functions,\nrespectively. Extensive experiments are conducted on three video summarization\nbenchmark datasets, i.e., SumMe, TVSum, and YouTube. The results demonstrate\nthe superiority of the proposed AVS-based approaches against the\nstate-of-the-art approaches, with remarkable improvements from 3% to 11% on the\nthree datasets, respectively.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09545", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Video Summarization with Attention-Based Encoder-Decoder Networks"
+}

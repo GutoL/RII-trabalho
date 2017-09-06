@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Dobrescu, Andrei", 
+        "Giuffrida, Mario Valerio", 
+        "Tsaftaris, Sotirios A"
+    ], 
+    "paper_comments": "8 pages, 3 figures, 3 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01472", 
+    "paper_abstract": "The number of leaves a plant has is one of the key traits (phenotypes)\ndescribing its development and growth. Here, we propose an automated, deep\nlearning based approach for counting leaves in model rosette plants. While\nstate-of-the-art results on leaf counting with deep learning methods have\nrecently been reported, they obtain the count as a result of leaf segmentation\nand thus require per-leaf (instance) segmentation to train the models (a rather\nstrong annotation). Instead, our method treats leaf counting as a direct\nregression problem and thus only requires as annotation the total leaf count\nper plant. We argue that combining different datasets when training a deep\nneural network is beneficial and improves the results of the proposed approach.\nWe evaluate our method on the CVPPP 2017 Leaf Counting Challenge dataset, which\ncontains images of Arabidopsis and tobacco plants. Experimental results show\nthat the proposed method significantly outperforms the winner of the previous\nCVPPP challenge, improving the results by a minimum of ~50% on each of the test\ndatasets, and can achieve this performance without knowing the experimental\norigin of the data (i.e. in the wild setting of the challenge). We also compare\nthe counting accuracy of our model with that of per leaf segmentation\nalgorithms, achieving a 20% decrease in mean absolute difference in count\n(|DiC|).", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01472", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Leveraging multiple datasets for deep leaf counting"
+}

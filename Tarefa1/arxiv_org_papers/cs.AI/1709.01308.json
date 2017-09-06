@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Chang, Simyung", 
+        "Yoo, YoungJoon", 
+        "Choi, Jaeseok", 
+        "Kwak, Nojun"
+    ], 
+    "paper_comments": "8 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01308", 
+    "paper_abstract": "This paper proposes a novel deep reinforcement learning (RL) method\nintegrating the neural-network-based RL and the classical RL based on dynamic\nprogramming. In comparison to the conventional deep RL methods, our method\nenhances the convergence speed and the performance by delving into the\nfollowing two characteristic features in the training of conventional RL: (1)\nHaving many credible experiences is important in training RL algorithms, (2)\nInput states can be semantically clustered into a relatively small number of\ncore clusters, and the states belonging to the same cluster tend to share\nsimilar Q-values given an action. By following the two observations, we propose\na dictionary-type memory that accumulates the Q-value for each cluster of\nstates as well as the corresponding action, in terms of priority. Then, we\niteratively update each Q-value in the memory from the Q-value acquired from\nthe network trained by the experiences stored in the memory. We demonstrate the\neffectiveness of our method through training RL algorithms on widely used game\nenvironments from OpenAI.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01308", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Knowledge Sharing for Reinforcement Learning: Writing a BOOK"
+}

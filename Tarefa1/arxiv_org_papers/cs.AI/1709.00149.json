@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Noriega-Atala, Enrique", 
+        "Valenzuela-Escarcega, Marco A.", 
+        "Morrison, Clayton T.", 
+        "Surdeanu, Mihai"
+    ], 
+    "paper_comments": "6 pages, 1 figure, 1 algorithm, 2 tables, accepted to EMNLP 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00149", 
+    "paper_abstract": "Recent efforts in bioinformatics have achieved tremendous progress in the\nmachine reading of biomedical literature, and the assembly of the extracted\nbiochemical interactions into large-scale models such as protein signaling\npathways. However, batch machine reading of literature at today's scale (PubMed\nalone indexes over 1 million papers per year) is unfeasible due to both cost\nand processing overhead. In this work, we introduce a focused reading approach\nto guide the machine reading of biomedical literature towards what literature\nshould be read to answer a biomedical query as efficiently as possible. We\nintroduce a family of algorithms for focused reading, including an intuitive,\nstrong baseline, and a second approach which uses a reinforcement learning (RL)\nframework that learns when to explore (widen the search) or exploit (narrow\nit). We demonstrate that the RL approach is capable of answering more queries\nthan the baseline, while being more efficient, i.e., reading fewer documents.", 
+    "paper_subjects": [
+        "Computation and Language (cs.CL)", 
+        "Information Retrieval (cs.IR)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00149", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Learning what to read: Focused machine reading"
+}

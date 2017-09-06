@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Asgarian, Azin", 
+        "Ashraf, Ahmed Bilal", 
+        "Fleet, David", 
+        "Taati, Babak"
+    ], 
+    "paper_comments": "Copyright IEEE. To be published in the proceedings of International Joint Conference on Biometrics (IJCB) 2017. For final print version see, [link to come]", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08508", 
+    "paper_abstract": "Active appearance models (AAMs) are a class of generative models that have\nseen tremendous success in face analysis. However, model learning depends on\nthe availability of detailed annotation of canonical landmark points. As a\nresult, when accurate AAM fitting is required on a different set of variations\n(expression, pose, identity), a new dataset is collected and annotated. To\novercome the need for time consuming data collection and annotation, transfer\nlearning approaches have received recent attention. The goal is to transfer\nknowledge from previously available datasets (source) to a new dataset\n(target). We propose a subspace transfer learning method, in which we select a\nsubspace from the source that best describes the target space. We propose a\nmetric to compute the directional similarity between the source eigenvectors\nand the target subspace. We show an equivalence between this metric and the\nvariance of target data when projected onto source eigenvectors. Using this\nequivalence, we select a subset of source principal directions that capture the\nvariance in target data. To define our model, we augment the selected source\nsubspace with the target subspace learned from a handful of target examples. In\nexperiments done on six publicly available datasets, we show that our approach\noutperforms the state of the art in terms of the RMS fitting error as well as\nthe percentage of test examples for which AAM fitting converges to the ground\ntruth.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1708.08508", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "Subspace Selection to Suppress Confounding Source Domain Information in AAM Transfer Learning"
+}

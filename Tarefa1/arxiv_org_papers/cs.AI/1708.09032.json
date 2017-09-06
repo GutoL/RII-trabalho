@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "MacFie, Andrew"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09032", 
+    "paper_abstract": "We consider the problem of rational uncertainty about unproven mathematical\nstatements, which G\\\"odel and others have remarked on. Using Bayesian-inspired\narguments we build a normative model of fair bets under deductive uncertainty\nwhich diverges from probability theory per se but draws on the theory of\nalgorithms. We comment on connections to Zeilberger's notion of \"semi-rigorous\nproofs\", particularly that inherent subjectivity is an obstacle.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09032", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "Plausibility and probability in deductive reasoning"
+}

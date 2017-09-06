@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Dong, Jianfeng", 
+        "Li, Xirong", 
+        "Xu, Duanqing"
+    ], 
+    "paper_comments": "14 pages, 10 figures, under review of TMM", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01305", 
+    "paper_abstract": "In order to retrieve unlabeled images by textual queries, cross-media\nsimilarity computation is a key ingredient. Although novel methods are\ncontinuously introduced, little has been done to evaluate these methods\ntogether with large-scale query log analysis. Consequently, how far have these\nmethods brought us in answering real-user queries is unclear. Given baseline\nmethods that compute cross-media similarity using relatively simple text/image\nmatching, how much progress have advanced models made is also unclear. This\npaper takes a pragmatic approach to answering the two questions. Queries are\nautomatically categorized according to the proposed query visualness measure,\nand later connected to the evaluation of multiple cross-media similarity models\non three test sets. Such a connection reveals that the success of the\nstate-of-the-art is mainly attributed to their good performance on\nvisual-oriented queries, while these queries account for only a small part of\nreal-user queries. To quantify the current progress, we propose a simple\ntext2image method, representing a novel test query by a set of images selected\nfrom large-scale query log. Consequently, computing cross-media similarity\nbetween the test query and a given image boils down to comparing the visual\nsimilarity between the given image and the selected images. Image retrieval\nexperiments on the challenging Clickture dataset show that the proposed\ntext2image compares favorably to recent deep learning based alternatives.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01305", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Cross-Media Similarity Evaluation for Web Image Retrieval in the Wild"
+}

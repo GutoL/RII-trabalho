@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Rahimtoroghi, Elahe", 
+        "Hernandez, Ernesto", 
+        "Walker, Marilyn A"
+    ], 
+    "paper_comments": "SIGDIAL 2016", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09450", 
+    "paper_abstract": "Much of the user-generated content on social media is provided by ordinary\npeople telling stories about their daily lives. We develop and test a novel\nmethod for learning fine-grained common-sense knowledge from these stories\nabout contingent (causal and conditional) relationships between everyday\nevents. This type of knowledge is useful for text and story understanding,\ninformation extraction, question answering, and text summarization. We test and\ncompare different methods for learning contingency relation, and compare what\nis learned from topic-sorted story collections vs. general-domain stories. Our\nexperiments show that using topic-specific datasets enables learning\nfiner-grained knowledge about events and results in significant improvement\nover the baselines. An evaluation on Amazon Mechanical Turk shows 82% of the\nrelations between events that we learn from topic-sorted stories are judged as\ncontingent.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1708.09450", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Learning Fine-Grained Knowledge about Contingent Relations between Everyday Events"
+}

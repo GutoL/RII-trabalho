@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Amiri, Saeed Akhoondian", 
+        "Foerster, Klaus-Tycho", 
+        "Schmid, Stefan"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09827", 
+    "paper_abstract": "We initiate the study of a fundamental combinatorial problem: Given a\ncapacitated graph $G=(V,E)$, find a shortest walk (\"route\") from a source $s\\in\nV$ to a destination $t\\in V$ that includes all vertices specified by a set\n$\\mathscr{W}\\subseteq V$: the \\emph{waypoints}. This waypoint routing problem\nfinds immediate applications in the context of modern networked distributed\nsystems. Our main contribution is an exact polynomial-time algorithm for graphs\nof bounded treewidth. We also show that if the number of waypoints is\nlogarithmically bounded, exact polynomial-time algorithms exist even for\ngeneral graphs. Our two algorithms provide an almost complete characterization\nof what can be solved exactly in polynomial-time: we show that more general\nproblems (e.g., on grid graphs of maximum degree 3, with slightly more\nwaypoints) are computationally intractable.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1708.09827", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Walking Through Waypoints"
+}

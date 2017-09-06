@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Gupta, Vipul", 
+        "Kalamkar, Sanket S", 
+        "Banerjee, Adrish"
+    ], 
+    "paper_comments": "Accepted in 2017 IEEE Global Communications Conference, Singapore", 
+    "paper_page_url": "https://arxiv.org/abs/1708.07989", 
+    "paper_abstract": "We focus on a scenario where two wireless source nodes wish to exchange\nconfidential information via an RF energy harvesting untrusted two-way relay.\nDespite its cooperation in forwarding the information, the relay is considered\nuntrusted out of the concern that it might attempt to decode the confidential\ninformation that is being relayed. To discourage the eavesdropping intention of\nthe relay, we use a friendly jammer. Under the total power constraint, to\nmaximize the sum-secrecy rate, we allocate the power among the sources and the\njammer optimally and calculate the optimal power splitting ratio to balance\nbetween the energy harvesting and the information processing at the relay. We\nfurther examine the effect of imperfect channel state information at both\nsources on the sum-secrecy rate. Numerical results highlight the role of the\njammer in achieving the secure communication under channel estimation errors.\nWe have shown that, as the channel estimation error on any of the channels\nincreases, the power allocated to the jammer decreases to abate the\ninterference caused to the confidential information reception due to the\nimperfect cancellation of jammer's signal.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1708.07989", 
+    "paper_submission_date": "2017/08/26", 
+    "paper_title": "On Secure Communication using RF Energy Harvesting Two-Way Untrusted Relay"
+}

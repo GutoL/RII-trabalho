@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Ding, Ming", 
+        "Perez, David Lopez", 
+        "Jafari, Amir H.", 
+        "Mao, Guoqiang", 
+        "Lin, Zihuai"
+    ], 
+    "paper_comments": "7 pages, 4 figures, to appear in Globecom2017, Dec. 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.07961", 
+    "paper_abstract": "In this paper, we theoretically study the proportional fair (PF) scheduler in\nthe context of ultra-dense networks (UDNs). Analytical results are obtained for\nthe coverage probability and the area spectral efficiency (ASE) performance of\ndense small cell networks (SCNs) with the PF scheduler employed at base\nstations (BSs). The key point of our analysis is that the typical user is no\nlonger a random user as assumed in most studies in the literature. Instead, a\nuser with the maximum PF metric is chosen by its serving BS as the typical\nuser. By comparing the previous results of the round-robin (RR) scheduler with\nour new results of the PF scheduler, we quantify the loss of the multi-user\ndiversity of the PF scheduler with the network densification, which casts a new\nlook at the role of the PF scheduler in UDNs. Our conclusion is that the RR\nscheduler should be used in UDNs to simplify the radio resource management\n(RRM).", 
+    "paper_subjects": [
+        "Information Theory (cs.IT)"
+    ], 
+    "paper_code": "1708.07961", 
+    "paper_submission_date": "2017/08/26", 
+    "paper_title": "Ultra-Dense Networks: A New Look at the Proportional Fair Scheduler"
+}

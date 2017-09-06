@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Afshang, Mehrnaz", 
+        "Saha, Chiranjib", 
+        "Dhillon, Harpreet S."
+    ], 
+    "paper_comments": "To appear in IEEE Communications Letters", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08438", 
+    "paper_abstract": "In this letter, we derive the cumulative density function (CDF) of the\nnearest neighbor and contact distance distributions of the Matern cluster\nprocess (MCP) in R2. These results will be useful in the performance analysis\nof many real-world wireless networks that exhibit inter-node attraction. Using\nthese results, we concretely demonstrate that the contact distance of the MCP\nstochastically dominates its nearest-neighbor distance as well as the contact\ndistance of the homogeneous Poisson point process (PPP) with the same density.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1708.08438", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "Nearest-Neighbor and Contact Distance Distributions for Matern Cluster Process"
+}

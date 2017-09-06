@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Gajjar, Vandit", 
+        "Mavani, Viraj"
+    ], 
+    "paper_comments": "ICPCI - 2017 Chennai, India 4 Pages 6 Figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00727", 
+    "paper_abstract": "The paper suggests about with using of real time color segmentation\nfiltration and feature selection process to draw the patterns with major use of\nimage processing i.e. Drawing the different shapes using the double tap of\nfingers open the hand and change the color of given shape. so basically Vision\nbased human computer connection could be achieved by determining separated\nprimary color areas. Still one of the challenges of this hand gesture target\nfollowing is that color distribution would be change in small lighting objects\nand so the hand recognition is typical to detect. This paper presents analyses\nand real time example of color based image segmentation color based image\nfiltration feature selection hand recognition and using all this draw the\ndifferent shapes in real time world in front of the screen. The observations\nshow that RGB are the default color used for segmentation proceeding. Meanwhile\nReal time video is captured from the camera and the video is transformed into\nnumber of real time frame images.This algorithm should monitor and process\nevery frame image from the real time video and it will detect the hand gesture\nand according to those hand gesture different shapes are drawn. Camera is used\nas an input. In the coding area here image processing is done through Open CV\nand python for feature selection and feature recognition.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00727", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Hand Gestured Real Time Paint Tool - Box"
+}

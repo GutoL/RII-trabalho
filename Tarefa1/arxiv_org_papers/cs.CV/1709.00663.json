@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Mishra, Ashish", 
+        "Reddy, M Shiva Krishna", 
+        "Mittal, Anurag", 
+        "Murthy, Hema A"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00663", 
+    "paper_abstract": "Zero shot learning in image classification refers to the setting where images\nfrom some novel classes are absent in the training data. Images from the novel\nclasses can still be correctly classified by taking cues from other modalities\nsuch as language. This setting is important in the real world since one cannot\naccount for all the possible classes during training. We present a novel\ngenerative model for zero shot learning using conditional variational\nautoencoders. By extensive testing on four benchmark datasets, we show that our\nmodel can outperform the state of the art, particularly in the more realistic\ngeneralized setting where training classes can also appear at the test time\nalong with novel classes.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00663", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "A Generative Model For Zero Shot Learning Using Conditional Variational Autoencoders"
+}

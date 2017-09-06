@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Richter, Hendrik"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00410", 
+    "paper_abstract": "Sand-bubbler crabs of the genera Dotilla and Scopimera are known to produce\nremarkable patterns and structures at tropical beaches. From these\npattern-making abilities, we may draw inspiration for digital visual art. A\nsimple mathematical model of sand--bubbler patterns is proposed and an\nalgorithm is designed that may create such patterns artificially. In addition,\ndesign parameters to modify the patterns are identified and analyzed by\ncomputational aesthetic measures. Finally, an extension of the algorithm is\ndiscussed that may enable controlling and guiding generative evolution of the\nart-making process.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Populations and Evolution (q-bio.PE)"
+    ], 
+    "paper_code": "1709.00410", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Visual art inspired by the collective feeding behavior of sand-bubbler crabs"
+}

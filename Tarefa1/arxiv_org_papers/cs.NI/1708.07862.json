@@ -1,0 +1,24 @@
+{
+    "paper_authors_list": [
+        "Popovski, Petar", 
+        "Nielsen, Jimmy J.", 
+        "Stefanovic, Cedomir", 
+        "de Carvalho, Elisabeth", 
+        "Str&#xf6;m, Erik", 
+        "Trillingsgaard, Kasper F.", 
+        "Bana, Alexandru-Sabin", 
+        "Kim, Dong Min", 
+        "Kotaba, Radoslaw", 
+        "Park, Jihong", 
+        "S&#xf8;rensen, Ren&#xe9; B."
+    ], 
+    "paper_comments": "Submitted to IEEE Network", 
+    "paper_page_url": "https://arxiv.org/abs/1708.07862", 
+    "paper_abstract": "Ultra-reliable low latency communication (URLLC) is an important new feature\nbrought by 5G, with a potential to support a vast set of applications that rely\non mission-critical links. In this article, we first discuss the principles for\nsupporting URLLC in the perspective to the traditional assumptions and models\napplied in communication/information theory. We then discuss how this\nprinciples are applied in various elements of the system design, such as use of\nvarious diversity sources, design of packets and access protocols. Important\nmessages are that there is a need to optimize the transmission of signaling\ninformation, as well as for a lean use of various sources of diversity.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1708.07862", 
+    "paper_submission_date": "2017/08/25", 
+    "paper_title": "Ultra-Reliable Low-Latency Communication (URLLC): Principles and Building Blocks"
+}

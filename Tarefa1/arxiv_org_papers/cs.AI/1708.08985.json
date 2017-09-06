@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Munawar, Asim", 
+        "Vinayavekhin, Phongtharin", 
+        "De Magistris, Giovanni"
+    ], 
+    "paper_comments": "Conference: IEEE International Workshop on Machine Learning for Signal Processing (MLSP), Roppongi, Tokyo, Japan, September 25-28, 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08985", 
+    "paper_abstract": "Generative models are widely used for unsupervised learning with various\napplications, including data compression and signal restoration. Training\nmethods for such systems focus on the generality of the network given limited\namount of training data. A less researched type of techniques concerns\ngeneration of only a single type of input. This is useful for applications such\nas constraint handling, noise reduction and anomaly detection. In this paper we\npresent a technique to limit the generative capability of the network using\nnegative learning. The proposed method searches the solution in the gradient\ndirection for the desired input and in the opposite direction for the undesired\ninput. One of the application can be anomaly detection where the undesired\ninputs are the anomalous data. In the results section we demonstrate the\nfeatures of the algorithm using MNIST handwritten digit dataset and latter\napply the technique to a real-world obstacle detection problem. The results\nclearly show that the proposed learning technique can significantly improve the\nperformance for anomaly detection.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1708.08985", 
+    "paper_submission_date": "2017/08/16", 
+    "paper_title": "Limiting the Reconstruction Capability of Generative Neural Network using Negative Learning"
+}

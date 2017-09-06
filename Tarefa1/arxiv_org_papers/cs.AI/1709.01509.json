@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Balsubramani, Akshay"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01509", 
+    "paper_abstract": "In this note, we point out a basic link between generative adversarial (GA)\ntraining and binary classification -- any powerful discriminator essentially\ncomputes an (f-)divergence between real and generated samples. The result,\nrepeatedly re-derived in decision theory, has implications for GA Networks\n(GANs), providing an alternative perspective on training f-GANs by designing\nthe discriminator loss function.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1709.01509", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Linking Generative Adversarial Learning and Binary Classification"
+}

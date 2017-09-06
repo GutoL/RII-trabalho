@@ -1,0 +1,22 @@
+{
+    "paper_authors_list": [
+        "Sha, Lei", 
+        "Mou, Lili", 
+        "Liu, Tianyu", 
+        "Poupart, Pascal", 
+        "Li, Sujian", 
+        "Chang, Baobao", 
+        "Sui, Zhifang"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00155", 
+    "paper_abstract": "Generating texts from structured data (e.g., a table) is important for\nvarious natural language processing tasks such as question answering and dialog\nsystems. In recent studies, researchers use neural language models and\nencoder-decoder frameworks for table-to-text generation. However, these neural\nnetwork-based approaches do not model the order of contents during text\ngeneration. When a human writes a summary based on a given table, he or she\nwould probably consider the content order before wording. In a biography, for\nexample, the nationality of a person is typically mentioned before occupation\nin a biography. In this paper, we propose an order-planning text generation\nmodel to capture the relationship between different fields and use such\nrelationship to make the generated text more fluent and smooth. We conducted\nexperiments on the WikiBio dataset and achieve significantly higher performance\nthan previous methods in terms of BLEU, ROUGE, and NIST scores.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Information Retrieval (cs.IR)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00155", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Order-Planning Neural Text Generation From Structured Data"
+}

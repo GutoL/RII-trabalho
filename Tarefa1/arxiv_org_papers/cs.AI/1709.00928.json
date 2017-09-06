@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Rosenfeld, Ariel", 
+        "Kardashov, Odaya", 
+        "Zang, Orel"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00928", 
+    "paper_abstract": "Mobile applications are being used every day by more than half of the world's\npopulation to perform a great variety of tasks. With the increasingly\nwidespread usage of these applications, the need arises for efficient\ntechniques to test them. Many frameworks allow automating the process of\napplication testing, however existing frameworks mainly rely on the application\ndeveloper for providing testing scripts for each developed application, thus\npreventing reuse of these tests for similar applications. In this paper, we\npresent a novel approach for the automation of testing Android applications by\nleveraging machine learning techniques and reusing popular test scenarios. We\ndiscuss and demonstrate the potential benefits of our approach in an empirical\nstudy where we show that our developed testing tool, based on the proposed\napproach, outperforms standard methods in realistic settings.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1709.00928", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Automation of Android Applications Testing Using Machine Learning Activities Classification"
+}

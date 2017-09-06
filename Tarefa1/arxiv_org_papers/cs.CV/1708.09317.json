@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Singh, Amarjot", 
+        "Patil, Devendra", 
+        "Reddy, G Meghana", 
+        "Omkar, SN"
+    ], 
+    "paper_comments": "To Appear in the IEEE International Conference on Computer Vision Workshops (ICCVW) 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09317", 
+    "paper_abstract": "Disguised face identification (DFI) is an extremely challenging problem due\nto the numerous variations that can be introduced using different disguises.\nThis paper introduces a deep learning framework to first detect 14 facial\nkey-points which are then utilized to perform disguised face identification.\nSince the training of deep learning architectures relies on large annotated\ndatasets, two annotated facial key-points datasets are introduced. The\neffectiveness of the facial keypoint detection framework is presented for each\nkeypoint. The superiority of the key-point detection framework is also\ndemonstrated by a comparison with other deep networks. The effectiveness of\nclassification performance is also demonstrated by comparison with the\nstate-of-the-art face disguise classification methods.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09317", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Disguised Face Identification (DFI) with Facial KeyPoints using Spatial Fusion Convolutional Network"
+}

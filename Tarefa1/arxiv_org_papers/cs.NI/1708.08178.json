@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Singh, Rahul", 
+        "Guo, Xueying", 
+        "Modiano, Eytan"
+    ], 
+    "paper_comments": "accepted for publication in IEEE Conference on Decision and Control 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08178", 
+    "paper_abstract": "We consider the problem of designing risk-sensitive optimal control policies\nfor scheduling packet transmissions in a stochastic wireless network. A single\nclient is connected to an access point (AP) through a wireless channel. Packet\ntransmission incurs a cost $C$, while packet delivery yields a reward of $R$\nunits. The client maintains a finite buffer of size $B$, and a penalty of $L$\nunits is imposed upon packet loss which occurs due to finite queueing buffer.\n<br />We show that the risk-sensitive optimal control policy for such a simple\nset-up is of threshold type, i.e., it is optimal to carry out packet\ntransmissions only when $Q(t)$, i.e., the queue length at time $t$ exceeds a\ncertain threshold $\\tau$. It is also shown that the value of threshold $\\tau$\nincreases upon increasing the cost per unit packet transmission $C$.\nFurthermore, it is also shown that a threshold policy with threshold equal to\n$\\tau$ is optimal for a set of problems in which cost $C$ lies within an\ninterval $[C_l,C_u]$. Equations that need to be solved in order to obtain\n$C_l,C_u$ are also provided.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)", 
+        "Probability (math.PR)"
+    ], 
+    "paper_code": "1708.08178", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "Risk-Sensitive Optimal Control of Queues"
+}

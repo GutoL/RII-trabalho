@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Niu, Yulei", 
+        "Lu, Zhiwu", 
+        "Wen, Ji-Rong", 
+        "Xiang, Tao", 
+        "Chang, Shih-Fu"
+    ], 
+    "paper_comments": "This paper has been submited to IEEE TIP for peer-review", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01220", 
+    "paper_abstract": "Large-scale image annotation is a challenging task in image content analysis,\nwhich aims to annotate each image of a very large dataset with multiple class\nlabels. In this paper, we focus on two main issues in large-scale image\nannotation: 1) how to learn stronger features for multifarious images; 2) how\nto annotate an image with an automatically-determined number of class labels.\nTo address the first issue, we propose a multi-modal multi-scale deep learning\nmodel for extracting descriptive features from multifarious images.\nSpecifically, the visual features extracted by a multi-scale deep learning\nsubnetwork are refined with the textual features extracted from social tags\nalong with images by a simple multi-layer perception subnetwork. Since we have\nextracted very powerful features by multi-modal multi-scale deep learning, we\nsimplify the second issue and decompose large-scale image annotation into\nmulti-class classification and label quantity prediction. Note that the label\nquantity prediction subproblem can be implicitly solved when a recurrent neural\nnetwork (RNN) model is used for image annotation. However, in this paper, we\nchoose to explicitly solve this subproblem directly using our deep learning\nmodel, resulting in that we can pay more attention to deep feature learning.\nExperimental results demonstrate the superior performance of our model as\ncompared to the state-of-the-art (including RNN-based models).", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01220", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Multi-Modal Multi-Scale Deep Learning for Large-Scale Image Annotation"
+}

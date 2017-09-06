@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Masana, Marc", 
+        "van de Weijer, Joost", 
+        "Herranz, Luis", 
+        "Bagdanov, Andrew D.", 
+        "Alvarez, Jose M"
+    ], 
+    "paper_comments": "Accepted at ICCV 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01041", 
+    "paper_abstract": "Deep Neural Networks trained on large datasets can be easily transferred to\nnew domains with far fewer labeled examples by a process called fine-tuning.\nThis has the advantage that representations learned in the large source domain\ncan be exploited on smaller target domains. However, networks designed to be\noptimal for the source task are often prohibitively large for the target task.\nIn this work we address the compression of networks after domain transfer.\n<br />We focus on compression algorithms based on low-rank matrix decomposition.\nExisting methods base compression solely on learned network weights and ignore\nthe statistics of network activations. We show that domain transfer leads to\nlarge shifts in network activations and that it is desirable to take this into\naccount when compressing. We demonstrate that considering activation statistics\nwhen compressing weights leads to a rank-constrained regression problem with a\nclosed-form solution. Because our method takes into account the target domain,\nit can more optimally remove the redundancy in the weights. Experiments show\nthat our Domain Adaptive Low Rank (DALR) method significantly outperforms\nexisting low-rank compression techniques. With our approach, the fc6 layer of\nVGG19 can be compressed more than 4x more than using truncated SVD alone --\nwith only a minor or no loss in accuracy. When applied to domain-transferred\nnetworks it allows for compression down to only 5-20% of the original number of\nparameters with only a minor drop in performance.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01041", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Domain-adaptive deep network compression"
+}

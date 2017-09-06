@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Burghardt, Jochen"
+    ], 
+    "paper_comments": "49 pages, 16 figures, author address given in header is meanwhile outdated, full version of an article in the \"Artificial Intelligence Journal\", appeared as technical report in 2003. An open-source C implementation and some examples are found at the Ancillary files", 
+    "paper_page_url": "https://arxiv.org/abs/1403.8118", 
+    "paper_abstract": "We extend the notion of anti-unification to cover equational theories and\npresent a method based on regular tree grammars to compute a finite\nrepresentation of E-generalization sets. We present a framework to combine\nInductive Logic Programming and E-generalization that includes an extension of\nPlotkin's lgg theorem to the equational case. We demonstrate the potential\npower of E-generalization by three example applications: computation of\nsuggestions for auxiliary lemmas in equational inductive proofs, computation of\nconstruction laws for given term sequences, and learning of screen editor\ncommand sequences.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Formal Languages and Automata Theory (cs.FL)"
+    ], 
+    "paper_code": "1403.8118", 
+    "paper_submission_date": "2014/03/28", 
+    "paper_title": "E-Generalization Using Grammars"
+}

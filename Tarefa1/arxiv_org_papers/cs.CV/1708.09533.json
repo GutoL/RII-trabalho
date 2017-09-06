@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Tan, Wei Ren", 
+        "Chan, Chee Seng", 
+        "Aguirre, Hernan", 
+        "Tanaka, Kiyoshi"
+    ], 
+    "paper_comments": "22 pages, 18 figures, in submission", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09533", 
+    "paper_abstract": "Artwork is a mode of creative expression and this paper is particularly\ninterested in investigating if machine can learn and synthetically create\nartwork that are usually non- figurative and structured abstract. To this end,\nwe propose an extension to the Generative Adversarial Network (GAN), namely as\nthe ArtGAN to synthetically generate high quality artwork. This is in contrast\nto most of the current solutions that focused on generating structural images\nsuch as birds, flowers and faces. The key innovation of our work is to allow\nback-propagation of the loss function w.r.t. the labels (randomly assigned to\neach generated images) to the generator from the categorical autoencoder-based\ndiscriminator that incorporates an autoencoder into the categorical\ndiscriminator for additional complementary information. In order to synthesize\na high reso- lution artwork, we include a novel magnified learning strategy to\nimprove the correlations between neighbouring pixels. Based on visual\ninspection and Inception scores, we demonstrate that ArtGAN is able to draw\nhigh resolution and realistic artwork, as well as generate images of much\nhigher quality in four other datasets (i.e. CIFAR-10, STL-10, Oxford-102 and\nCUB-200).", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09533", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Learning a Generative Adversarial Network for High Resolution Artwork Synthesis"
+}

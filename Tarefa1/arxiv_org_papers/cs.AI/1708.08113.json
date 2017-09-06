@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Diddigi, Raghuram Bharadwaj", 
+        "J., Prabuchandran K.", 
+        "Bhatnagar, Shalabh"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.08113", 
+    "paper_abstract": "We consider the problem of tracking an intruder using a network of wireless\nsensors. For tracking the intruder at each instant, the optimal number and the\nright configuration of sensors has to be powered. As powering the sensors\nconsumes energy, there is a trade off between accurately tracking the position\nof the intruder at each instant and the energy consumption of sensors. This\nproblem has been formulated in the framework of Partially Observable Markov\nDecision Process (POMDP). Even for the simplest model considered in [1], the\ncurse of dimensionality renders the problem intractable. We formulate this\nproblem with a suitable state-action space in the framework of POMDP and\ndevelop a reinforcement learning algorithm utilising the Upper Confidence Tree\nSearch (UCT) method to mitigate the state-action space explosion. Through\nsimulations, we illustrate that our algorithm scales well with the increasing\nstate and action space.", 
+    "paper_subjects": [
+        "Systems and Control (cs.SY)"
+    ], 
+    "paper_code": "1708.08113", 
+    "paper_submission_date": "2017/08/27", 
+    "paper_title": "Novel Sensor Scheduling Scheme for Intruder Tracking in Energy Efficient Sensor Networks"
+}

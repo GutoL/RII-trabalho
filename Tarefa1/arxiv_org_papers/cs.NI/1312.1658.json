@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Vergne, Ana&#xef;s", 
+        "Decreusefond, Laurent", 
+        "Martins, Philippe"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1312.1658", 
+    "paper_abstract": "Random abstract simplicial complex representation provides a mathematical\ndescription of wireless networks and their topology. In order to reduce the\nenergy consumption in this type of network, we intend to reduce the number of\nnetwork nodes without modifying neither the connectivity nor the coverage of\nthe network. In this paper, we present a reduction algorithm that lower the\nnumber of points of an abstract simplicial complex in an optimal order while\nmaintaining its topology. Then, we study the complexity of such an algorithm\nfor a network simulated by a binomial point process and represented by a\nVietoris-Rips complex.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)", 
+        "Combinatorics (math.CO)"
+    ], 
+    "paper_code": "1312.1658", 
+    "paper_submission_date": "2013/12/05", 
+    "paper_title": "Random Abstract Simplicial Complexes Reduction"
+}

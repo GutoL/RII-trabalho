@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Hafez, Mohammed", 
+        "Shafie, Ahmed El", 
+        "Shaqfeh, Mohammed", 
+        "Khattab, Tamer", 
+        "Alnuweiri, Hussein", 
+        "Arslan, Huseyin"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09551", 
+    "paper_abstract": "We propose a new one-bit feedback scheme with scheduling decision based on\nthe maximum expected weighted rate. We show the concavity of the $2$-user case\nand provide the optimal solution which achieves the maximum weighted rate of\nthe users. For the general asymmetric M-user case, we provide a heuristic\nmethod to achieve the maximum expected weighted rate. We show that the sum rate\nof our proposed scheme is very close to the sum rate of the full channel state\ninformation case, which is the upper bound performance.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1708.09551", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Thresholds Optimization for One-Bit Feedback Multi-User Scheduling"
+}

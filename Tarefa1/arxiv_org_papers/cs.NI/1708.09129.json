@@ -1,0 +1,21 @@
+{
+    "paper_authors_list": [
+        "Yin, Xiaotian", 
+        "Lin, Yu-Yao", 
+        "Ni, Chien-Chun", 
+        "Ding, Jiaxin", 
+        "Han, Wei", 
+        "Zhou, Dengpan", 
+        "Gao, Jie", 
+        "Gu, Xianfeng"
+    ], 
+    "paper_comments": "30 pages, 10 figures, submitted to ACM TSAS", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09129", 
+    "paper_abstract": "With the recent development of localization and tracking systems for both\nindoor and outdoor settings, we consider the problem of sensing, representing\nand analyzing human movement trajectories that we expect to gather in the near\nfuture. In this paper, we propose to use the topological representation, which\nrecords how a target moves around the natural obstacles in the underlying\nenvironment. We demonstrate that the topological information can be\nsufficiently descriptive for many applications and efficient enough for\nstoring, comparing and classifying these natural human trajectories. We\npre-process the sensor network with a purely decentralized algorithm such that\ncertain edges are given numerical weights. Then we can perform trajectory\nclassification by simply summing up the edge weights along the trajectory. Our\nmethod supports real-time classification of trajectories with minimum\ncommunication cost. We test the effectiveness of our approach by showing how to\nclassify randomly generated trajectories in a multi-level arts museum layout as\nwell as how to distinguish real world taxi trajectories in a large city.", 
+    "paper_subjects": [
+        "Computational Geometry (cs.CG)"
+    ], 
+    "paper_code": "1708.09129", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Decentralized Trajectory Tracking Using Homology and Hodge Decomposition in Sensor Networks"
+}

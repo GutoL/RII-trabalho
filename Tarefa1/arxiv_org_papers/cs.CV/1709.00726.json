@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Gajjar, Vandit", 
+        "Gurnani, Ayesha", 
+        "Khandhediya, Yash"
+    ], 
+    "paper_comments": "ICCV 2017 Venice, Italy Pages 5 Figures 5", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00726", 
+    "paper_abstract": "With crimes on the rise all around the world, video surveillance is becoming\nmore important day by day. Due to the lack of human resources to monitor this\nincreasing number of cameras manually new computer vision algorithms to perform\nlower and higher level tasks are being developed. We have developed a new\nmethod incorporating the most acclaimed Histograms of Oriented Gradients the\ntheory of Visual Saliency and the saliency prediction model Deep Multi Level\nNetwork to detect human beings in video sequences. Furthermore we implemented\nthe k Means algorithm to cluster the HOG feature vectors of the positively\ndetected windows and determined the path followed by a person in the video. We\nachieved a detection precision of 83.11% and a recall of 41.27%. We obtained\nthese results 76.866 times faster than classification on normal images.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00726", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Human Detection and Tracking for Video Surveillance A Cognitive Science Approach"
+}

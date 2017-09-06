@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Lukac, Martin", 
+        "Bazarbayeva, Aigerim", 
+        "Kameyama, Michitaka"
+    ], 
+    "paper_comments": "6 pages, 6 Figures, Published in Proceedings of the Information and Digital Technology Conference, 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00141", 
+    "paper_abstract": "In this paper the intermediary visual content verification method based on\nmulti-level co-occurrences is studied. The co-occurrence statistics are in\ngeneral used to determine relational properties between objects based on\ninformation collected from data. As such these measures are heavily subject to\nrelative number of occurrences and give only limited amount of accuracy when\npredicting objects in real world. In order to improve the accuracy of this\nmethod in the verification task, we include the context information such as\nlocation, type of environment etc. In order to train our model we provide new\nannotated dataset the Advanced Attribute VOC (AAVOC) that contains additional\nproperties of the image. We show that the usage of context greatly improve the\naccuracy of verification with up to 16% improvement.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00141", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Context Based Visual Content Verification"
+}

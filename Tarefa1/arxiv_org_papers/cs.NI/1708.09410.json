@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Mohapatra, Parthajit", 
+        "Pappas, Nikolaos", 
+        "Lee, Jemin", 
+        "Quek, Tony Q. S.", 
+        "Angelakis, Vangelis"
+    ], 
+    "paper_comments": "Submitted for journal publication", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09410", 
+    "paper_abstract": "In this work, we study the stability region of the two-user broadcast channel\n(BC) with bursty data arrivals and security constraints. We consider the\nscenario, where one of the receivers has a secrecy constraint and its packets\nneed to be kept secret from the other receiver. This is achieved by employing\nfull-duplexing at the receiver with the secrecy constraint, so that it\ntransmits a jamming signal to impede the reception of the other receiver. In\nthis context, the stability region of the two-user BC is characterized for the\ngeneral decoding case. Then, assuming two different decoding schemes the\nrespective stability regions are derived. The effect of self-interference due\nto the full-duplex operation on the stability region is also investigated. The\nstability region of the BC with a secrecy constraint, where the receivers do\nnot have full duplex capability can be obtained as a special case of the\nresults derived in this paper. In addition, the paper considers the problem of\nmaximizing the saturated throughput of the queue, whose packets does not\nrequire to be kept secret under minimum service guarantees for the other queue.\nThe results provide new insights on the effect of the secrecy constraint on the\nstability region of the BC. In particular, it is shown that the stability\nregion with secrecy constraint is sensitive to the coefficient of\nself-interference cancelation under certain cases.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1708.09410", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Secure Communications for the Two-user Broadcast Channel with Random Traffic"
+}

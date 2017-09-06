@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Thomaz, Carlos E.", 
+        "Amaral, Vagner", 
+        "Giraldi, Gilson A.", 
+        "Gillies, Duncan F.", 
+        "Rueckert, Daniel"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01182", 
+    "paper_abstract": "Research on human face processing using eye movements has provided evidence\nthat we recognize face images successfully focusing our visual attention on a\nfew inner facial regions, mainly on the eyes, nose and mouth. To understand how\nwe accomplish this process of coding high-dimensional faces so efficiently,\nthis paper proposes and implements a multivariate extraction method that\ncombines face images variance with human spatial attention maps modeled as\nfeature- and pattern-based information sources. It is based on a unified\nmultidimensional representation of the well-known face-space concept. The\nspatial attention maps are summary statistics of the eye-tracking fixations of\na number of participants and trials to frontal and well-framed face images\nduring separate gender and facial expression recognition tasks. Our\nexperimental results carried out on publicly available face databases have\nindicated that we might emulate the human extraction system as a pattern-based\ncomputational method rather than a feature-based one to properly explain the\nproficiency of the human system in recognizing visual face information.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01182", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Is human face processing a feature- or pattern-based task? Evidence using a unified computational method driven by eye movements"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Wang, Guotai", 
+        "Li, Wenqi", 
+        "Ourselin, Sebastien", 
+        "Vercauteren, Tom"
+    ], 
+    "paper_comments": "7 pages, 2 figures. MICCAI Brats Challenge 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00382", 
+    "paper_abstract": "A cascade of fully convolutional neural networks is proposed to segment\nmulti-modality MR images with brain tumor into background and three subregions:\nenhanced tumor core, whole tumor and tumor core. The cascade is designed to\ndecompose the multi-class segmentation into a sequence of three binary\nsegmentations according to the subregion hierarchy. Segmentation of the first\n(second) step is used as a crisp binary mask for the second (third) step. Each\nnetwork consists of multiple layers of anisotropic and dilated convolution\nfilters that were obtained by training each network end-to-end. Residual\nconnections and multi-scale predictions were employed in these networks to\nboost the segmentation performance. Experiments with BraTS 2017 validation set\nshows the proposed method achieved average Dice scores of 0.7859, 0.9050,\n0.8378 for enhanced tumor core, whole tumor and tumor core respectively.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00382", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Automatic Brain Tumor Segmentation using Cascaded Anisotropic Convolutional Neural Networks"
+}

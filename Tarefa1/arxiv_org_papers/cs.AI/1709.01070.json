@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Ivanov&#xe1;, Marika", 
+        "Surynek, Pavel", 
+        "Nguyen, Diep Thi Ngoc"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01070", 
+    "paper_abstract": "We address a problem of area protection in graph-based scenarios with\nmultiple mobile agents where connectivity is maintained among agents to ensure\nthey can communicate. The problem consists of two adversarial teams of agents\nthat move in an undirected graph shared by both teams. Agents are placed in\nvertices of the graph; at most one agent can occupy a vertex; and they can move\ninto adjacent vertices in a conflict free way. Teams have asymmetric goals: the\naim of one team - attackers - is to invade into given area while the aim of the\nopponent team - defenders - is to protect the area from being entered by\nattackers by occupying selected vertices. The team of defenders need to\nmaintain connectivity of vertices occupied by its own agents in a visibility\ngraph. The visibility graph models possibility of communication between pairs\nof vertices.\n<br />We study strategies for allocating vertices to be occupied by the team of\ndefenders to block attacking agents where connectivity is maintained at the\nsame time. To do this we reserve a subset of defending agents that do not try\nto block the attackers but instead are placed to support connectivity of the\nteam. The performance of strategies is tested in multiple benchmarks. The\nsuccess of a strategy is heavily dependent on the type of the instance, and so\none of the contributions of this work is that we identify suitable strategies\nfor diverse instance types.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1709.01070", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Maintaining Ad-Hoc Communication Network in Area Protection Scenarios with Adversarial Agents"
+}

@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Semiari, Omid", 
+        "Saad, Walid", 
+        "Bennis, Mehdi", 
+        "Maham, Behrouz"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1701.05125", 
+    "paper_abstract": "One of the most promising approaches to overcome the uncertainty and dynamic\nchannel variations of millimeter wave (mmW) communications is to deploy\ndual-mode base stations that integrate both mmW and microwave ($\\mu$W)\nfrequencies. If properly designed, such dual-mode base stations can enhance\nmobility and handover in highly mobile wireless environments. In this paper, a\nnovel approach for analyzing and managing mobility in joint $\\mu$W-mmW networks\nis proposed. The proposed approach leverages device-level caching along with\nthe capabilities of dual-mode base stations to minimize handover failures,\nreduce inter-frequency measurement energy consumption, and provide seamless\nmobility in emerging dense heterogeneous networks. First, fundamental results\non the caching capabilities, including caching probability and cache duration\nare derived for the proposed dual-mode network scenario. Second, the average\nachievable rate of caching is derived for mobile users. Third, the proposed\ncache-enabled mobility management problem is formulated as a dynamic matching\ngame between mobile user equipments (MUEs) and small base stations (SBSs). The\ngoal of this game is to find a distributed handover mechanism that subject to\nthe network constraints on HOFs and limited cache sizes, allows each MUE to\nchoose between executing an HO to a target SBS, being connected to the\nmacrocell base station (MBS), or perform a transparent HO by using the cached\ncontent. The formulated matching game allows capturing the dynamics of the\nmobility management problem caused by HOFs. To solve this dynamic matching\nproblem, a novel algorithm is proposed and its convergence to a two-sided\ndynamically stable HO policy is proved. Numerical results corroborate the\nanalytical derivations and show that the proposed solution will provides\nsignificant reductions in both the HOF and energy consumption by MUEs.", 
+    "paper_subjects": [
+        "Information Theory (cs.IT)"
+    ], 
+    "paper_code": "1701.05125", 
+    "paper_submission_date": "2017/01/18", 
+    "paper_title": "Caching Meets Millimeter Wave Communications for Enhanced Mobility Management in 5G Networks"
+}

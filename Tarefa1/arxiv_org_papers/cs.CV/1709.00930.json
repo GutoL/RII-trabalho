@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Zhong, Yiran", 
+        "Dai, Yuchao", 
+        "Li, Hongdong"
+    ], 
+    "paper_comments": "13 pages, 11 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00930", 
+    "paper_abstract": "Exiting deep-learning based dense stereo matching methods often rely on\nground-truth disparity maps as the training signals, which are however not\nalways available in many situations. In this paper, we design a simple\nconvolutional neural network architecture that is able to learn to compute\ndense disparity maps directly from the stereo inputs. Training is performed in\nan end-to-end fashion without the need of ground-truth disparity maps. The idea\nis to use image warping error (instead of disparity-map residuals) as the loss\nfunction to drive the learning process, aiming to find a depth-map that\nminimizes the warping error. While this is a simple concept well-known in\nstereo matching, to make it work in a deep-learning framework, many non-trivial\nchallenges must be overcome, and in this work we provide effective solutions.\nOur network is self-adaptive to different unseen imageries as well as to\ndifferent camera settings. Experiments on KITTI and Middlebury stereo benchmark\ndatasets show that our method outperforms many state-of-the-art stereo matching\nmethods with a margin, and at the same time significantly faster.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00930", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Self-Supervised Learning for Stereo Matching with Self-Improving Ability"
+}

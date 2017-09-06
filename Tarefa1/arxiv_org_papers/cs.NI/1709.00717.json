@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Kim, Minho", 
+        "Ko, Seung-Woo", 
+        "Kim, Seong-Lyun"
+    ], 
+    "paper_comments": "5 pages, PIMRC 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00717", 
+    "paper_abstract": "Recently, millimeter-wave (mmWave) communications have received great\nattention due to the availability of large spectrum resources. Nevertheless,\ntheir impact on TCP performance has been overlooked, which is observed that the\nsaid TCP performance collapse occurs owing to the significant difference in\nsignal quality between LOS and NLOS links. We propose a novel TCP design for\nmmWave communications, a mmWave performance enhancing proxy (mmPEP), enabling\nnot only to overcome TCP performance collapse but also exploit the properties\nof mmWave channels. The base station installs the TCP proxy to operate the two\nfunctionalities called Ack management and batch retransmission. Specifically,\nthe proxy sends the said early-Ack to the server not to decrease its sending\nrate even in the NLOS status. In addition, when a packet-loss is detected, the\nproxy retransmits not only lost packets but also the certain number of the\nfollowing packets expected to be lost too. It is verified by ns-3 simulation\nthat compared with benchmark, mmPEP enhances the end-to-end rate and packet\ndelivery ratio by maintaining high sending rate with decreasing the loss\nrecovery time.", 
+    "paper_subjects": [
+        "Emerging Technologies (cs.ET)"
+    ], 
+    "paper_code": "1709.00717", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Enhancing TCP End-to-End Performance in Millimeter-Wave Communications"
+}

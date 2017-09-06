@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Diekmann, Cornelius"
+    ], 
+    "paper_comments": "PhD thesis", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08228", 
+    "paper_abstract": "Network administration is an inherently complex task, in particular with\nregard to security. Using the Isabelle interactive proof assistant, we develop\ntwo automated, formally verified tools which help uncovering and preventing\nbugs in network-level access control configurations. Our first tool guides the\nprocess of designing networks from scratch. Our second tool facilitates the\nanalysis of existing iptables configurations. Combined, the two form a powerful\ntoolset.", 
+    "paper_subjects": [
+        "Cryptography and Security (cs.CR)"
+    ], 
+    "paper_code": "1708.08228", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "Provably Secure Networks: Methodology and Toolset for Configuration Management"
+}

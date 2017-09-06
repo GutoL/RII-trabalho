@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Quan, Tran Minh", 
+        "Nguyen-Duc, Thanh", 
+        "Jeong, Won-Ki"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00753", 
+    "paper_abstract": "Compressed Sensing MRI (CS-MRI) has provided theoretical foundations upon\nwhich the time-consuming MRI acquisition process can be accelerated. However,\nit primarily relies on iterative numerical solvers which still hinders their\nadaptation in time-critical applications. In addition, recent advances in deep\nneural networks have shown their potential in computer vision and image\nprocessing, but their adaptation to MRI reconstruction is still in an early\nstage. In this paper, we propose a novel deep learning-based generative\nadversarial model, RefineGAN, for fast and accurate CS-MRI reconstruction. The\nproposed model is a variant of fully-residual convolutional autoencoder and\ngenerative adversarial networks (GANs), specifically designed for CS-MRI\nformulation; it employs deeper generator and discriminator networks with cyclic\ndata consistency loss for faithful interpolation in the given under-sampled\nk-space data. In addition, our solution leverages a chained network to further\nenhance the reconstruction quality. RefineGAN is fast and accurate - the\nreconstruction process is extremely rapid, as low as tens of milliseconds for\nreconstruction of a 256 x 256 image, because it is one-way deployment on a\nfeedforward network, and the image quality is superior even for extremely low\nsampling rate (as low as 10%) due to the data-driven nature of the method. We\ndemonstrate that RefineGAN outperforms the state-of-the-art CS-MRI methods by a\nlarge margin in terms of both running time and image quality via evaluation\nusing several open-source MRI databases.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00753", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Compressed Sensing MRI Reconstruction with Cyclic Loss in Generative Adversarial Networks"
+}

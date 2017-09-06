@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Burghardt, Jochen", 
+        "Heinz, Birgit"
+    ], 
+    "paper_comments": "113 pages; 57 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1404.0953", 
+    "paper_abstract": "We present an implementation of E-anti-unification as defined in Heinz\n(1995), where tree-grammar descriptions of equivalence classes of terms are\nused to compute generalizations modulo equational theories. We discuss several\nimprovements, including an efficient implementation of variable-restricted\nE-anti-unification from Heinz (1995), and give some runtime figures about them.\nWe present applications in various areas, including lemma generation in\nequational inductive proofs, intelligence tests, diverging Knuth-Bendix\ncompletion, strengthening of induction hypotheses, and theory formation about\nfinite algebras.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1404.0953", 
+    "paper_submission_date": "2014/04/01", 
+    "paper_title": "Implementing Anti-Unification Modulo Equational Theory"
+}

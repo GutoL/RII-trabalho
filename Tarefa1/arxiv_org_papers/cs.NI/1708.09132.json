@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Kal&#xf8;r, Anders Ellersgaard", 
+        "Guillaume, Ren&#xe9;", 
+        "Nielsen, Jimmy Jessen", 
+        "Mueller, Andreas", 
+        "Popovski, Petar"
+    ], 
+    "paper_comments": "Submitted to IEEE Network", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09132", 
+    "paper_abstract": "An important novelty of 5G is its role in transforming the industrial\nproduction into Industry 4.0. Specifically, Ultra-Reliable Low Latency\nCommunications (URLLC) will, in many cases, enable replacement of cables with\nwireless connections and bring freedom in designing and operating\ninterconnected machines, robots, and devices. However, not all industrial links\nwill be of URLLC type; e.g. some applications will require high data rates.\nFurthermore, these industrial networks will be highly heterogeneous, featuring\nvarious communication technologies. We consider network slicing as a mechanism\nto handle the diverse set of requirements to the network. We present methods\nfor slicing deterministic and packet-switched industrial communication\nprotocols at an abstraction level that is decoupled from the specific\nimplementation of the underlying technologies. Finally, we show how network\ncalculus can be used to assess the end-to-end properties of the network slices.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1708.09132", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Network Slicing for Ultra-Reliable Low Latency Communication in Industry 4.0 Scenarios"
+}

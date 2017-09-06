@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Cho, Kenta", 
+        "Jacobs, Bart"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00322", 
+    "paper_abstract": "The notions of disintegration and Bayesian inversion are fundamental in\nconditional probability theory. They produce channels, as conditional\nprobabilities, from a joint state, or from an already given channel (in\nopposite direction). These notions exist in the literature, in concrete\nsituations, but are presented here in abstract graphical formulations. The\nresulting abstract descriptions are used for proving basic results in\nconditional probability theory. The existence of disintegration and Bayesian\ninversion is discussed for discrete probability, and also for measure-theoretic\nprobability --- via standard Borel spaces and via likelihoods. Finally, the\nusefulness of disintegration and Bayesian inversion is illustrated in several\nnon-trivial examples.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00322", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "Disintegration and Bayesian Inversion, Both Abstractly and Concretely"
+}

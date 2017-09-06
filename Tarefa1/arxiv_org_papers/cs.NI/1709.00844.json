@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Mittal, Vandana", 
+        "Kaul, Sanjit K.", 
+        "Roy, Sumit"
+    ], 
+    "paper_comments": "Submitted to the IEEE Transactions on Communications", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00844", 
+    "paper_abstract": "We investigate scenarios where Internet access to a user device (node) is\navailable only via the cellular network. However, not every node may connect\ndirectly to it. Instead, some may use tethering to connect over WiFi to a node\nsharing its Internet connection. In effect, nodes split into hotspots and\nclients. Hotspots are nodes that connect directly to the cellular network and\ncan provide Internet connectivity to other nodes to whom they are connected\nover WiFi. Clients connect to the cellular network only via hotspots. In this\nwork, we consider the problem of determining the split of hotspots and clients,\nand the association between them, which maximizes the sum of the rates of all\nnodes, subject to the constraint that any node gets at least the rate it gets\nwhen all nodes are directly connected to the cellular network. Via tractable\nnetworks, we provide insights into the interplay between WiFi connectivity\namongst nodes and rates of their links to the cellular tower, the splits that\nmaximize sum rate, with provably optimal splits for a few cases. We propose a\nnovel heuristic approach to split any network and provide a detailed exposition\nof gains available from tethering, via simulations.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00844", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Optimizing Networks for Internet Access Using Tethering"
+}

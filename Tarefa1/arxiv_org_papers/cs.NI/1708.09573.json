@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Singal, Gaurav", 
+        "Laxmi, Vijay", 
+        "Gaur, Manoj S", 
+        "Rao, D Vijay", 
+        "Kushwaha, Riti"
+    ], 
+    "paper_comments": "20 pages, 10 Figures", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09573", 
+    "paper_abstract": "Multicast communication plays a crucial role in Mobile Adhoc Networks\n(MANETs). MANETs provide low cost, self configuring devices for multimedia data\ncommunication in military battlefield scenarios, disaster and public safety\nnetworks (PSN). Multicast communication improves the network performance in\nterms of bandwidth consumption, battery power and routing overhead as compared\nto unicast for same volume of data communication. In recent past, a number of\nmulticast routing protocols (MRPs) have been proposed that tried to resolve\nissues and challenges in MRP. Multicast based group communication demands\ndynamic construction of efficient and reliable route for multimedia data\ncommunication during high node mobility, contention, routing and channel\noverhead. This paper gives an insight into the merits and demerits of the\ncurrently known research techniques and provides a better environment to make\nreliable MRP. It presents a ample study of various Quality of Service (QoS)\ntechniques and existing enhancement in mesh based MRPs. Mesh topology based\nMRPs are classified according to their enhancement in routing mechanism and QoS\nmodification on On-Demand Multicast Routing Protocol (ODMRP) protocol to\nimprove performance metrics. This paper covers the most recent, robust and\nreliable QoS and Mesh based MRPs, classified based on their operational\nfeatures, with their advantages and limitations, and provides comparison of\ntheir performance parameters.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09573", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "QoS-aware Mesh based Multicast Routing Protocols in Ad-Hoc Networks: Concepts and Challenges"
+}

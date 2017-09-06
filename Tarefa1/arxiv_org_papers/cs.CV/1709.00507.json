@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Jayaraman, Dinesh", 
+        "Grauman, Kristen"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00507", 
+    "paper_abstract": "Visual perception requires not only making inferences from observations, but\nalso making decisions about what to observe. Though much of the computer vision\nliterature implicitly assumes a well-captured visual observation as input, in\nreality a single view of a complex visual environment---or even multiple\narbitrarily chosen views---may provide too little information for perception\ntasks. We aim to address the problem of \"learning to look around\" in the first\nplace. Specifically, in a setting where a visual agent has the ability to\nvoluntarily acquire new views to observe its environment, how can we train it\nto exhibit efficient exploratory behaviors to acquire informative observations?\nWe treat this as a reinforcement learning problem, where a system is rewarded\nfor actions that reduce its uncertainty about the unobserved portions of its\nenvironment. Based on this principle, we develop recurrent neural network-based\nsystems to perform active completion of panoramic natural scenes and 3-D object\nshapes. Crucially, the learned policies are not closely tied to the particular\nsemantic content seen during training; as a result, 1) the learned \"look\naround\" behavior is relevant even for new tasks in unseen environments, and 2)\ntraining data acquisition involves no manual labeling. Through tests in diverse\nsettings, we demonstrate that our system learns useful and generic exploratory\npolicies that transfer to new unseen tasks, an important step for autonomous\nembodied visual agents.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00507", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Learning to look around"
+}

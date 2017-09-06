@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Bhardwaj, Chandrasekaran Anirudh", 
+        "Mishra, Megha", 
+        "Hemalatha, Sweetlin"
+    ], 
+    "paper_comments": "Presented in 6th International Conference on Research Trends in Engineering, Applied Science and Management (ICRTESM-2017).Published in International Journal of Engineering, Technology, Science and Research", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00539", 
+    "paper_abstract": "Traditionally psychometric tests were used for profiling incoming workers.\nThese methods use DISC profiling method to classify people into distinct\npersonality types, which are further used to predict if a person may be a\npossible fit to the organizational culture. This concept is taken further by\nintroducing a novel technique to predict if a particular pair of an incoming\nworker and the manager being assigned are compatible at a psychological scale.\nThis is done using multilayer perceptron neural network which can be adaptively\ntrained to showcase the true nature of the compatibility index. The proposed\nprototype model is used to quantify the relevant attributes, use them to train\nthe prediction engine, and to define the data pipeline required for it.", 
+    "paper_subjects": [
+        "Neural and Evolutionary Computing (cs.NE)"
+    ], 
+    "paper_code": "1709.00539", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "An Automated Compatibility Prediction Engine using DISC Theory Based Classification and Neural Networks"
+}

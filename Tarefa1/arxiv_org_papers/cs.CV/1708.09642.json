@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Cao, Guanqun", 
+        "Iosifidis, Alexandros", 
+        "Gabbouj, Moncef"
+    ], 
+    "paper_comments": "9 pages, 4 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09642", 
+    "paper_abstract": "Face verification is a problem approached in the literature mainly using\nnonlinear class-specific subspace learning techniques. While it has been shown\nthat kernel-based Class-Specific Discriminant Analysis is able to provide\nexcellent performance in small- and medium-scale face verification problems,\nits application in today's large-scale problems is difficult due to its\ntraining space and computational requirements. In this paper, generalizing our\nprevious work on kernel-based class-specific discriminant analysis, we show\nthat class-specific subspace learning can be cast as a regression problem. This\nallows us to derive linear, (reduced) kernel and neural network-based\nclass-specific discriminant analysis methods using efficient batch and/or\niterative training schemes, suited for large-scale learning problems. We test\nthe performance of these methods in two datasets describing medium- and\nlarge-scale face verification problems.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09642", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Neural Class-Specific Regression for face verification"
+}

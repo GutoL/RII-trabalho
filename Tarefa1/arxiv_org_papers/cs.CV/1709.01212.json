@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Wang, Yang", 
+        "Wu, Lin"
+    ], 
+    "paper_comments": "Under Review for IEEE Trans on Neural Networks and Learning Systems", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01212", 
+    "paper_abstract": "Multi-view data clustering attracts more attention than their single view\ncounterparts due to the fact that leveraging multiple independent and\ncomplementary information from multi-view feature spaces outperforms the single\none. Multi-view Spectral Clustering aims at yielding the data partition\nagreement over their local manifold structures by seeking\neigenvalue-eigenvector decompositions. However, as we observed, such classical\nparadigm still suffers from (1) overlooking the flexible local manifold\nstructure, caused by (2) enforcing the low-rank data correlation agreement\namong all views; worse still, (3) LRR is not intuitively flexible to capture\nthe latent data clustering structures. In this paper, we present the structured\nLRR by factorizing into the latent low-dimensional data-cluster\nrepresentations, which characterize the data clustering structure for each\nview. Upon such representation, (b) the laplacian regularizer is imposed to be\ncapable of preserving the flexible local manifold structure for each view. (c)\nWe present an iterative multi-view agreement strategy by minimizing the\ndivergence objective among all factorized latent data-cluster representations\nduring each iteration of optimization process, where such latent representation\nfrom each view serves to regulate those from other views, such intuitive\nprocess iteratively coordinates all views to be agreeable. (d) We remark that\nsuch data-cluster representation can flexibly encode the data clustering\nstructure from any view with adaptive input cluster number. To this end, (e) a\nnovel non-convex objective function is proposed via the efficient alternating\nminimization strategy. The complexity analysis are also presented. The\nextensive experiments conducted against the real-world multi-view datasets\ndemonstrate the superiority over state-of-the-arts.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01212", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Multi-View Spectral Clustering via Structured Low-Rank Matrix Factorization"
+}

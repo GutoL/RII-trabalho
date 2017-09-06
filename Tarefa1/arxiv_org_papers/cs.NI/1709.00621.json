@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Farooq, Muhammad Junaid", 
+        "Zhu, Quanyan"
+    ], 
+    "paper_comments": "To appear in IEEE Global Communications Conference (Globecom 2017)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00621", 
+    "paper_abstract": "Enabling the Internet of things in remote areas without traditional\ncommunication infrastructure requires a multi-layer network architecture. The\ndevices in the overlay network are required to provide coverage to the underlay\ndevices as well as to remain connected to other overlay devices. The\ncoordination, planning, and design of such two-layer heterogeneous networks is\nan important problem to address. Moreover, the mobility of the nodes and their\nvulnerability to adversaries pose new challenges to the connectivity. For\ninstance, the connectivity of devices can be affected by changes in the\nnetwork, e.g., the mobility of the underlay devices or the unavailability of\noverlay devices due to failure or adversarial attacks. To this end, this work\nproposes a feedback based adaptive, self-configurable, and resilient framework\nfor the overlay network that cognitively adapts to the changes in the network\nto provide reliable connectivity between spatially dispersed smart devices. Our\nresults show that if sufficient overlay devices are available, the framework\nleads to a connected configuration that ensures a high coverage of the mobile\nunderlay network. Moreover, the framework can actively reconfigure itself in\nthe event of varying levels of device failure.", 
+    "paper_subjects": [
+        "Systems and Control (cs.SY)"
+    ], 
+    "paper_code": "1709.00621", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Cognitive Connectivity Resilience in Multi-layer Remotely Deployed Mobile Internet of Things"
+}

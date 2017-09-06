@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Yu, Lu", 
+        "Wang, Qing", 
+        "Barrineau, Geddings", 
+        "Oakley, Jon", 
+        "Brooks, Richard R.", 
+        "Wang, Kuang-Ching"
+    ], 
+    "paper_comments": "2017 12th International Conference on Malicious and Unwanted Software (MALWARE)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00782", 
+    "paper_abstract": "Destination IP prefix-based routing protocols are core to Internet routing\ntoday. Internet autonomous systems (AS) possess fixed IP prefixes, while\npackets carry the intended destination AS's prefix in their headers, in clear\ntext. As a result, network communications can be easily identified using IP\naddresses and become targets of a wide variety of attacks, such as DNS/IP\nfiltering, distributed Denial-of-Service (DDoS) attacks, man-in-the-middle\n(MITM) attacks, etc. In this work, we explore an alternative network\narchitecture that fundamentally removes such vulnerabilities by disassociating\nthe relationship between IP prefixes and destination networks, and by allowing\nany end-to-end communication session to have dynamic, short-lived, and\npseudo-random IP addresses drawn from a range of IP prefixes rather than one.\nThe concept is seemingly impossible to realize in todays Internet. We\ndemonstrate how this is doable today with three different strategies using\nsoftware defined networking (SDN), and how this can be done at scale to\ntransform the Internet addressing and routing paradigms with the novel concept\nof a distributed software defined Internet exchange (SDX). The solution works\nwith both IPv4 and IPv6, whereas the latter provides higher degrees of IP\naddressing freedom. Prototypes based on OpenvSwitches (OVS) have been\nimplemented for experimentation across the PEERING BGP testbed. The SDX\nsolution not only provides a technically sustainable pathway towards\nlarge-scale traffic analysis resistant network (TARN) support, it also unveils\na new business model for customer driven, customizable and trustable end-to-end\nnetwork services.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00782", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "TARN: A SDN-based Traffic Analysis Resistant Network Architecture"
+}

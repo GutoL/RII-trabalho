@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Zhao, Kui", 
+        "Wang, Can"
+    ], 
+    "paper_comments": "8 pages, 7 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1708.07946", 
+    "paper_abstract": "Sales forecast is an essential task in E-commerce and has a crucial impact on\nmaking informed business decisions. It can help us to manage the workforce,\ncash flow and resources such as optimizing the supply chain of manufacturers\netc. Sales forecast is a challenging problem in that sales is affected by many\nfactors including promotion activities, price changes, and user preferences\netc. Traditional sales forecast techniques mainly rely on historical sales data\nto predict future sales and their accuracies are limited. Some more recent\nlearning-based methods capture more information in the model to improve the\nforecast accuracy. However, these methods require case-by-case manual feature\nengineering for specific commercial scenarios, which is usually a difficult,\ntime-consuming task and requires expert knowledge. To overcome the limitations\nof existing methods, we propose a novel approach in this paper to learn\neffective features automatically from the structured data using the\nConvolutional Neural Network (CNN). When fed with raw log data, our approach\ncan automatically extract effective features from that and then forecast sales\nusing those extracted features. We test our method on a large real-world\ndataset from CaiNiao.com and the experimental results validate the\neffectiveness of our method.", 
+    "paper_subjects": [
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.07946", 
+    "paper_submission_date": "2017/08/26", 
+    "paper_title": "Sales Forecast in E-commerce using Convolutional Neural Network"
+}

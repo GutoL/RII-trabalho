@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Levin, Mark Sh."
+    ], 
+    "paper_comments": "20 pages, 13 figures, 9 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08996", 
+    "paper_abstract": "The paper addresses the following problems: (1) a brief survey on wireless\nmobile communication technologies including evolution, history evolution (e.g.,\nchain of system generations 0G, 1G, 2G, 3G, 4G, 5G, 6G, 7G); (2) using a\nhierarchical structural modular approach to the generations of the wireless\ncommunication systems (i.e., hierarchical combinatorial modeling of the\ncommunication technologies), (3) illustrative usage of two-stage combinatorial\napproach to improvement/forecasting of the communication technology (a version\nof 5G) (on the basis of multiple choice problem). Numerical examples illustrate\nthe suggested combinatorial approach.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.08996", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "Towards combinatorial modeling of wireless technology generations"
+}

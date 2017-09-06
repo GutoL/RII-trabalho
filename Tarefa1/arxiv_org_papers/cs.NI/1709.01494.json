@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Xin, Qin", 
+        "Xia, Yan"
+    ], 
+    "paper_comments": "by other authors", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01494", 
+    "paper_abstract": "In this paper, we adopt a new noisy wireless network model introduced very\nrecently by Censor-Hillel et al. in [ACM PODC 2017, CHHZ17]. More specifically,\nfor a given noise parameter $p\\in [0,1],$ any sender has a probability of $p$\nof transmitting noise or any receiver of a single transmission in its\nneighborhood has a probability $p$ of receiving noise.\n<br />In this paper, we first propose a new asymptotically latency-optimal\napproximation algorithm (under faultless model) that can complete\nsingle-message broadcasting task in $D+O(\\log^2 n)$ time units/rounds in any\nWMN of size $n,$ and diameter $D$. We then show this diameter-linear\nbroadcasting algorithm remains robust under the noisy wireless network model\nand also improves the currently best known result in CHHZ17 by a\n$\\Theta(\\log\\log n)$ factor.\n<br />In this paper, we also further extend our robust single-message broadcasting\nalgorithm to $k$ multi-message broadcasting scenario and show it can broadcast\n$k$ messages in $O(D+k\\log n+\\log^2 n)$ time rounds. This new robust\nmulti-message broadcasting scheme is not only asymptotically optimal but also\nanswers affirmatively the problem left open in CHHZ17 on the existence of an\nalgorithm that is robust to sender and receiver faults and can broadcast $k$\nmessages in $O(D+k\\log n + polylog(n))$ time rounds.", 
+    "paper_subjects": [
+        "Distributed, Parallel, and Cluster Computing (cs.DC)"
+    ], 
+    "paper_code": "1709.01494", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Latency Optimal Broadcasting in Noisy Wireless Mesh Networks"
+}

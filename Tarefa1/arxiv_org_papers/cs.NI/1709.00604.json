@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Li, Yimei", 
+        "Liang, Yao"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00604", 
+    "paper_abstract": "Data acquisition from a multi-hop large-scale outdoor wireless sensor network\n(WSN) deployment for environmental monitoring is full of challenges. This is\nbecause the severe resource constraints on small battery-operated motes (e.g.,\nbandwidth, memory, power, and computing capacity), the big data acquisition\nvolume from the large-scale WSN,and the highly dynamic wireless link conditions\nin an outdoor communication environment. We present a novel compressed sensing\napproach which can recover the sensing data at the sink with high fidelity when\nvery few data packets are collected, leading to a significant reduction of the\nnet-work transmissions and thus an extension of the WSN lifetime. Interplaying\nwith the dynamic WSN routing topology, the proposed approach is efficient and\nsimple to implement on the resource-constrained motes without a mote's storing\nof any part of the random projection matrix, as opposed to other existing\ncompressed sensing based schemes. We propose a systematic method via machine\nlearning to find a suitable representation basis, for any given WSN deployment\nand data field, which is both sparse and incoherent with the random projection\nmatrix in the compressed sensing for data acquisition. We validate our approach\nand evaluate its performance using a real-world multi-hop WSN testbed\ndeployment in situ. The results demonstrate that our approach significantly\noutperforms existing compressed sensing approaches by reducing data recovery\nerrors by an order of magnitude for the entire WSN observation field, while\ndrastically reducing wireless communication costs at the same time.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00604", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Compressed Sensing in Multi-Hop Large-Scale Wireless Sensor Networks Based on Routing Topology Tomography"
+}

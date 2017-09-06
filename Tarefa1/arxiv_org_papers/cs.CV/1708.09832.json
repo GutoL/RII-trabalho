@@ -1,0 +1,22 @@
+{
+    "paper_authors_list": [
+        "Hauptmann, Andreas", 
+        "Lucka, Felix", 
+        "Betcke, Marta", 
+        "Huynh, Nam", 
+        "Cox, Ben", 
+        "Beard, Paul", 
+        "Ourselin, Sebastien", 
+        "Arridge, Simon"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09832", 
+    "paper_abstract": "Recent advances in deep learning for tomographic reconstructions have shown\ngreat potential to create accurate and high quality images with a considerable\nspeed-up. In this work we present a deep neural network that is specifically\ndesigned to provide high resolution 3D images from restricted photoacoustic\nmeasurements. The network is designed to represent an iterative scheme and\nincorporates gradient information of the data fit to compensate for limited\nview artefacts. Due to the high complexity of the photoacoustic forward\noperator, we separate training and computation of the gradient information. A\nsuitable prior for the desired image structures is learned as part of the\ntraining. The resulting network is trained and tested on a set of segmented\nvessels from lung CT scans and then applied to in-vivo photoacoustic\nmeasurement data.", 
+    "paper_subjects": [
+        "Neural and Evolutionary Computing (cs.NE)", 
+        "Optimization and Control (math.OC)"
+    ], 
+    "paper_code": "1708.09832", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Model based learning for accelerated, limited-view 3D photoacoustic tomography"
+}

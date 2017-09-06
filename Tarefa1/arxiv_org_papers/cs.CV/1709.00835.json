@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Zhu, Kang", 
+        "Xue, Yujia", 
+        "Fu, Qiang", 
+        "Kang, Sing Bing", 
+        "Chen, Xilin", 
+        "Yu, Jingyi"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00835", 
+    "paper_abstract": "In this paper, we describe how scene depth can be extracted using a\nhyperspectral light field capture (H-LF) system. Our H-LF system consists of a\n5 x 6 array of cameras, with each camera sampling a different narrow band in\nthe visible spectrum. There are two parts to extracting scene depth. The first\npart is our novel cross-spectral pairwise matching technique, which involves a\nnew spectral-invariant feature descriptor and its companion matching metric we\ncall bidirectional weighted normalized cross correlation (BWNCC). The second\npart, namely, H-LF stereo matching, uses a combination of spectral-dependent\ncorrespondence and defocus cues that rely on BWNCC. These two new cost terms\nare integrated into a Markov Random Field (MRF) for disparity estimation.\nExperiments on synthetic and real H-LF data show that our approach can produce\nhigh-quality disparity maps. We also show that these results can be used to\nproduce the complete plenoptic cube in addition to synthesizing all-focus and\ndefocused color images under different sensor spectral responses.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00835", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Hyperspectral Light Field Stereo Matching"
+}

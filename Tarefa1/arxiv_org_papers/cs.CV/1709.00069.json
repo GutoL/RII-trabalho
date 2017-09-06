@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Jampani, Varun"
+    ], 
+    "paper_comments": "PhD Dissertation", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00069", 
+    "paper_abstract": "Computer vision can be understood as the ability to perform inference on\nimage data. Breakthroughs in computer vision technology are often marked by\nadvances in inference techniques. This thesis proposes novel inference schemes\nand demonstrates applications in computer vision. We propose inference\ntechniques for both generative and discriminative vision models. The use of\ngenerative models in vision is often hampered by the difficulty of posterior\ninference. We propose techniques for improving inference in MCMC sampling and\nmessage-passing inference. Our inference strategy is to learn separate\ndiscriminative models that assist Bayesian inference in a generative model.\nExperiments on a range of generative models show that the proposed techniques\naccelerate the inference process and/or converge to better solutions. A main\ncomplication in the design of discriminative models is the inclusion of prior\nknowledge. We concentrate on CNN models and propose a generalization of\nstandard spatial convolutions to bilateral convolutions. We generalize the\nexisting use of bilateral filters and then propose new neural network\narchitectures with learnable bilateral filters, which we call `Bilateral Neural\nNetworks'. Experiments demonstrate the use of the bilateral networks on a wide\nrange of image and video tasks and datasets. In summary, we propose techniques\nfor better inference in several vision models ranging from inverse graphics to\nfreely parameterized neural networks. In generative models, our inference\ntechniques alleviate some of the crucial hurdles in Bayesian posterior\ninference, paving new ways for the use of model based machine learning in\nvision. In discriminative CNN models, the proposed filter generalizations aid\nin the design of new neural network architectures that can handle sparse\nhigh-dimensional data as well as provide a way to incorporate prior knowledge\ninto CNNs.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00069", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Learning Inference Models for Computer Vision"
+}

@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Majumdar, Aabhas", 
+        "Mehta, Raghav", 
+        "Sivaswamy, Jayanthi"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01057", 
+    "paper_abstract": "Feature-based registration has been popular with a variety of features\nranging from voxel intensity to Self-Similarity Context (SSC). In this paper,\nwe examine the question on how features learnt using various Deep Learning (DL)\nframeworks can be used for deformable registration and whether this feature\nlearning is necessary or not. We investigate the use of features learned by\ndifferent DL methods in the current state-of-the-art discrete registration\nframework and analyze its performance on 2 publicly available datasets. We draw\ninsights into the type of DL framework useful for feature learning and the\nimpact, if any, of the complexity of different DL models and brain parcellation\nmethods on the performance of discrete registration. Our results indicate that\nthe registrationperformance with DL features and SSC are comparable and stable\nacross datasets whereas this does not hold for low level features.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01057", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "To Learn or Not to Learn Features for Deformable Registration?"
+}

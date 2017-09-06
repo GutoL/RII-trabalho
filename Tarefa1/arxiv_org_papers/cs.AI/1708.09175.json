@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "De Vito, S.", 
+        "Esposito, E.", 
+        "Salvato, M.", 
+        "Popoola, O.", 
+        "Formisano, F.", 
+        "Jones, R.", 
+        "Di Francia, G."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09175", 
+    "paper_abstract": "Chemical multisensor devices need calibration algorithms to estimate gas\nconcentrations. Their possible adoption as indicative air quality measurements\ndevices poses new challenges due to the need to operate in continuous\nmonitoring modes in uncontrolled environments. Several issues, including slow\ndynamics, continue to affect their real world performances. At the same time,\nthe need for estimating pollutant concentrations on board the devices, espe-\ncially for wearables and IoT deployments, is becoming highly desirable. In this\nframework, several calibration approaches have been proposed and tested on a\nvariety of proprietary devices and datasets; still, no thorough comparison is\navailable to researchers. This work attempts a benchmarking of the most\npromising calibration algorithms according to recent literature with a focus on\nmachine learning approaches. We test the techniques against absolute and\ndynamic performances, generalization capabilities and computational/storage\nneeds using three different datasets sharing continuous monitoring operation\nmethodology. Our results can guide researchers and engineers in the choice of\noptimal strategy. They show that non-linear multivariate techniques yield\nreproducible results, outperforming lin- ear approaches. Specifically, the\nSupport Vector Regression method consistently shows good performances in all\nthe considered scenarios. We highlight the enhanced suitability of shallow\nneural networks in a trade-off between performance and computational/storage\nneeds. We confirm, on a much wider basis, the advantages of dynamic approaches\nwith respect to static ones that only rely on instantaneous sensor array\nresponse. The latter have been shown to be best choice whenever prompt and\nprecise response is needed.", 
+    "paper_subjects": [
+        "Neural and Evolutionary Computing (cs.NE)"
+    ], 
+    "paper_code": "1708.09175", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Calibrating chemical multisensory devices for real world applications: An in-depth comparison of quantitative Machine Learning approaches"
+}

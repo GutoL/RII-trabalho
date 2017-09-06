@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Rad, Mahdi", 
+        "Roth, Peter M.", 
+        "Lepetit, Vincent"
+    ], 
+    "paper_comments": "BMVC' 17", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09633", 
+    "paper_abstract": "To be robust to illumination changes when detecting objects in images, the\ncurrent trend is to train a Deep Network with training images captured under\nmany different lighting conditions. Unfortunately, creating such a training set\nis very cumbersome, or sometimes even impossible, for some applications such as\n3D pose estimation of specific objects, which is the application we focus on in\nthis paper. We therefore propose a novel illumination normalization method that\nlets us learn to detect objects and estimate their 3D pose under challenging\nillumination conditions from very few training samples. Our key insight is that\nnormalization parameters should adapt to the input image. In particular, we\nrealized this via a Convolutional Neural Network trained to predict the\nparameters of a generalization of the Difference-of-Gaussians method. We show\nthat our method significantly outperforms standard normalization methods and\ndemonstrate it on two challenging 3D detection and pose estimation problems.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09633", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "ALCN: Meta-Learning for Contrast Normalization Applied to Robust 3D Pose Estimation"
+}

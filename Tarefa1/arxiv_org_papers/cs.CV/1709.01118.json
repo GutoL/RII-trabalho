@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Ignatov, Andrey", 
+        "Kobyshev, Nikolay", 
+        "Timofte, Radu", 
+        "Vanhoey, Kenneth", 
+        "Van Gool, Luc"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01118", 
+    "paper_abstract": "Low-end and compact mobile cameras demonstrate limited photo quality mainly\ndue to space, hardware and budget constraints. In this work, we propose a deep\nlearning solution that translates photos taken by cameras with limited\ncapabilities into DSLR-quality photos automatically. We tackle this problem by\nintroducing a weakly supervised photo enhancer (WESPE) - a novel image-to-image\nGenerative Adversarial Network-based architecture. The proposed model is\ntrained by weakly supervised learning: unlike previous works, there is no need\nfor strong supervision in the form of a large annotated dataset of aligned\noriginal/enhanced photo pairs. The sole requirement is two distinct datasets:\none from the source camera, and one composed of arbitrary high-quality images\nthat can be generally crawled from the Internet - the visual content they\nexhibit may be unrelated. Hence, our solution is repeatable for any camera:\ncollecting the data and training can be achieved in a couple of hours. Our\nexperiments on the DPED, Kitti and Cityscapes datasets as well as pictures from\nseveral generations of smartphones demonstrate that WESPE produces comparable\nqualitative results with state-of-the-art strongly supervised methods, while\nnot requiring the tedious work to obtain aligned datasets.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01118", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "WESPE: Weakly Supervised Photo Enhancer for Digital Cameras"
+}

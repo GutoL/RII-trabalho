@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Pang, Haitian", 
+        "Gao, Lin", 
+        "Ding, Qinghua", 
+        "Sun, Lifeng"
+    ], 
+    "paper_comments": "6 pages, accepted by GLOBECOM 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00273", 
+    "paper_abstract": "Data sponsoring is a widely-used incentive method in today's cellular\nnetworks, where video content providers (CPs) cover part or all of the cellular\ndata cost for mobile users so as to attract more video users and increase data\ntraffic. In the forthcoming 5G cellular networks, edge caching is emerging as a\npromising technique to deliver videos with lower cost and higher quality. The\nkey idea is to cache video contents on edge networks (e.g., femtocells and WiFi\naccess points) in advance and deliver the cached contents to local video users\ndirectly (without involving cellular data cost for users). In this work, we aim\nto study how the edge caching will affect the CP's data sponsoring strategy as\nwell as the users' behaviors and the data market. Specifically, we consider a\nsingle CP who offers both the edge caching service and the data sponsoring\nservice to a set of heterogeneous mobile video users (with different mobility\nand video request patterns). We formulate the interactions of the CP and the\nusers as a two-stage Stackelberg game, where the CP (leader) determines the\nbudgets (efforts) for both services in Stage I, and the users (followers)\ndecide whether and which service(s) they would like to subscribe to. We analyze\nthe sub-game perfect equilibrium (SPE) of the proposed game systematically. Our\nanalysis and experimental results show that by introducing the edge caching,\nthe CP can increase his revenue by 105%.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00273", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "When Data Sponsoring Meets Edge Caching: A Game-Theoretic Analysis"
+}

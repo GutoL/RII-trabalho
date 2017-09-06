@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Sriarunothai, Theeraphot", 
+        "W&#xf6;lk, Sabine", 
+        "Giri, Gouri Shankar", 
+        "Fries, Nicolai", 
+        "Dunjko, Vedran", 
+        "Briegel, Hans J.", 
+        "Wunderlich, Christof"
+    ], 
+    "paper_comments": "11 pages incl. supplement, 7 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01366", 
+    "paper_abstract": "We report a proof-of-principle experimental demonstration of a quantum\nspeed-up for learning agents utilizing a small-scale quantum information\nprocessor based on radiofrequency-driven trapped ions. The decision-making\nprocess of a quantum learning agent within the projective simulation paradigm\nfor machine learning is modeled in a system of two qubits. The latter are\nrealized in the hyperfine levels of two frequency-addressed ions exposed to a\nstatic magnetic field gradient. The deliberation algorithm is implemented using\nsingle-qubit rotations and two-qubit conditional quantum dynamics. We show that\nthe deliberation time of this quantum learning agent is quadratically improved\nwith respect to comparable classical learning agents. The performance of this\nquantum-enhanced learning agent highlights the potential of scalable ion trap\nquantum processors taking advantage of machine learning.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1709.01366", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Speeding-up the decision making of a learning agent using an ion trap quantum processor"
+}

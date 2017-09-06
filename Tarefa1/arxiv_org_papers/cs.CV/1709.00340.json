@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "He, Xiangteng", 
+        "Peng, Yuxin"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00340", 
+    "paper_abstract": "Fine-grained image classification is to recognize hundreds of subcategories\nbelonging to the same basic-level category, which is a highly challenging task\ndue to the quite subtle visual distinctions among similar subcategories. Most\nexisting methods generally learn part detectors to discover discriminative\nregions for better performance. However, not all localized parts are beneficial\nand indispensable for classification, and the setting for number of part\ndetectors relies heavily on prior knowledge as well as experimental results. As\nis known to all, when we describe the object of an image into text via natural\nlanguage, we only focus on the pivotal characteristics, and rarely pay\nattention to common characteristics as well as the background areas. This is an\ninvoluntary transfer from human visual attention to textual attention, which\nleads to the fact that textual attention tells us how many and which parts are\ndiscriminative and significant. So textual attention of natural language\ndescriptions could help us to discover visual attention in image. Inspired by\nthis, we propose a visual-textual attention driven fine-grained representation\nlearning (VTA) approach, and its main contributions are: (1) Fine-grained\nvisual-textual pattern mining devotes to discovering discriminative\nvisual-textual pairwise information for boosting classification through jointly\nmodeling vision and text with generative adversarial networks (GANs), which\nautomatically and adaptively discovers discriminative parts. (2) Visual-textual\nrepresentation learning jointly combine visual and textual information, which\npreserves the intra-modality and inter-modality information to generate\ncomplementary fine-grained representation, and further improve classification\nperformance. Experiments on the two widely-used datasets demonstrate the\neffectiveness of our VTA approach, which achieves the best classification\naccuracy.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00340", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Visual-textual Attention Driven Fine-grained Representation Learning"
+}

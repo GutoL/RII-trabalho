@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Rahimtoroghi, Elahe", 
+        "Wu, Jiaqi", 
+        "Wang, Ruimin", 
+        "Anand, Pranav", 
+        "Walker, Marilyn A"
+    ], 
+    "paper_comments": "10 pages, 18th Annual SIGdial Meeting on Discourse and Dialogue (SIGDIAL 2017)", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09040", 
+    "paper_abstract": "Many genres of natural language text are narratively structured, a testament\nto our predilection for organizing our experiences as narratives. There is\nbroad consensus that understanding a narrative requires identifying and\ntracking the goals and desires of the characters and their narrative outcomes.\nHowever, to date, there has been limited work on computational models for this\nproblem. We introduce a new dataset, DesireDB, which includes gold-standard\nlabels for identifying statements of desire, textual evidence for desire\nfulfillment, and annotations for whether the stated desire is fulfilled given\nthe evidence in the narrative context. We report experiments on tracking desire\nfulfillment using different methods, and show that LSTM Skip-Thought model\nachieves F-measure of 0.7 on our corpus.", 
+    "paper_subjects": [
+        "Computation and Language (cs.CL)", 
+        "Neural and Evolutionary Computing (cs.NE)"
+    ], 
+    "paper_code": "1708.09040", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "Modelling Protagonist Goals and Desires in First-Person Narrative"
+}

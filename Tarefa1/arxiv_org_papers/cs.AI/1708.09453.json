@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Hu, Zhichao", 
+        "Rahimtoroghi, Elahe", 
+        "Walker, Marilyn A"
+    ], 
+    "paper_comments": "Events and Stories in the News Workshop, ACL 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09453", 
+    "paper_abstract": "Human understanding of narrative is mainly driven by reasoning about causal\nrelations between events and thus recognizing them is a key capability for\ncomputational models of language understanding. Computational work in this area\nhas approached this via two different routes: by focusing on acquiring a\nknowledge base of common causal relations between events, or by attempting to\nunderstand a particular story or macro-event, along with its storyline. In this\nposition paper, we focus on knowledge acquisition approach and claim that\nnewswire is a relatively poor source for learning fine-grained causal relations\nbetween everyday events. We describe experiments using an unsupervised method\nto learn causal relations between events in the narrative genres of\nfirst-person narratives and film scene descriptions. We show that our method\nlearns fine-grained causal relations, judged by humans as likely to be causal\nover 80% of the time. We also demonstrate that the learned event pairs do not\nexist in publicly available event-pair datasets extracted from newswire.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1708.09453", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Inference of Fine-Grained Event Causality from Blogs and Films"
+}

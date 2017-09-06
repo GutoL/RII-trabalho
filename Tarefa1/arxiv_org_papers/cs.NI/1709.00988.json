@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Semiari, Omid", 
+        "Saad, Walid", 
+        "Bennis, Mehdi", 
+        "Debbah, Merouane"
+    ], 
+    "paper_comments": "In Proceeding of the IEEE Global Communications Conference (GLOBECOM) Mobile and Wireless Networks, Singapore, December 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00988", 
+    "paper_abstract": "Millimeter wave (mmW) communications at the 60 GHz unlicensed band is seen as\na promising approach for boosting the capacity of wireless local area networks\n(WLANs). If properly integrated into legacy IEEE 802.11 standards, mmW\ncommunications can offer substantial gains by offloading traffic from congested\nsub-6 GHz unlicensed bands to the 60 GHz mmW frequency band. In this paper, a\nnovel medium access control (MAC) is proposed to dynamically manage the WLAN\ntraffic over the unlicensed mmW and sub-6 GHz bands. The proposed protocol\nleverages the capability of advanced multi-band wireless stations (STAs) to\nperform fast session transfers (FST) to the mmW band, while considering the\nintermittent channel at the 60 GHz band and the level of congestion observed\nover the sub-6 GHz bands. The performance of the proposed scheme is\nanalytically studied via a new Markov chain model and the probability of\ntransmissions over the mmW and sub-6 GHz bands, as well as the aggregated\nsaturation throughput are derived. In addition, analytical results are\nvalidated by simulation results. Simulation results show that the proposed\nintegrated mmW-sub 6 GHz MAC protocol yields significant performance gains, in\nterms of maximizing the saturation throughput and minimizing the delay\nexperienced by the STAs. The results also shed light on the tradeoffs between\nthe achievable gains and the overhead introduced by the FST procedure.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1709.00988", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Performance Analysis of Integrated Sub-6 GHz-Millimeter Wave Wireless Local Area Networks"
+}

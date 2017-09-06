@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Liu, Yaojie", 
+        "Jourabloo, Amin", 
+        "Ren, William", 
+        "Liu, Xiaoming"
+    ], 
+    "paper_comments": "To appear in ICCV 2017 Workshop", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01442", 
+    "paper_abstract": "Face alignment is a classic problem in the computer vision field. Previous\nworks mostly focus on sparse alignment with a limited number of facial landmark\npoints, i.e., facial landmark detection. In this paper, for the first time, we\naim at providing a very dense 3D alignment for large-pose face images. To\nachieve this, we train a CNN to estimate the 3D face shape, which not only\naligns limited facial landmarks but also fits face contours and SIFT feature\npoints. Moreover, we also address the bottleneck of training CNN with multiple\ndatasets, due to different landmark markups on different datasets, such as 5,\n34, 68. Experimental results show our method not only provides high-quality,\ndense 3D face fitting but also outperforms the state-of-the-art facial landmark\ndetection methods on the challenging datasets. Our model can run at real time\nduring testing.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01442", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Dense Face Alignment"
+}

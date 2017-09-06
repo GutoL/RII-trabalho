@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Zhu, Yizhe", 
+        "Elgammal, Ahmed"
+    ], 
+    "paper_comments": "Accepted by ICCV'17", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01140", 
+    "paper_abstract": "The exponentially increasing use of moving platforms for video capture\nintroduces the urgent need to develop the general background subtraction\nalgorithms with the capability to deal with the moving background. In this\npaper, we propose a multilayer-based framework for online background\nsubtraction for videos captured by moving cameras. Unlike the previous\ntreatments of the problem, the proposed method is not restricted to binary\nsegmentation of background and foreground, but formulates it as a multi-label\nsegmentation problem by modeling multiple foreground objects in different\nlayers when they appear simultaneously in the scene. We assign an independent\nprocessing layer to each foreground object, as well as the background, where\nboth motion and appearance models are estimated, and a probability map is\ninferred using a Bayesian filtering framework. Finally, Multi-label Graph-cut\non Markov Random Field is employed to perform pixel-wise labeling. Extensive\nevaluation results show that the proposed method outperforms state-of-the-art\nmethods on challenging video sequences.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01140", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "A Multilayer-Based Framework for Online Background Subtraction with Freely Moving Cameras"
+}

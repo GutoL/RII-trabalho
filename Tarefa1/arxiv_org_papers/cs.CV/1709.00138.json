@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "He, Pan", 
+        "Huang, Weilin", 
+        "He, Tong", 
+        "Zhu, Qile", 
+        "Qiao, Yu", 
+        "Li, Xiaolin"
+    ], 
+    "paper_comments": "To appear in IEEE International Conference on Computer Vision (ICCV), 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00138", 
+    "paper_abstract": "We present a novel single-shot text detector that directly outputs word-level\nbounding boxes in a natural image. We propose an attention mechanism which\nroughly identifies text regions via an automatically learned attentional map.\nThis substantially suppresses background interference in the convolutional\nfeatures, which is the key to producing accurate inference of words,\nparticularly at extremely small sizes. This results in a single model that\nessentially works in a coarse-to-fine manner. It departs from recent FCN- based\ntext detectors which cascade multiple FCN models to achieve an accurate\nprediction. Furthermore, we develop a hierarchical inception module which\nefficiently aggregates multi-scale inception features. This enhances local\ndetails, and also encodes strong context information, allow- ing the detector\nto work reliably on multi-scale and multi- orientation text with single-scale\nimages. Our text detector achieves an F-measure of 77% on the ICDAR 2015 bench-\nmark, advancing the state-of-the-art results in [18, 28]. Demo is available at:\n<a href=\"http://sstd.whuang.org/.\">this http URL</a>", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00138", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Single Shot Text Detector with Regional Attention"
+}

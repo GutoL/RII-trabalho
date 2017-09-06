@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Saadat, Akbar"
+    ], 
+    "paper_comments": "5 pages, Submitted to SSPD 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00072", 
+    "paper_abstract": "Image analysis methods that are based on exact blur values are faced with the\ncomputational complexities due to blur measurement error. This atmosphere\nencourages scholars to look for handcrafted and learned features for finding\ndepth from a single image. This paper introduces a novel exact realization for\nblur measures on digital images and implements it on a new measure of defocus\nGaussian blur at edge points in Depth From Defocus (DFD) methods with the\npotential to change this atmosphere. The experiments on real images indicate\nsuperiority of the proposed measure in error performance over conventional\nlearned features in the state-of the-art single image based depth estimation\nmethods.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00072", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Exact Blur Measure Outperforms Conventional Learned Features for Depth Finding"
+}

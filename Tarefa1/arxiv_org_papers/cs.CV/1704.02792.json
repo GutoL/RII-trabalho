@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "He, Xiangteng", 
+        "Peng, Yuxin"
+    ], 
+    "paper_comments": "9 pages, to appear in CVPR 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1704.02792", 
+    "paper_abstract": "Fine-grained image classification is a challenging task due to the large\nintra-class variance and small inter-class variance, aiming at recognizing\nhundreds of sub-categories belonging to the same basic-level category. Most\nexisting fine-grained image classification methods generally learn part\ndetection models to obtain the semantic parts for better classification\naccuracy. Despite achieving promising results, these methods mainly have two\nlimitations: (1) not all the parts which obtained through the part detection\nmodels are beneficial and indispensable for classification, and (2)\nfine-grained image classification requires more detailed visual descriptions\nwhich could not be provided by the part locations or attribute annotations. For\naddressing the above two limitations, this paper proposes the two-stream model\ncombining vision and language (CVL) for learning latent semantic\nrepresentations. The vision stream learns deep representations from the\noriginal visual information via deep convolutional neural network. The language\nstream utilizes the natural language descriptions which could point out the\ndiscriminative parts or characteristics for each image, and provides a flexible\nand compact way of encoding the salient visual aspects for distinguishing\nsub-categories. Since the two streams are complementary, combining the two\nstreams can further achieves better classification accuracy. Comparing with 12\nstate-of-the-art methods on the widely used CUB-200-2011 dataset for\nfine-grained image classification, the experimental results demonstrate our CVL\napproach achieves the best performance.", 
+    "paper_subjects": null, 
+    "paper_code": "1704.02792", 
+    "paper_submission_date": "2017/04/10", 
+    "paper_title": "Fine-graind Image Classification via Combining Vision and Language"
+}

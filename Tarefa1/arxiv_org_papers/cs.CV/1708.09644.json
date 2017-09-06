@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Ravanbakhsh, Mahdyar", 
+        "Nabi, Moin", 
+        "Sangineto, Enver", 
+        "Marcenaro, Lucio", 
+        "Regazzoni, Carlo", 
+        "Sebe, Nicu"
+    ], 
+    "paper_comments": "Best Paper / Student Paper Award Finalist, IEEE International Conference on Image Processing (ICIP), 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09644", 
+    "paper_abstract": "In this paper we address the abnormality detection problem in crowded scenes.\nWe propose to use Generative Adversarial Nets (GANs), which are trained using\nnormal frames and corresponding optical-flow images in order to learn an\ninternal representation of the scene normality. Since our GANs are trained with\nonly normal data, they are not able to generate abnormal events. At testing\ntime the real data are compared with both the appearance and the motion\nrepresentations reconstructed by our GANs and abnormal areas are detected by\ncomputing local differences. Experimental results on challenging abnormality\ndetection datasets show the superiority of the proposed method compared to the\nstate of the art in both frame-level and pixel-level abnormality detection\ntasks.", 
+    "paper_subjects": [
+        "Multimedia (cs.MM)"
+    ], 
+    "paper_code": "1708.09644", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Abnormal Event Detection in Videos using Generative Adversarial Nets"
+}

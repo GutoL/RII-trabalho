@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Poplin, Ryan", 
+        "Varadarajan, Avinash V.", 
+        "Blumer, Katy", 
+        "Liu, Yun", 
+        "McConnell, Michael V.", 
+        "Corrado, Greg S.", 
+        "Peng, Lily", 
+        "Webster, Dale R."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09843", 
+    "paper_abstract": "Traditionally, medical discoveries are made by observing associations and\nthen designing experiments to test these hypotheses. However, observing and\nquantifying associations in images can be difficult because of the wide variety\nof features, patterns, colors, values, shapes in real data. In this paper, we\nuse deep learning, a machine learning technique that learns its own features,\nto discover new knowledge from retinal fundus images. Using models trained on\ndata from 284,335 patients, and validated on two independent datasets of 12,026\nand 999 patients, we predict cardiovascular risk factors not previously thought\nto be present or quantifiable in retinal images, such as such as age (within\n3.26 years), gender (0.97 AUC), smoking status (0.71 AUC), HbA1c (within\n1.39%), systolic blood pressure (within 11.23mmHg) as well as major adverse\ncardiac events (0.70 AUC). We further show that our models used distinct\naspects of the anatomy to generate each prediction, such as the optic disc or\nblood vessels, opening avenues of further research.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09843", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Predicting Cardiovascular Risk Factors from Retinal Fundus Photographs using Deep Learning"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Tashtarian, Farzad", 
+        "Varasteh, Amir", 
+        "Montazerolghaem, Ahmadreza", 
+        "Kellerer, Wolfgang"
+    ], 
+    "paper_comments": "IEEE International Conference on Communication Technology (ICCT), Chengdu, China, 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01313", 
+    "paper_abstract": "Network Functions Virtualization (NFV) is a promising network architecture\nwhere network functions are virtualized and decoupled from proprietary\nhardware. In modern datacenters, user network traffic requires a set of Virtual\nNetwork Functions (VNFs) as a service chain to process traffic demands. Traffic\nfluctuations in Large-scale DataCenters (LDCs) could result in overload and\nunderload phenomena in service chains. In this paper, we propose a distributed\napproach based on Alternating Direction Method of Multipliers (ADMM) to jointly\nload balance the traffic and horizontally scale up and down VNFs in LDCs with\nminimum deployment and forwarding costs. Initially we formulate the targeted\noptimization problem as a Mixed Integer Linear Programming (MILP) model, which\nis NP-complete. Secondly, we relax it into two Linear Programming (LP) models\nto cope with over and underloaded service chains. In the case of small or\nmedium size datacenters, LP models could be run in a central fashion with a low\ntime complexity. However, in LDCs, increasing the number of LP variables\nresults in additional time consumption in the central algorithm. To mitigate\nthis, our study proposes a distributed approach based on ADMM. The\neffectiveness of the proposed mechanism is validated in different scenarios.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01313", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Distributed VNF Scaling in Large-scale Datacenters: An ADMM-based Approach"
+}

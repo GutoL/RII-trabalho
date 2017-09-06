@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Khanian, Maryam", 
+        "Boroujerdi, Ali Sharifi", 
+        "Breu&#xdf;, Michael"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01357", 
+    "paper_abstract": "Photometric stereo (PS) is a fundamental technique in computer vision known\nto produce 3-D shape with high accuracy. The setting of PS is defined by using\nseveral input images of a static scene taken from one and the same camera\nposition but under varying illumination. The vast majority of studies in this\n3-D reconstruction method assume orthographic projection for the camera model.\nIn addition, they mainly consider the Lambertian reflectance model as the way\nthat light scatters at surfaces. So, providing reliable PS results from real\nworld objects still remains a challenging task. We address 3-D reconstruction\nby PS using a more realistic set of assumptions combining for the first time\nthe complete Blinn-Phong reflectance model and perspective projection. To this\nend, we will compare two different methods of incorporating the perspective\nprojection into our model. Experiments are performed on both synthetic and real\nworld images. Note that our real-world experiments do not benefit from\nlaboratory conditions. The results show the high potential of our method even\nfor complex real world applications such as medical endoscopy images which may\ninclude high amounts of specular highlights.", 
+    "paper_subjects": [
+        "Optimization and Control (math.OC)"
+    ], 
+    "paper_code": "1709.01357", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Photometric stereo for strong specular highlights"
+}

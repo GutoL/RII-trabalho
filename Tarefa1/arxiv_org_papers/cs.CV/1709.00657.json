@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Li, Yang", 
+        "Liu, Guangcan", 
+        "Chen, Shengyong"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00657", 
+    "paper_abstract": "Due to its efficiency and stability, Robust Principal Component Analysis\n(RPCA) has been emerging as a promising tool for moving object detection.\nUnfortunately, existing RPCA based methods assume static or quasi-static\nbackground, and thereby they may have trouble in coping with the background\nscenes that exhibit a persistent dynamic behavior. In this work, we shall\nintroduce two techniques to fill in the gap. First, instead of using the raw\npixel-value as features that are brittle in the presence of dynamic background,\nwe devise a so-called Gaussian max-pooling operator to estimate a\n\"stable-value\" for each pixel. Those stable-values are robust to various\nbackground changes and can therefore distinguish effectively the foreground\nobjects from the background. Then, to obtain more accurate results, we further\npropose a Segmentation Constrained RPCA (SC-RPCA) model, which incorporates the\ntemporal and spatial continuity in images into RPCA. The inference process of\nSC-RPCA is a group sparsity constrained nuclear norm minimization problem,\nwhich is convex and easy to solve. Experimental results on seven videos from\nthe CDCNET 2014 database show the superior performance of the proposed method.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00657", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Detection of Moving Object in Dynamic Background Using Gaussian Max-Pooling and Segmentation Constrained RPCA"
+}

@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Karimi, Maryam", 
+        "Soltanian, Najmeh", 
+        "Samavi, Shadrokh", 
+        "Karimi, Nader", 
+        "Soroushmehr, S. M. Reza", 
+        "Najarian, Kayvan"
+    ], 
+    "paper_comments": "11 pages, 13 figures, 3 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00725", 
+    "paper_abstract": "The use of 3D and stereo imaging is rapidly increasing. Compression,\ntransmission, and processing could degrade the quality of stereo images.\nQuality assessment of such images is different than their 2D counterparts.\nMetrics that represent 3D perception by human visual system (HVS) are expected\nto assess stereoscopic quality more accurately. In this paper, inspired by\nbrain sensory/motor fusion process, two stereo images are fused together. Then\nfrom every fused image two synthesized images are extracted. Effects of\ndifferent distortions on statistical distributions of the synthesized images\nare shown. Based on the observed statistical changes, features are extracted\nfrom these synthesized images. These features can reveal type and severity of\ndistortions. Then, a stacked neural network model is proposed, which learns the\nextracted features and accurately evaluates the quality of stereo images. This\nmodel is tested on 3D images of popular databases. Experimental results show\nthe superiority of this method over state of the art stereo image quality\nassessment approaches", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00725", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Blind Stereo Image Quality Assessment Inspired by Brain Sensory-Motor Fusion"
+}

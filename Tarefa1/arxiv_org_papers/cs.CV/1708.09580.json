@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Gee-Sern", 
+        "Hsu", 
+        "Shie, Hung-Cheng", 
+        "Hsieh, Cheng-Hua"
+    ], 
+    "paper_comments": "14 pages, 12 figures, 4 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09580", 
+    "paper_abstract": "Two approaches are proposed for cross-pose face recognition, one is based on\nthe 3D reconstruction of facial components and the other is based on the deep\nConvolutional Neural Network (CNN). Unlike most 3D approaches that consider\nholistic faces, the proposed approach considers 3D facial components. It\nsegments a 2D gallery face into components, reconstructs the 3D surface for\neach component, and recognizes a probe face by component features. The\nsegmentation is based on the landmarks located by a hierarchical algorithm that\ncombines the Faster R-CNN for face detection and the Reduced Tree Structured\nModel for landmark localization. The core part of the CNN-based approach is a\nrevised VGG network. We study the performances with different settings on the\ntraining set, including the synthesized data from 3D reconstruction, the\nreal-life data from an in-the-wild database, and both types of data combined.\nWe investigate the performances of the network when it is employed as a\nclassifier or designed as a feature extractor. The two recognition approaches\nand the fast landmark localization are evaluated in extensive experiments, and\ncompared to stateof-the-art methods to demonstrate their efficacy.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09580", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Fast Landmark Localization with 3D Component Reconstruction and CNN for Cross-Pose Recognition"
+}

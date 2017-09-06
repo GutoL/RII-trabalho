@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Rajpura, Param", 
+        "Goyal, Manik", 
+        "Hegde, Ravi", 
+        "Bojinov, Hristo"
+    ], 
+    "paper_comments": "5 pages, 5 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00849", 
+    "paper_abstract": "Although Deep Convolutional Neural Networks trained with strong pixel-level\nannotations have significantly pushed the performance in semantic segmentation,\nannotation efforts required for the creation of training data remains a\nroadblock for further improvements. We show that augmentation of the weakly\nannotated training dataset with synthetic images minimizes both the annotation\nefforts and also the cost of capturing images with sufficient variety.\nEvaluation on the PASCAL 2012 validation dataset shows an increase in mean IOU\nfrom 52.80% to 55.47% by adding just 100 synthetic images per object class. Our\napproach is thus a promising solution to the problems of annotation and dataset\ncollection.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00849", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Dataset Augmentation with Synthetic Images Improves Semantic Segmentation"
+}

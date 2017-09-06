@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Jalili, Vahid"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00158", 
+    "paper_abstract": "Visual information plays an indispensable role in our daily interactions with\nenvironment. Such information is manipulated for a wide range of purposes\nspanning from basic object and material perception to complex gesture\ninterpretations. There have been novel studies in cognitive science for\nin-depth understanding of visual information manipulation, which lead to answer\nquestions such as: how we infer 2D/3D motion from a sequence of 2D images? how\nwe understand a motion from a single image frame? how we see forest avoiding\ntrees?\n<br />Leveraging on congruence, linear mapping transformation determination between\na set of shapes facilitate motion perception. Present study methodizes recent\ndiscoveries of human cognitive ability for scene understanding. The proposed\nmethod processes images hierarchically, that is an iterative analysis of scene\nabstractions using a rapidly converging heuristic iterative method. The method\nhierarchically abstracts images; the abstractions are represented in polar\ncoordinate system, and any two consecutive abstractions have incremental level\nof details. The method then creates a graph of approximated linear mapping\ntransformations based on circular shift permutations of hierarchical\nabstractions. The graph is then traversed in best-first fashion to find best\nlinear mapping transformation. The accuracy of the proposed method is assessed\nusing normal, noisy, and deformed images. Additionally, the present study\ndeduces (i) the possibility of determining optimal mapping linear\ntransformations in logarithmic iterations with respect to the precision of\nresults, and (ii) computational cost is independent from the resolution of\ninput shapes.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00158", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Reasoning with shapes: profiting cognitive susceptibilities to infer linear mapping transformations between shapes"
+}

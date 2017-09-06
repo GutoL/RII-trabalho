@@ -1,0 +1,23 @@
+{
+    "paper_authors_list": [
+        "Wang, Yu", 
+        "Liu, Jiayi", 
+        "Liu, Yuxiang", 
+        "Hao, Jun", 
+        "He, Yang", 
+        "Hu, Jinghe", 
+        "Yan, Weipeng", 
+        "Li, Mantian"
+    ], 
+    "paper_comments": "8 pages, 12 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1708.05565", 
+    "paper_abstract": "We present LADDER, the first deep reinforcement learning agent that can\nsuccessfully learn control policies for large-scale real-world problems\ndirectly from raw inputs composed of high-level semantic information. The agent\nis based on an asynchronous stochastic variant of DQN (Deep Q Network) named\nDASQN. The inputs of the agent are plain-text descriptions of states of a game\nof incomplete information, i.e. real-time large scale online auctions, and the\nrewards are auction profits of very large scale. We apply the agent to an\nessential portion of JD's online RTB (real-time bidding) advertising business\nand find that it easily beats the former state-of-the-art bidding policy that\nhad been carefully engineered and calibrated by human experts: during JD.com's\nJune 18th anniversary sale, the agent increased the company's ads revenue from\nthe portion by more than 50%, while the advertisers' ROI (return on investment)\nalso improved significantly.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Computation and Language (cs.CL)", 
+        "Computer Science and Game Theory (cs.GT)"
+    ], 
+    "paper_code": "1708.05565", 
+    "paper_submission_date": "2017/08/18", 
+    "paper_title": "LADDER: A Human-Level Bidding Agent for Large-Scale Real-Time Online Auctions"
+}

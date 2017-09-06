@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Pe&#xf1;a, Jose M."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.08722", 
+    "paper_abstract": "We introduce a new class of graphical models that generalizes\nLauritzen-Wermuth-Frydenberg chain graphs by relaxing the semi-directed\nacyclity constraint so that only directed cycles are forbidden. Moreover, up to\ntwo edges are allowed between any pair of nodes. Specifically, we present\nlocal, pairwise and global Markov properties for the new graphical models and\nprove their equivalence.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1708.08722", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "Unifying DAGs and UGs"
+}

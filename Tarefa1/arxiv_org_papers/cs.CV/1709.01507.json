@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Hu, Jie", 
+        "Shen, Li", 
+        "Sun, Gang"
+    ], 
+    "paper_comments": "ILSVRC 2017 image classification winner", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01507", 
+    "paper_abstract": "Convolutional neural networks are built upon the convolution operation, which\nextracts informative features by fusing spatial and channel-wise information\ntogether within local receptive fields. In order to boost the representational\npower of a network, much existing work has shown the benefits of enhancing\nspatial encoding. In this work, we focus on channels and propose a novel\narchitectural unit, which we term the \"Squeeze-and-Excitation\" (SE) block, that\nadaptively recalibrates channel-wise feature responses by explicitly modelling\ninterdependencies between channels. We demonstrate that by stacking these\nblocks together, we can construct SENet architectures that generalise extremely\nwell across challenging datasets. Crucially, we find that SE blocks produce\nsignificant performance improvements for existing state-of-the-art deep\narchitectures at slight computational cost. SENets formed the foundation of our\nILSVRC 2017 classification submission which won first place and significantly\nreduced the top-5 error to 2.251%, achieving a 25% relative improvement over\nthe winning entry of 2016.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01507", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Squeeze-and-Excitation Networks"
+}

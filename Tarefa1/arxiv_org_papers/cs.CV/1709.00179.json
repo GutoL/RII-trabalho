@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Hamaguchi, Ryuhei", 
+        "Fujita, Aito", 
+        "Nemoto, Keisuke", 
+        "Imaizumi, Tomoyuki", 
+        "Hikosaka, Shuhei"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00179", 
+    "paper_abstract": "Thanks to recent advances in CNNs, solid improvements have been made in\nsemantic segmentation of high resolution remote sensing imagery. However, most\nof the previous works have not fully taken into account the specific\ndifficulties that exist in remote sensing tasks. One of such difficulties is\nthat objects are small and crowded in remote sensing imagery. To tackle with\nthis challenging task we have proposed a novel architecture called local\nfeature extraction (LFE) module attached on top of dilated front-end module.\nThe LFE module is based on our findings that aggressively increasing dilation\nfactors fails to aggregate local features due to sparsity of the kernel, and\ndetrimental to small objects. The proposed LFE module solves this problem by\naggregating local features with decreasing dilation factor. We tested our\nnetwork on three remote sensing datasets and acquired remarkably good results\nfor all datasets especially for small objects.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00179", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Effective Use of Dilated Convolutions for Segmenting Small Object Instances in Remote Sensing Imagery"
+}

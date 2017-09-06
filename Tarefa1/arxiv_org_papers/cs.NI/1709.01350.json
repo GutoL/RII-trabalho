@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Zhong, Zhizhen", 
+        "Hua, Nan", 
+        "Liu, Zhu", 
+        "Li, Wenjing", 
+        "Li, Yanhe", 
+        "Zheng, Xiaoping"
+    ], 
+    "paper_comments": "IEEE Photonics Society 1st Place Best Poster Award, on CLEO-PR/OECC/PGC 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01350", 
+    "paper_abstract": "In this paper, we proposed a novel OTSS-assisted optical network architecture\nfor smart-grid communication networks, which has unique requirements for\nlow-latency connections. Illustrative results show that, OTSS can provide\nextremely better performance in latency and blocking probability than\nconventional flexi-grid optical networks.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01350", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Evolving Optical Networks for Latency-Sensitive Smart-Grid Communications via Optical Time Slice Switching (OTSS) Technologies"
+}

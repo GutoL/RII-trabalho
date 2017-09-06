@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Tan, David Joseph", 
+        "Navab, Nassir", 
+        "Tombari, Federico"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01459", 
+    "paper_abstract": "To determine the 3D orientation and 3D location of objects in the\nsurroundings of a camera mounted on a robot or mobile device, we developed two\npowerful algorithms in object detection and temporal tracking that are combined\nseamlessly for robotic perception and interaction as well as Augmented Reality\n(AR). A separate evaluation of, respectively, the object detection and the\ntemporal tracker demonstrates the important stride in research as well as the\nimpact on industrial robotic applications and AR. When evaluated on a standard\ndataset, the detector produced the highest f1-score with a large margin while\nthe tracker generated the best accuracy at a very low latency of approximately\n2 ms per frame with one CPU core: both algorithms outperforming the state of\nthe art. When combined, we achieve a powerful framework that is robust to\nhandle multiple instances of the same object under occlusion and clutter while\nattaining real-time performance. Aiming at stepping beyond the simple scenarios\nused by current systems, often constrained by having a single object in absence\nof clutter, averting to touch the object to prevent close-range partial\nocclusion, selecting brightly colored objects to easily segment them\nindividually or assuming that the object has simple geometric structure, we\ndemonstrate the capacity to handle challenging cases under clutter, partial\nocclusion and varying lighting conditions with objects of different shapes and\nsizes.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01459", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "6D Object Pose Estimation with Depth Images: A Seamless Approach for Robotic Interaction and Augmented Reality"
+}

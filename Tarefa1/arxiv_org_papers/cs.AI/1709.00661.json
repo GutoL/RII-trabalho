@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Misra, Amita", 
+        "Walker, Marilyn"
+    ], 
+    "paper_comments": "@inproceedings{Misra2013TopicII, title={Topic Independent Identification of Agreement and Disagreement in Social Media Dialogue}, author={Amita Misra and Marilyn A. Walker}, booktitle={SIGDIAL Conference}, year={2013}}", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00661", 
+    "paper_abstract": "Research on the structure of dialogue has been hampered for years because\nlarge dialogue corpora have not been available. This has impacted the dialogue\nresearch community's ability to develop better theories, as well as good off\nthe shelf tools for dialogue processing. Happily, an increasing amount of\ninformation and opinion exchange occur in natural dialogue in online forums,\nwhere people share their opinions about a vast range of topics. In particular\nwe are interested in rejection in dialogue, also called disagreement and\ndenial, where the size of available dialogue corpora, for the first time,\noffers an opportunity to empirically test theoretical accounts of the\nexpression and inference of rejection in dialogue. In this paper, we test\nwhether topic-independent features motivated by theoretical predictions can be\nused to recognize rejection in online forums in a topic independent way. Our\nresults show that our theoretically motivated features achieve 66% accuracy, an\nimprovement over a unigram baseline of an absolute 6%.", 
+    "paper_subjects": [
+        "Computation and Language (cs.CL)"
+    ], 
+    "paper_code": "1709.00661", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Topic Independent Identification of Agreement and Disagreement in Social Media Dialogue"
+}

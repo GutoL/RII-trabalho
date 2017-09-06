@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "H&#xe4;ne, Christian", 
+        "Heng, Lionel", 
+        "Lee, Gim Hee", 
+        "Fraundorfer, Friedrich", 
+        "Furgale, Paul", 
+        "Sattler, Torsten", 
+        "Pollefeys, Marc"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09839", 
+    "paper_abstract": "Cameras are a crucial exteroceptive sensor for self-driving cars as they are\nlow-cost and small, provide appearance information about the environment, and\nwork in various weather conditions. They can be used for multiple purposes such\nas visual navigation and obstacle detection. We can use a surround multi-camera\nsystem to cover the full 360-degree field-of-view around the car. In this way,\nwe avoid blind spots which can otherwise lead to accidents. To minimize the\nnumber of cameras needed for surround perception, we utilize fisheye cameras.\nConsequently, standard vision pipelines for 3D mapping, visual localization,\nobstacle detection, etc. need to be adapted to take full advantage of the\navailability of multiple cameras rather than treat each camera individually. In\naddition, processing of fisheye images has to be supported. In this paper, we\ndescribe the camera calibration and subsequent processing pipeline for\nmulti-fisheye-camera systems developed as part of the V-Charge project. This\nproject seeks to enable automated valet parking for self-driving cars. Our\npipeline is able to precisely calibrate multi-camera systems, build sparse 3D\nmaps for visual navigation, visually localize the car with respect to these\nmaps, generate accurate dense maps, as well as detect obstacles based on\nreal-time depth map extraction.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09839", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "3D Visual Perception for Self-Driving Cars using a Multi-Camera System: Calibration, Mapping, Localization, and Obstacle Detection"
+}

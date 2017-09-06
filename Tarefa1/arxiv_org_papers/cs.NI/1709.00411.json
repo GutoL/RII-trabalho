@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Varasteh, Amir", 
+        "Tashtarian, Farzad", 
+        "Goudarzi, Maziar"
+    ], 
+    "paper_comments": "International Symposium on Parallel and Distributed Computing (ISPDC), Innsbruck, Austria, 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00411", 
+    "paper_abstract": "In the past few years, datacenter (DC) energy consumption has become an\nimportant issue in technology world. Server consolidation using virtualization\nand virtual machine (VM) live migration allows cloud DCs to improve resource\nutilization and hence energy efficiency. In order to save energy, consolidation\ntechniques try to turn off the idle servers, while because of workload\nfluctuations, these offline servers should be turned on to support the\nincreased resource demands. These repeated on-off cycles could affect the\nhardware reliability and wear-and-tear of servers and as a result, increase the\nmaintenance and replacement costs. In this paper we propose a holistic\nmathematical model for reliability-aware server consolidation with the\nobjective of minimizing total DC costs including energy and reliability costs.\nIn fact, we try to minimize the number of active PMs and racks, in a\nreliability-aware manner. We formulate the problem as a Mixed Integer Linear\nProgramming (MILP) model which is in form of NP-complete. Finally, we evaluate\nthe performance of our approach in different scenarios using extensive\nnumerical MATLAB simulations.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1709.00411", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "On Reliability-Aware Server Consolidation in Cloud Datacenters"
+}

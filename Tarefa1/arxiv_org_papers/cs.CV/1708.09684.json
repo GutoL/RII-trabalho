@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Datta, Shounak", 
+        "Nag, Sayak", 
+        "Das, Swagatam"
+    ], 
+    "paper_comments": "This work has been submitted to the IEEE for possible publication. Copyright may be transferred without notice, after which this version may no longer be accessible", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09684", 
+    "paper_abstract": "Despite the large amount of research effort dedicated to adapting boosting\nfor imbalanced classification, boosting methods are yet to be satisfactorily\nimmune to class imbalance, especially for multi-class problems, due to the\nlong-standing reliance on expensive cost set tuning. We show that the\nassignment of weights to the component classifiers of a boosted ensemble can be\nthought of as a game of Tug of War between the classes in the margin space. We\nthen demonstrate how this insight can be used to attain a good compromise\nbetween the rare and abundant classes without having to resort to cost set\ntuning, which has long been the norm for imbalanced classification. The\nsolution is based on a lexicographic linear programming framework which\nrequires two stages. Initially, class-specific component weight combinations\nare found so as to minimize a hinge loss individually for each of the classes.\nSubsequently, the final component weights are assigned so that the maximum\ndeviation from the class-specific minimum loss values (obtained in the previous\nstage) is minimized. Hence, the proposal is not only restricted to two-class\nsituations, but is also readily applicable to multi-class problems. We also\nderive the dual formulation corresponding to the proposed framework.\nExperiments conducted on artificial and real-world imbalanced datasets as well\nas challenging applications such as hyperspectral image classification and\nImageNet classification establish the efficacy of the proposal.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09684", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "On Boosting, Tug of War, and Lexicographic Programming"
+}

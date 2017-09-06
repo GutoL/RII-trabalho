@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Goyal, Sanjay", 
+        "Sahin, Alphan", 
+        "Olesen, Robert L."
+    ], 
+    "paper_comments": "will be appeared in the proceedings of IEEE PIMRC 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09009", 
+    "paper_abstract": "In this paper, we consider a system of small cells assuming full duplex (FD)\ncapable base stations (BSs) and half duplex (HD) user equipment (UEs). We\ninvestigate a mixed duplexing cellular system composed of FD and HD cells, when\nBSs are using directional transmissions. A stochastic geometry based model of\nthe proposed system is used to derive the coverage and area spectral efficiency\n(ASE) of both BSs and UEs. The effect of FD cells on the performance of the\nmixed system is presented under different degree of directionality at the BSs.\nWe show that enabling directional transmissions at the BSs yields significant\nASE and coverage gain in both downlink and uplink directions. With directional\ntransmissions, the ASE increases rapidly with the number of FD cells while the\ndrop in the coverage rate due to FD operations reduces significantly.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09009", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "Area Spectral Efficiency and Coverage for Mixed Duplexing Networks with Directional Transmissions"
+}

@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Oh, Yeongjin", 
+        "Son, Seunghyun", 
+        "Sim, Gyumin"
+    ], 
+    "paper_comments": "6 pages, 13 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00751", 
+    "paper_abstract": "In conveyor belt sushi restaurants, billing is a burdened job because one has\nto manually count the number of dishes and identify the color of them to\ncalculate the price. In a busy situation, there can be a mistake that customers\nare overcharged or under-charged. To deal with this problem, we developed a\nmethod that automatically identifies the color of dishes and calculate the\ntotal price using real images. Our method consists of ellipse fitting and\nconvol-utional neural network. It achieves ellipse detection precision 85% and\nrecall 96% and classification accuracy 92%.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00751", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Sushi Dish - Object detection and classification from real images"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Aghaei, Maedeh", 
+        "Dimiccoli, Mariella", 
+        "Ferrer, Cristian Canton", 
+        "Radeva, Petia"
+    ], 
+    "paper_comments": "21 pages, 13 figures. Submitted to Elsevier, Computer Vision and Image Understanding (Under Review)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01424", 
+    "paper_abstract": "Following the increasingly popular trend of social interaction analysis in\negocentric vision, this manuscript proposes a new pipeline for automatic social\npattern characterization of a wearable photo-camera user, relying on visual\nanalysis of captured egocentric photos. The proposed framework consists of\nthree major steps. The first step is dedicated to social interaction detection\nwhere the impact of several social signals is explored. Detected social events\nare inspected in the second step for categorization into different social\nmeetings. These two steps act at event-level where each potential social event\nis modeled as a multi-dimensional time-series, whose dimensions correspond to a\nset of relevant features for each task, and LSTM is employed for time-series\nclassification. The last step of the framework corresponds to the social\npattern characterization of the user, where recurrences of the same person\nacross the whole set of social events of the user are clustered to achieve a\ncomprehensive understanding of the diversity and frequency of the social\nrelations of the user. Experimental evaluation over a dataset acquired by a\nuser wearing a photo-camera during a month demonstrates the relevance of the\nconsidered features for social interaction analysis, and show promising results\non the task of social pattern characterization from egocentric photo-streams.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01424", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Towards social pattern characterization in egocentric photo-streams"
+}

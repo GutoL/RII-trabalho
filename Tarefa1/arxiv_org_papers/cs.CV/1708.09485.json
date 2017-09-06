@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Lohit, Suhas", 
+        "Turaga, Pavan"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09485", 
+    "paper_abstract": "Non-Euclidean constraints are inherent in many kinds of data in computer\nvision and machine learning, typically as a result of specific invariance\nrequirements that need to be respected during high-level inference. Often,\nthese geometric constraints can be expressed in the language of Riemannian\ngeometry, where conventional vector space machine learning does not apply\ndirectly. The central question this paper deals with is: How does one train\ndeep neural nets whose final outputs are elements on a Riemannian manifold? To\nanswer this, we propose a general framework for manifold-aware training of deep\nneural networks -- we utilize tangent spaces and exponential maps in order to\nconvert the proposed problem into a form that allows us to bring current\nadvances in deep learning to bear upon this problem. We describe two specific\napplications to demonstrate this approach: prediction of probability\ndistributions for multi-class image classification, and prediction of\nillumination-invariant subspaces from a single face-image via regression on the\nGrassmannian. These applications show the generality of the proposed framework,\nand result in improved performance over baselines that ignore the geometry of\nthe output space. In addition to solving this specific problem, we believe this\npaper opens new lines of enquiry centered on the implications of Riemannian\ngeometry on deep architectures.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09485", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Learning Invariant Riemannian Geometric Representations Using Deep Nets"
+}

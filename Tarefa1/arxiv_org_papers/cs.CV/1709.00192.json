@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Chang, Yi", 
+        "Yan, Luxin", 
+        "Fang, Houzhang", 
+        "Zhong, Sheng", 
+        "Zhang, Zhijun"
+    ], 
+    "paper_comments": "22 pages, 22 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00192", 
+    "paper_abstract": "Hyperspectral imaging, providing abundant spatial and spectral information\nsimultaneously, has attracted a lot of interest in recent years. Unfortunately,\ndue to the hardware limitations, the hyperspectral image (HSI) is vulnerable to\nvarious degradations, such noises (random noise, HSI denoising), blurs\n(Gaussian and uniform blur, HSI deblurring), and down-sampled (both spectral\nand spatial downsample, HSI super-resolution). Previous HSI restoration methods\nare designed for one specific task only. Besides, most of them start from the\n1-D vector or 2-D matrix models and cannot fully exploit the structurally\nspectral-spatial correlation in 3-D HSI. To overcome these limitations, in this\nwork, we propose a unified low-rank tensor recovery model for comprehensive HSI\nrestoration tasks, in which non-local similarity between spectral-spatial cubic\nand spectral correlation are simultaneously captured by 3-order tensors.\nFurther, to improve the capability and flexibility, we formulate it as a\nweighted low-rank tensor recovery (WLRTR) model by treating the singular values\ndifferently, and study its analytical solution. We also consider the exclusive\nstripe noise in HSI as the gross error by extending WLRTR to robust principal\ncomponent analysis (WLRTR-RPCA). Extensive experiments demonstrate the proposed\nWLRTR models consistently outperform state-of-the-arts in typical low level\nvision HSI tasks, including denoising, destriping, deblurring and\nsuper-resolution.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00192", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Weighted Low-rank Tensor Recovery for Hyperspectral Image Restoration"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Colledanchise, Michele", 
+        "&#xd6;gren, Petter"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00084", 
+    "paper_abstract": "A Behavior Tree (BT) is a way to structure the switching between different\ntasks in an autonomous agent, such as a robot or a virtual entity in a computer\ngame. BTs are a very efficient way of creating complex systems that are both\nmodular and reactive. These properties are crucial in many applications, which\nhas led to the spread of BT from computer game programming to many branches of\nAI and Robotics. In this book, we will first give an introduction to BTs, then\nwe describe how BTs relate to, and in many cases generalize, earlier switching\nstructures. These ideas are then used as a foundation for a set of efficient\nand easy to use design principles. Properties such as safety, robustness, and\nefficiency are important for an autonomous system, and we describe a set of\ntools for formally analyzing these using a state space description of BTs. With\nthe new analysis tools, we can formalize the descriptions of how BTs generalize\nearlier approaches. Finally, we describe an extended set of tools to capture\nthe behavior of Stochastic BTs, where the outcomes of actions are described by\nprobabilities. These tools enable the computation of both success probabilities\nand time to completion.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1709.00084", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Behavior Trees in Robotics and AI, an Introduction"
+}

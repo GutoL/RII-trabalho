@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Zhang, Yunxuan", 
+        "Liu, Li", 
+        "Li, Cheng", 
+        "Loy, Chen change"
+    ], 
+    "paper_comments": "To appear on BMVC 2017 (oral) revised version", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09687", 
+    "paper_abstract": "We introduce a novel approach for annotating large quantity of in-the-wild\nfacial images with high-quality posterior age distribution as labels. Each\nposterior provides a probability distribution of estimated ages for a face. Our\napproach is motivated by observations that it is easier to distinguish who is\nthe older of two people than to determine the person's actual age. Given a\nreference database with samples of known ages and a dataset to label, we can\ntransfer reliable annotations from the former to the latter via\nhuman-in-the-loop comparisons. We show an effective way to transform such\ncomparisons to posterior via fully-connected and SoftMax layers, so as to\npermit end-to-end training in a deep network. Thanks to the efficient and\neffective annotation approach, we collect a new large-scale facial age dataset,\ndubbed `MegaAge', which consists of 41,941 images. Data can be downloaded from\nour project page mmlab.ie.cuhk.edu.hk/projects/MegaAge and\ngithub.com/zyx2012/Age_estimation_BMVC2017. With the dataset, we train a\nnetwork that jointly performs ordinal hyperplane classification and posterior\ndistribution learning. Our approach achieves state-of-the-art results on\npopular benchmarks such as MORPH2, Adience, and the newly proposed MegaAge.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09687", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Quantifying Facial Age by Posterior of Age Comparisons"
+}

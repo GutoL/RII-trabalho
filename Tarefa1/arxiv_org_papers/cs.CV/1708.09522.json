@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Torabi, Atousa", 
+        "Sigal, Leonid"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09522", 
+    "paper_abstract": "Inspired by recent advances in neural machine translation, that jointly align\nand translate using encoder-decoder networks equipped with attention, we\npropose an attentionbased LSTM model for human activity recognition. Our model\njointly learns to classify actions and highlight frames associated with the\naction, by attending to salient visual information through a jointly learned\nsoft-attention networks. We explore attention informed by various forms of\nvisual semantic features, including those encoding actions, objects and scenes.\nWe qualitatively show that soft-attention can learn to effectively attend to\nimportant objects and scene information correlated with specific human actions.\nFurther, we show that, quantitatively, our attention-based LSTM outperforms the\nvanilla LSTM and CNN models used by stateof-the-art methods. On a large-scale\nyoutube video dataset, ActivityNet, our model outperforms competing methods in\naction classification.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09522", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Action Classification and Highlighting in Videos"
+}

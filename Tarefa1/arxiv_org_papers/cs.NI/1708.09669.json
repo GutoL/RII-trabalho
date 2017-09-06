@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Lianghai, Ji", 
+        "Weinand, Andreas", 
+        "Karrenbauer, Michael", 
+        "Schotten, Hans D."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09669", 
+    "paper_abstract": "Device-to-Device (D2D) communication is considered as one of the key\ntechnologies for the fifth generation wireless communication system (5G) due to\ncertain benefits provided, e.g. traffic offload and low end-to-end latency. A\nD2D link can reuse resource of a cellular user for its own transmission, while\nmutual interference in between these two links is introduced. In this paper, we\npropose a smart radio resource management (RRM) algorithm which enables D2D\ncommunication to reuse cellular resource, by taking into account of context\ninformation. Besides, signaling schemes with high efficiency are also given in\nthis work to enable the proposed RRM algorithm. Simulation results demonstrate\nthe performance improvement of the proposed scheme in terms of the overall cell\ncapacity.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09669", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Radio Link Enabler for Context-aware D2D Communication in Reuse Mode"
+}

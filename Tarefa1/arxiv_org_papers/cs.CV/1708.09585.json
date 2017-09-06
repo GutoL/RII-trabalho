@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Shi, Baoguang", 
+        "Yao, Cong", 
+        "Liao, Minghui", 
+        "Yang, Mingkun", 
+        "Xu, Pei", 
+        "Cui, Linyan", 
+        "Belongie, Serge", 
+        "Lu, Shijian", 
+        "Bai, Xiang"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09585", 
+    "paper_abstract": "Chinese is the most widely used language in the world. Algorithms that read\nChinese text in natural images facilitate applications of various kinds.\nDespite the large potential value, datasets and competitions in the past\nprimarily focus on English, which bares very different characteristics than\nChinese. This report introduces RCTW, a new competition that focuses on Chinese\ntext reading. The competition features a large-scale dataset with over 12,000\nannotated images. Two tasks, namely text localization and end-to-end\nrecognition, are set up. The competition took place from January 20 to May 31,\n2017. 23 valid submissions were received from 19 teams. This report includes\ndataset description, task definitions, evaluation protocols, and results\nsummaries and analysis. Through this competition, we call for more future\nresearch on the Chinese text reading problem.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09585", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "ICDAR2017 Competition on Reading Chinese Text in the Wild (RCTW-17)"
+}

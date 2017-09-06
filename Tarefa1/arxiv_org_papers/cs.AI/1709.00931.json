@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Iqbal, Azlan"
+    ], 
+    "paper_comments": "12 pages, 5 figures and 2 appendices", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00931", 
+    "paper_abstract": "We explain how the prototype automatic chess problem composer, Chesthetica,\nsuccessfully composed a rare and interesting chess problem using the new\nDigital Synaptic Neural Substrate (DSNS) computational creativity approach.\nThis problem represents a greater challenge from a creative standpoint because\nthe checkmate is not always clear and the method of winning even less so.\nCreating a decisive chess problem of this type without the aid of an omniscient\n7-piece endgame tablebase (and one that also abides by several chess\ncomposition conventions) would therefore be a challenge for most human players\nand composers working on their own. The fact that a small computer with\nrelatively low processing power and memory was sufficient to compose such a\nproblem using the DSNS approach in just 10 days is therefore noteworthy. In\nthis report we document the event and result in some detail. It lends\nadditional credence to the DSNS as a viable new approach in the field of\ncomputational creativity. In particular, in areas where human-like creativity\nis required for targeted or specific problems with no clear path to the\nsolution.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00931", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "A Computer Composes A Fabled Problem: Four Knights vs. Queen"
+}

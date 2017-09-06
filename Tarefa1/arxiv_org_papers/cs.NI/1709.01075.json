@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Semiari, Omid", 
+        "Saad, Walid", 
+        "Bennis, Mehdi", 
+        "Maham, Behrouz"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01075", 
+    "paper_abstract": "One of the most promising approaches to overcome the uncertainty and dynamic\nchannel variations of millimeter wave (mmW) communications is to deploy\ndual-mode base stations that integrate both mmW and microwave ($\\mu$W)\nfrequencies. In particular, if properly designed, such dual-mode base stations\ncan enhance mobility and handover in highly mobile wireless environments. In\nthis paper, a novel approach for analyzing and managing mobility in joint\n$\\mu$W-mmW networks is proposed. The proposed approach leverages device-level\ncaching along with the capabilities of dual-mode base stations to minimize\nhandover failures and provide seamless mobility. First, fundamental results on\nthe caching capabilities, including caching probability and cache duration, are\nderived for the proposed dual-mode network scenario. Second, the average\nachievable rate of caching is derived for mobile users. Then, the impact of\ncaching on the number of handovers (HOs) and the average handover failure (HOF)\nis analyzed. The derived analytical results suggest that content caching will\nreduce the HOF and enhance the mobility management in heterogeneous wireless\nnetworks with mmW capabilities. Numerical results corroborate the analytical\nderivations and show that the proposed solution provides significant reductions\nin the average HOF, reaching up to 45%, for mobile users moving with relatively\nhigh speeds.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1709.01075", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Mobility Management for Heterogeneous Networks: Leveraging Millimeter Wave for Seamless Handover"
+}

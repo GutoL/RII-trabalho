@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Zhong, Victor", 
+        "Xiong, Caiming", 
+        "Socher, Richard"
+    ], 
+    "paper_comments": "10 pages, 5 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00103", 
+    "paper_abstract": "A significant amount of the world's knowledge is stored in relational\ndatabases. However, the ability for users to retrieve facts from a database is\nlimited due to a lack of understanding of query languages such as SQL. We\npropose Seq2SQL, a deep neural network for translating natural language\nquestions to corresponding SQL queries. Our model leverages the structure of\nSQL queries to significantly reduce the output space of generated queries.\nMoreover, we use rewards from in-the-loop query execution over the database to\nlearn a policy to generate unordered parts of the query, which we show are less\nsuitable for optimization via cross entropy loss. In addition, we will publish\nWikiSQL, a dataset of 87726 hand-annotated examples of questions and SQL\nqueries distributed across 26375 tables from Wikipedia. This dataset is\nrequired to train our model and is an order of magnitude larger than comparable\ndatasets. By applying policy-based reinforcement learning with a query\nexecution environment to WikiSQL, our model Seq2SQL outperforms attentional\nsequence to sequence models, improving execution accuracy from 35.9% to 60.3%\nand logical form accuracy from 23.4% to 49.2%.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1709.00103", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning"
+}

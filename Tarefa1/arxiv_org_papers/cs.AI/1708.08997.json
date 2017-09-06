@@ -1,0 +1,12 @@
+{
+    "paper_authors_list": [
+        "Huang, Xiaoshui"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.08997", 
+    "paper_abstract": "As the development of 3D sensors, registration of 3D data (e.g. point cloud)\ncoming from different kind of sensor is dispensable and shows great demanding.\nHowever, point cloud registration between different sensors is challenging\nbecause of the variant of density, missing data, different viewpoint, noise and\noutliers, and geometric transformation. In this paper, we propose a method to\nlearn a 3D descriptor for finding the correspondent relations between these\nchallenging point clouds. To train the deep learning framework, we use\nsynthetic 3D point cloud as input. Starting from synthetic dataset, we use\nregion-based sampling method to select reasonable, large and diverse training\nsamples from synthetic samples. Then, we use data augmentation to extend our\nnetwork be robust to rotation transformation. We focus our work on more general\ncases that point clouds coming from different sensors, named cross-source point\ncloud. The experiments show that our descriptor is not only able to generalize\nto new scenes, but also generalize to different sensors. The results\ndemonstrate that the proposed method successfully aligns two 3D cross-source\npoint clouds which outperforms state-of-the-art method.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.08997", 
+    "paper_submission_date": "2017/08/24", 
+    "paper_title": "Learning a 3D descriptor for cross-source point cloud registration from synthetic data"
+}

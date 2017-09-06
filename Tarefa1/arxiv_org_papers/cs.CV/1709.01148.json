@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Elhoseiny, Mohamed", 
+        "Zhu, Yizhe", 
+        "Zhang, Han", 
+        "Elgammal, Ahmed"
+    ], 
+    "paper_comments": "Accepted by CVPR'17", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01148", 
+    "paper_abstract": "In this paper, we study learning visual classifiers from unstructured text\ndescriptions at part precision with no training images. We propose a learning\nframework that is able to connect text terms to its relevant parts and suppress\nconnections to non-visual text terms without any part-text annotations. For\ninstance, this learning process enables terms like \"beak\" to be sparsely linked\nto the visual representation of parts like head, while reduces the effect of\nnon-visual terms like \"migrate\" on classifier prediction. Images are encoded by\na part-based CNN that detect bird parts and learn part-specific representation.\nPart-based visual classifiers are predicted from text descriptions of unseen\nvisual classifiers to facilitate classification without training images (also\nknown as zero-shot recognition). We performed our experiments on CUBirds 2011\ndataset and improves the state-of-the-art text-based zero-shot recognition\nresults from 34.7\\% to 43.6\\%. We also created large scale benchmarks on North\nAmerican Bird Images augmented with text descriptions, where we also show that\nour approach outperforms existing methods. Our code, data, and models are\npublically available.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01148", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Link the head to the &quot;beak&quot;: Zero Shot Learning from Noisy Text Description at Part Precision"
+}

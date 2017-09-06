@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "De, Subham", 
+        "Chowdhary, Shreyans", 
+        "Shirke, Aniket", 
+        "Lo, Yat Long", 
+        "Kravets, Robin", 
+        "Sundaram, Hari"
+    ], 
+    "paper_comments": "8 pages, 6 figures, to be published in WiNTECH 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08144", 
+    "paper_abstract": "We propose a probabilistic packet reception model for Bluetooth Low Energy\n(BLE) packets in indoor spaces and we validate the model by using it for indoor\nlocalization. We expect indoor localization to play an important role in indoor\npublic spaces in the future. We model the probability of reception of a packet\nas a generalized quadratic function of distance, beacon power and advertising\nfrequency. Then, we use a Bayesian formulation to determine the coefficients of\nthe packet loss model using empirical observations from our testbed. We develop\na new sequential Monte-Carlo algorithm that uses our packet count model. The\nalgorithm is general enough to accommodate different spatial configurations. We\nhave good indoor localization experiments: our approach has an average error of\n~1.2m, 53% lower than the baseline range-free Monte-Carlo localization\nalgorithm.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.08144", 
+    "paper_submission_date": "2017/08/27", 
+    "paper_title": "Finding by Counting: A Probabilistic Packet Count Model for Indoor Localization in BLE Environments"
+}

@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Andersen, Garrett", 
+        "Konidaris, George"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01490", 
+    "paper_abstract": "We introduce an online active exploration algorithm for data-efficiently\nlearning an abstract symbolic model of an environment. Our algorithm is divided\ninto two parts: the first part quickly generates an intermediate Bayesian\nsymbolic model from the data that the agent has collected so far, which the\nagent can then use along with the second part to guide its future exploration\ntowards regions of the state space that the model is uncertain about. We show\nthat our algorithm outperforms random and greedy exploration policies on two\ndifferent computer game domains. The first domain is an Asteroids-inspired game\nwith complex dynamics, but basic logical structure. The second is the Treasure\nGame, with simpler dynamics, but more complex logical structure.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01490", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Active Exploration for Learning Symbolic Representations"
+}

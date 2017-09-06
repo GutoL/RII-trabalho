@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Mekonnen, Yemeserach", 
+        "Haque, Muhammad", 
+        "Parvez, Imtiaz", 
+        "Moghadasi, Amir", 
+        "Sarwat, Arif"
+    ], 
+    "paper_comments": "submitted in 2018 IEEE PES T&amp;D", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09005", 
+    "paper_abstract": "Long Term Evolution (LTE) is expanding its utilization in unlicensed band by\ndeploying LTE Unlicensed (LTEU) and Licensed Assisted Access LTE (LTE-LAA)\ntechnology. Smart Grid can take the advantages of unlicensed bands for\nachieving two-way communication between smart meters and utility data centers\nby using LTE-U/LTE-LAA. However, both schemes must co-exist with the incumbent\nWi-Fi system. In this paper, several co-existence schemes of Wi-Fi and LTE\ntechnology is comprehensively reviewed. The challenges of deploying LTE and\nWi-Fi in the same band are clearly addressed based on the papers reviewed.\nSolution procedures and techniques to resolve the challenging issues are\ndiscussed in a short manner. The performance of various network architectures\nsuch as listenbefore- talk (LBT) based LTE, carrier sense multiple access with\ncollision avoidance (CSMA/CA) based Wi-Fi is briefly compared. Finally, an\nattempt is made to implement these proposed LTEWi- Fi models in smart grid\ntechnology.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09005", 
+    "paper_submission_date": "2017/08/15", 
+    "paper_title": "LTE and Wi-Fi Coexistence in Unlicensed Spectrum with Application to Smart Grid: A Review"
+}

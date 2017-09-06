@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Chen, Qifeng", 
+        "Xu, Jia", 
+        "Koltun, Vladlen"
+    ], 
+    "paper_comments": "Published at the International Conference on Computer Vision (ICCV 2017)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00643", 
+    "paper_abstract": "We present an approach to accelerating a wide variety of image processing\noperators. Our approach uses a fully-convolutional network that is trained on\ninput-output pairs that demonstrate the operator's action. After training, the\noriginal operator need not be run at all. The trained network operates at full\nresolution and runs in constant time. We investigate the effect of network\narchitecture on approximation accuracy, runtime, and memory footprint, and\nidentify a specific architecture that balances these considerations. We\nevaluate the presented approach on ten advanced image processing operators,\nincluding multiple variational models, multiscale tone and detail manipulation,\nphotographic style transfer, nonlocal dehazing, and nonphotorealistic\nstylization. All operators are approximated by the same model. Experiments\ndemonstrate that the presented approach is significantly more accurate than\nprior approximation schemes. It increases approximation accuracy as measured by\nPSNR across the evaluated operators by 8.5 dB on the MIT-Adobe dataset (from\n27.5 to 36 dB) and reduces DSSIM by a multiplicative factor of 3 compared to\nthe most accurate prior approximation scheme, while being the fastest. We show\nthat our models generalize across datasets and across resolutions, and\ninvestigate a number of extensions of the presented approach. The results are\nshown in the supplementary video at <a href=\"https://youtu.be/eQyfHgLx8Dc\">this https URL</a>", 
+    "paper_subjects": [
+        "Graphics (cs.GR)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00643", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Fast Image Processing with Fully-Convolutional Networks"
+}

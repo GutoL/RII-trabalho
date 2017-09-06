@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Carvalho, Jo&#xe3;o", 
+        "Marques, Manuel", 
+        "Costeira, Jo&#xe3;o P."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01467", 
+    "paper_abstract": "We propose a method to reconstruct and cluster incomplete high-dimensional\ndata lying in a union of low-dimensional subspaces. Exploring the sparse\nrepresentation model, we jointly estimate the missing data while imposing the\nintrinsic subspace structure. Since we have a non-convex problem, we propose an\niterative method to reconstruct the data and provide a sparse similarity\naffinity matrix. This method is robust to initialization and achieves greater\nreconstruction accuracy than current methods, which dramatically improves\nclustering performance. Extensive experiments with synthetic and real data show\nthat our approach leads to significant improvements in the reconstruction and\nsegmentation, outperforming current state of the art for both low and high-rank\ndata.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01467", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Subspace Segmentation by Successive Approximations: A Method for Low-Rank and High-Rank Data with Missing Entries"
+}

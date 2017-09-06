@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Garcia, Noa", 
+        "Vogiatzis, George"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01353", 
+    "paper_abstract": "Can a neural network learn the concept of visual similarity? In this work,\nthis question is addressed by training a deep learning model for the specific\ntask of measuring the similarity between a pair of pictures in content-based\nimage retrieval datasets. Traditionally, content-based image retrieval systems\nrely on two fundamental tasks: 1) computing meaningful image representations\nfrom pixels and 2) measuring accurate visual similarity between those\nrepresentations. Whereas in the last few years several methods have been\nproposed to find high quality image representations including SIFT, VLAD or\nRMAC, most techniques still depend on standard metrics such as Euclidean\ndistance or cosine similarity for the visual similarity task. However, standard\nmetrics are independent from data and might be missing the nonlinear inner\nstructure of visual representations. In this paper, we propose to learn a\nnon-metric visual similarity function directly from image representations to\nmeasure how alike two images are. Experiments on standard image retrieval\ndatasets show that results are boosted when using the proposed method over\nstandard metrics.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01353", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Learning Non-Metric Visual Similarity for Image Retrieval"
+}

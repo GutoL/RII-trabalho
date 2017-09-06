@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Li, Pan", 
+        "Milenkovic, Olgica"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01249", 
+    "paper_abstract": "Hypergraph partitioning is an important problem in machine learning, computer\nvision and network analytics. A widely used method for hypergraph partitioning\nrelies on minimizing a normalized sum of the costs of partitioning hyperedges\nacross clusters. Algorithmic solutions based on this approach assume that\ndifferent partitions of a hyperedge incur the same cost. However, this\nassumption fails to leverage the fact that different subsets of vertices within\nthe same hyperedge may have different structural importance. We hence propose a\nnew hypergraph clustering technique, termed inhomogeneous hypergraph\npartitioning, which assigns different costs to different hyperedge cuts. We\nprove that inhomogeneous partitioning produces a quadratic approximation to the\noptimal solution if the inhomogeneous costs satisfy submodularity constraints.\nMoreover, we demonstrate that inhomogenous partitioning offers significant\nperformance improvements in applications such as structure learning of\nrankings, subspace segmentation and motif clustering.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01249", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Inhomogoenous Hypergraph Clustering with Applications"
+}

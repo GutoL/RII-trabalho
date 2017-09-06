@@ -1,0 +1,19 @@
+{
+    "paper_authors_list": [
+        "Soatti, Gloria", 
+        "Nicoli, Monica", 
+        "Garcia, Nil", 
+        "Denis, Benoit", 
+        "Raulefs, Ronald", 
+        "Wymeersch, Henk"
+    ], 
+    "paper_comments": "15 pages, 10 figures, in review, 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01282", 
+    "paper_abstract": "Absolute positioning of vehicles is based on Global Navigation Satellite\nSystems (GNSS) combined with on-board sensors and high-resolution maps. In\nCooperative Intelligent Transportation Systems (C-ITS), the positioning\nperformance can be augmented by means of vehicular networks that enable\nvehicles to share location-related information. This paper presents an Implicit\nCooperative Positioning (ICP) algorithm that exploits the Vehicle-to-Vehicle\n(V2V) connectivity in an innovative manner, avoiding the use of explicit V2V\nmeasurements such as ranging. In the ICP approach, vehicles jointly localize\nnon-cooperative physical features (such as people, traffic lights or inactive\ncars) in the surrounding areas, and use them as common noisy reference points\nto refine their location estimates. Information on sensed features are fused\nthrough V2V links by a consensus procedure, nested within a message passing\nalgorithm, to enhance the vehicle localization accuracy. As positioning does\nnot rely on explicit ranging information between vehicles, the proposed ICP\nmethod is amenable to implementation with off-the-shelf vehicular communication\nhardware. The localization algorithm is validated in different traffic\nscenarios, including a crossroad area with heterogeneous conditions in terms of\nfeature density and V2V connectivity, as well as a real urban area by using\nSimulation of Urban MObility (SUMO) for traffic data generation. Performance\nresults show that the proposed ICP method can significantly improve the vehicle\nlocation accuracy compared to the stand-alone GNSS, especially in harsh\nenvironments, such as in urban canyons, where the GNSS signal is highly\ndegraded or denied.", 
+    "paper_subjects": [
+        "Applications (stat.AP)"
+    ], 
+    "paper_code": "1709.01282", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Implicit Cooperative Positioning in Vehicular Networks"
+}

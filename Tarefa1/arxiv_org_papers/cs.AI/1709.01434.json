@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Reddi, Sashank J", 
+        "Zaheer, Manzil", 
+        "Sra, Suvrit", 
+        "Poczos, Barnabas", 
+        "Bach, Francis", 
+        "Salakhutdinov, Ruslan", 
+        "Smola, Alexander J"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01434", 
+    "paper_abstract": "A central challenge to using first-order methods for optimizing nonconvex\nproblems is the presence of saddle points. First-order methods often get stuck\nat saddle points, greatly deteriorating their performance. Typically, to escape\nfrom saddles one has to use second-order methods. However, most works on\nsecond-order methods rely extensively on expensive Hessian-based computations,\nmaking them impractical in large-scale settings. To tackle this challenge, we\nintroduce a generic framework that minimizes Hessian based computations while\nat the same time provably converging to second-order critical points. Our\nframework carefully alternates between a first-order and a second-order\nsubroutine, using the latter only close to saddle points, and yields\nconvergence results competitive to the state-of-the-art. Empirical results\nsuggest that our strategy also enjoys a good practical performance.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1709.01434", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "A Generic Approach for Escaping Saddle points"
+}

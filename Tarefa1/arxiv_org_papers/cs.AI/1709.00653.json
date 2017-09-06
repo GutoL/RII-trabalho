@@ -1,0 +1,20 @@
+{
+    "paper_authors_list": [
+        "Ha-Thuc, Viet", 
+        "Yan, Yan", 
+        "Wu, Xianren", 
+        "Dialani, Vijay", 
+        "Gupta, Abhishek", 
+        "Sinha, Shakti"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00653", 
+    "paper_abstract": "One key challenge in talent search is to translate complex criteria of a\nhiring position into a search query, while it is relatively easy for a searcher\nto list examples of suitable candidates for a given position. To improve search\nefficiency, we propose the next generation of talent search at LinkedIn, also\nreferred to as Search By Ideal Candidates. In this system, a searcher provides\none or several ideal candidates as the input to hire for a given position. The\nsystem then generates a query based on the ideal candidates and uses it to\nretrieve and rank results. Shifting from the traditional Query-By-Keyword to\nthis new Query-By-Example system poses a number of challenges: How to generate\na query that best describes the candidates? When moving to a completely\ndifferent paradigm, how does one leverage previous product logs to learn\nranking models and/or evaluate the new system with no existing usage logs?\nFinally, given the different nature between the two search paradigms, the\nranking features typically used for Query-By-Keyword systems might not be\noptimal for Query-By-Example. This paper describes our approach to solving\nthese challenges. We present experimental results confirming the effectiveness\nof the proposed solution, particularly on query building and search ranking\ntasks. As of writing this paper, the new system has been available to all\nLinkedIn members.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00653", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "From Query-By-Keyword to Query-By-Example: LinkedIn Talent Search Approach"
+}

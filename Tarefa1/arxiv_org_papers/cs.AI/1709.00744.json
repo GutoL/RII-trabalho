@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Burghardt, Jochen"
+    ], 
+    "paper_comments": "37 pages; 19 figures; complete C source sode available via ancillary files", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00744", 
+    "paper_abstract": "E-generalization computes common generalizations of given ground terms w.r.t.\na given equational background theory E. In 2005 [<a href=\"/abs/1403.8118\">arXiv:1403.8118</a>], we had\npresented a computation approach based on standard regular tree grammar\nalgorithms, and a Prolog prototype implementation. In this report, we present\nalgorithmic improvements, prove them correct and complete, and give some\ndetails of an efficiency-oriented implementation in C that allows us to handle\nproblems larger by several orders of magnitude.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1709.00744", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "An Improved Algorithm for E-Generalization"
+}

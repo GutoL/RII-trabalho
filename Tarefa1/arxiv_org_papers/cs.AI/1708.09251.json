@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Cully, Antoine", 
+        "Demiris, Yiannis"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09251", 
+    "paper_abstract": "The optimization of functions to find the best solution according to one or\nseveral objectives has a central role in many engineering and research fields.\nRecently, a new family of optimization algorithms, named Quality-Diversity\noptimization, has been introduced, and contrasts with classic algorithms.\nInstead of searching for a single solution, Quality-Diversity algorithms are\nsearching for a large collection of both diverse and high-performing solutions.\nThe role of this collection is to cover the range of possible solution types as\nmuch as possible, and to contain the best solution for each type. The\ncontribution of this paper is threefold. Firstly, we present a unifying\nframework of Quality-Diversity optimization algorithms that covers the two main\nalgorithms of this family (Multi-dimensional Archive of Phenotypic Elites and\nthe Novelty Search with Local Competition), and that highlights the large\nvariety of variants that can be investigated within this family. Secondly, we\npropose algorithms with a new selection mechanism for Quality-Diversity\nalgorithms that outperforms all the algorithms tested in this paper. Lastly, we\npresent a new collection management that overcomes the erosion issues observed\nwhen using unstructured collections. These three contributions are supported by\nextensive experimental comparisons of Quality-Diversity algorithms on three\ndifferent experimental scenarios.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)"
+    ], 
+    "paper_code": "1708.09251", 
+    "paper_submission_date": "2017/05/12", 
+    "paper_title": "Quality and Diversity Optimization: A Unifying Modular Framework"
+}

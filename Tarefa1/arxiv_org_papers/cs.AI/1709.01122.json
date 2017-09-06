@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Braz, Rodrigo de Salvo", 
+        "O&#x27;Reilly, Ciaran"
+    ], 
+    "paper_comments": "Appeared in the Uncertainty in Artificial Intelligence Conference, August 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01122", 
+    "paper_abstract": "Probabilistic Inference Modulo Theories (PIMT) is a recent framework that\nexpands exact inference on graphical models to use richer languages that\ninclude arithmetic, equalities, and inequalities on both integers and real\nnumbers. In this paper, we expand PIMT to a lifted version that also processes\nrandom functions and relations. This enhancement is achieved by adapting\nInversion, a method from Lifted First-Order Probabilistic Inference literature,\nto also be modulo theories. This results in the first algorithm for exact\nprobabilistic inference that efficiently and simultaneously exploits random\nrelations and functions, arithmetic, equalities and inequalities.", 
+    "paper_subjects": [
+        "Symbolic Computation (cs.SC)"
+    ], 
+    "paper_code": "1709.01122", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Exact Inference for Relational Graphical Models with Interpreted Functions: Lifted Probabilistic Inference Modulo Theories"
+}

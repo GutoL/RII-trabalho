@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Censor-Hillel, Keren", 
+        "Haeupler, Bernhard", 
+        "Hershkowitz, D. Ellis", 
+        "Zuzic, Goran"
+    ], 
+    "paper_comments": "Principles of Distributed Computing 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1705.07369", 
+    "paper_abstract": "The widely-studied radio network model [Chlamtac and Kutten, 1985] is a\ngraph-based description that captures the inherent impact of collisions in\nwireless communication. In this model, the strong assumption is made that node\n$v$ receives a message from a neighbor if and only if exactly one of its\nneighbors broadcasts.\n<br />We relax this assumption by introducing a new noisy radio network model in\nwhich random faults occur at senders or receivers. Specifically, for a constant\nnoise parameter $p \\in [0,1)$, either every sender has probability $p$ of\ntransmitting noise or every receiver of a single transmission in its\nneighborhood has probability $p$ of receiving noise.\n<br />We first study single-message broadcast algorithms in noisy radio networks\nand show that the Decay algorithm [Bar-Yehuda et al., 1992] remains robust in\nthe noisy model while the diameter-linear algorithm of Gasieniec et al., 2007\ndoes not. We give a modified version of the algorithm of Gasieniec et al., 2007\nthat is robust to sender and receiver faults, and extend both this modified\nalgorithm and the Decay algorithm to robust multi-message broadcast algorithms.\n<br />We next investigate the extent to which (network) coding improves throughput\nin noisy radio networks. We address the previously perplexing result of Alon et\nal. 2014 that worst case coding throughput is no better than worst case routing\nthroughput up to constants: we show that the worst case throughput performance\nof coding is, in fact, superior to that of routing -- by a $\\Theta(\\log(n))$\ngap -- provided receiver faults are introduced. However, we show that any\ncoding or routing scheme for the noiseless setting can be transformed to be\nrobust to sender faults with only a constant throughput overhead. These\ntransformations imply that the results of Alon et al., 2014 carry over to noisy\nradio networks with sender faults.", 
+    "paper_subjects": [
+        "Data Structures and Algorithms (cs.DS)"
+    ], 
+    "paper_code": "1705.07369", 
+    "paper_submission_date": "2017/05/21", 
+    "paper_title": "Broadcasting in Noisy Radio Networks"
+}

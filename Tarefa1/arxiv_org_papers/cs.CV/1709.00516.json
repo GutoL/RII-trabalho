@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Gu, Yichi", 
+        "Wu, Qisheng", 
+        "Li, Jing", 
+        "Cheng, Kai"
+    ], 
+    "paper_comments": "11 pages, 9 figures, 2 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00516", 
+    "paper_abstract": "Artificial intelligence is making great changes in academy and industry with\nthe fast development of deep learning, which is a branch of machine learning\nand statistical learning. Fully convolutional network [1] is the standard model\nfor semantic segmentation. Conditional random fields coded as CNN [2] or RNN\n[3] and connected with FCN has been successfully applied in object detection\n[4]. In this paper, we introduce a multi-resolution neural network for FCN and\napply Gaussian filter to the extended CRF kernel neighborhood and the label\nimage to reduce the oscillating effect of CRF neural network segmentation, thus\nachieve higher precision and faster training speed.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00516", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Gaussian Filter in CRF Based Semantic Segmentation"
+}

@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Thyagaturu, Akhilesh", 
+        "Alharbi, Ziyad", 
+        "Reisslein, Martin"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.08902", 
+    "paper_abstract": "The Remote-PHY (R-PHY) modular cable network for Data over Cable Service\nInterface Specification (DOCSIS) service conducts the physical layer processing\nfor the transmissions over the broadcast cable in a remote node. In contrast,\nthe cloud radio access network (CRAN) for Long-Term Evolution (LTE) cellular\nwireless services conducts all baseband physical layer processing in a central\nbaseband unit and the remaining physical layer processing steps towards radio\nfrequency (RF) transmission in remote nodes. Both DOCSIS and LTE are based on\nOrthogonal Frequency Division Multiplexing (OFDM) physical layer processing. We\npropose to unify cable and wireless cellular access networks by utilizing the\nhybrid fiber-coax (HFC) cable network infrastructure as fiber fronthaul network\nfor cellular wireless services. For efficient operation of such a unified\naccess network, we propose a novel Remote-FFT (R-FFT) node that conducts the\nphysical layer processing from the Fast-Fourier Transform (FFT) module towards\nthe RF transmission, whereby DOCSIS and LTE share a common FFT module. The\nfrequency domain in-phase and quadrature (I/Q) symbols for both DOCSIS and LTE\nare transmitted over the fiber between remote node and cable headend, where the\nremaining physical layer processing is conducted. We further propose to cache\nrepetitive quadrature amplitude modulation (QAM) symbols in the R-FFT node to\nreduce the fronthaul bitrate requirements and enable statistical multiplexing.\nWe evaluate the fronthaul bitrate reductions achieved by R-FFT node caching,\nthe fronthaul transmission bitrates arising from the unified DOCSIS and LTE\nservice, and illustrate the delay implications of moving part of the cable\nR-PHY remote node physical layer processing to the headend.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.08902", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "R-FFT: Function Split at IFFT/FFT in Unified LTE CRAN and Cable Access Network"
+}

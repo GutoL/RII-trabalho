@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Nag, Sayan"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09461", 
+    "paper_abstract": "One of the most straightforward, direct and efficient approaches to Image\nSegmentation is Image Thresholding. Multi-level Image Thresholding is an\nessential viewpoint in many image processing and Pattern Recognition based\nreal-time applications which can effectively and efficiently classify the\npixels into various groups denoting multiple regions in an Image. Thresholding\nbased Image Segmentation using fuzzy entropy combined with intelligent\noptimization approaches are commonly used direct methods to properly identify\nthe thresholds so that they can be used to segment an Image accurately. In this\npaper a novel approach for multi-level image thresholding is proposed using\nType II Fuzzy sets combined with Adaptive Plant Propagation Algorithm (APPA).\nObtaining the optimal thresholds for an image by maximizing the entropy is\nextremely tedious and time consuming with increase in the number of thresholds.\nHence, Adaptive Plant Propagation Algorithm (APPA), a memetic algorithm based\non plant intelligence, is used for fast and efficient selection of optimal\nthresholds. This fact is reasonably justified by comparing the accuracy of the\noutcomes and computational time consumed by other modern state-of-the-art\nalgorithms such as Particle Swarm Optimization (PSO), Gravitational Search\nAlgorithm (GSA) and Genetic Algorithm (GA).", 
+    "paper_subjects": [
+        "Optimization and Control (math.OC)", 
+        "Data Analysis, Statistics and Probability (physics.data-an)", 
+        "Computation (stat.CO)"
+    ], 
+    "paper_code": "1708.09461", 
+    "paper_submission_date": "2017/08/23", 
+    "paper_title": "A Type II Fuzzy Entropy Based Multi-Level Image Thresholding Using Adaptive Plant Propagation Algorithm"
+}

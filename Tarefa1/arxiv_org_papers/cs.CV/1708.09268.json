@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Tran, An", 
+        "Cheong, Loong-Fah"
+    ], 
+    "paper_comments": "To appear in International Conference of Computer Vision Workshop (ICCVW), 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09268", 
+    "paper_abstract": "This paper proposes a two-stream flow-guided convolutional attention networks\nfor action recognition in videos. The central idea is that optical flows, when\nproperly compensated for the camera motion, can be used to guide attention to\nthe human foreground. We thus develop cross-link layers from the temporal\nnetwork (trained on flows) to the spatial network (trained on RGB frames).\nThese cross-link layers guide the spatial-stream to pay more attention to the\nhuman foreground areas and be less affected by background clutter. We obtain\npromising performances with our approach on the UCF101, HMDB51 and Hollywood2\ndatasets.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09268", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Two-stream Flow-guided Convolutional Attention Networks for Action Recognition"
+}

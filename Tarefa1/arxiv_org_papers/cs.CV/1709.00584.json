@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Kelly, Brendan", 
+        "Matthews, Thomas P.", 
+        "Anastasio, Mark A."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00584", 
+    "paper_abstract": "An approach to incorporate deep learning within an iterative image\nreconstruction framework to reconstruct images from severely incomplete\nmeasurement data is presented. Specifically, we utilize a convolutional neural\nnetwork (CNN) as a quasi-projection operator within a least squares\nminimization procedure. The CNN is trained to encode high level information\nabout the class of images being imaged; this information is utilized to\nmitigate artifacts in intermediate images produced by use of an iterative\nmethod. The structure of the method was inspired by the proximal gradient\ndescent method, where the proximal operator is replaced by a deep CNN and the\ngradient descent step is generalized by use of a linear reconstruction\noperator. It is demonstrated that this approach improves image quality for\nseveral cases of limited-view image reconstruction and that using a CNN in an\niterative method increases performance compared to conventional image\nreconstruction approaches. We test our method on several limited-view image\nreconstruction problems. Qualitative and quantitative results demonstrate\nstate-of-the-art performance.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.00584", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Deep Learning-Guided Image Reconstruction from Incomplete Data"
+}

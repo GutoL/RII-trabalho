@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Li, Ruirui", 
+        "Liu, Wenjie", 
+        "Yang, Lei", 
+        "Sun, Shihao", 
+        "Hu, Wei", 
+        "Zhang, Fan", 
+        "Li, Wei"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00201", 
+    "paper_abstract": "Semantic segmentation is a fundamental research in remote sensing image\nprocessing. Because of the complex maritime environment, the sea-land\nsegmentation is a challenging task. Although the neural network has achieved\nexcellent performance in semantic segmentation in the last years, there are a\nfew of works using CNN for sea-land segmentation and the results could be\nfurther improved. This paper proposes a novel deep convolution neural network\nnamed DeepUNet. Like the U-Net, its structure has a contracting path and an\nexpansive path to get high resolution output. But differently, the DeepUNet\nuses DownBlocks instead of convolution layers in the contracting path and uses\nUpBlock in the expansive path. The two novel blocks bring two new connections\nthat are U-connection and Plus connection. They are promoted to get more\nprecise segmentation results. To verify our network architecture, we made a new\nchallenging sea-land dataset and compare the DeepUNet on it with the SegNet and\nthe U-Net. Experimental results show that DeepUNet achieved good performance\ncompared with other architectures, especially in high-resolution remote sensing\nimagery.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00201", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "DeepUNet: A Deep Fully Convolutional Network for Pixel-level Sea-Land Segmentation"
+}

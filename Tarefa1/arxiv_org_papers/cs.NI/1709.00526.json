@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Chen, Pin-Yu", 
+        "Cheng, Shin-Ming", 
+        "Hsu, Hui-Yu"
+    ], 
+    "paper_comments": "10 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00526", 
+    "paper_abstract": "To fully empower sensor networks with cognitive Internet of Things (IoT)\ntechnology, efficient medium access control protocols that enable the\ncoexistence of cognitive sensor networks with current wireless infrastructure\nare as essential as the cognitive power in data fusion and processing due to\nshared wireless spectrum. Cognitive radio (CR) is introduced to increase\nspectrum efficiency and support such an endeavor, which thereby becomes a\npromising building block toward facilitating cognitive IoT. In this paper,\nprimary users (PUs) refer to devices in existing wireless infrastructure, and\nsecondary users (SUs) refer to cognitive sensors. For interference control\nbetween PUs and SUs, SUs adopt dynamic spectrum access and power adjustment to\nensure sufficient operation of PUs, which inevitably leads to increasing\nlatency and poses new challenges on the reliability of IoT communications.\n<br />To guarantee operations of primary systems while simultaneously optimizing\nsystem performance in cognitive radio ad hoc networks (CRAHNs), this paper\nproposes interference-aware flooding schemes exploiting global timeout and\nvaccine recovery schemes to control the heavy buffer occupancy induced by\npacket replications. The information delivery dynamics of SUs under the\nproposed interference-aware recovery-assisted flooding schemes is analyzed via\nepidemic models and stochastic geometry from a macroscopic view of the entire\nsystem. The simulation results show that our model can efficiently capture the\ncomplicated data delivery dynamics in CRAHNs in terms of end-to-end\ntransmission reliability and buffer occupancy. This paper sheds new light on\nanalysis of recovery-assisted flooding schemes in CRAHNs and provides\nperformance evaluation of cognitive IoT services built upon CRAHNs.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00526", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Analysis of Information Delivery Dynamics in Cognitive Sensor Networks Using Epidemic Models"
+}

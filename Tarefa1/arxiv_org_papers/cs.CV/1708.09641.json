@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Zhao, Huihuang", 
+        "Rosin, Paul L.", 
+        "Lai, Yu-Kun"
+    ], 
+    "paper_comments": "12 pages", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09641", 
+    "paper_abstract": "This paper presents an automatic image synthesis method to transfer the style\nof an example image to a content image. When standard neural style transfer\napproaches are used, the textures and colours in different semantic regions of\nthe style image are often applied inappropriately to the content image,\nignoring its semantic layout, and ruining the transfer result. In order to\nreduce or avoid such effects, we propose a novel method based on automatically\nsegmenting the objects and extracting their soft semantic masks from the style\nand content images, in order to preserve the structure of the content image\nwhile having the style transferred. Each soft mask of the style image\nrepresents a specific part of the style image, corresponding to the soft mask\nof the content image with the same semantics. Both the soft masks and source\nimages are provided as multichannel input to an augmented deep CNN framework\nfor style transfer which incorporates a generative Markov random field (MRF)\nmodel. Results on various images show that our method outperforms the most\nrecent techniques.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09641", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Automatic Semantic Style Transfer using Deep Convolutional Neural Networks and Soft Masks"
+}

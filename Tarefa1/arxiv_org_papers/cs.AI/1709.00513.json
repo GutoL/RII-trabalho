@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Xu, Zheng", 
+        "Hsu, Yen-Chang", 
+        "Huang, Jiawei"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00513", 
+    "paper_abstract": "There is an increasing interest on accelerating neural networks for real-time\napplications. We study the student-teacher strategy, in which a small and fast\nstudent network is trained with the auxiliary information provided by a large\nand accurate teacher network. We use conditional adversarial networks to learn\nthe loss function to transfer knowledge from teacher to student. The proposed\nmethod is particularly effective for relatively small student networks.\nMoreover, experimental results show the effect of network size when the modern\nnetworks are used as student. We empirically study trade-off between inference\ntime and classification accuracy, and provide suggestions on choosing a proper\nstudent.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Computer Vision and Pattern Recognition (cs.CV)"
+    ], 
+    "paper_code": "1709.00513", 
+    "paper_submission_date": "2017/09/02", 
+    "paper_title": "Learning Loss for Knowledge Distillation with Conditional Adversarial Networks"
+}

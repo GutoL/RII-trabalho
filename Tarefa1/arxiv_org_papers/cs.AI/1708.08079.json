@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Le, Truc Viet", 
+        "Oentaryo, Richard J.", 
+        "Liu, Siyuan", 
+        "Lau, Hoong Chuin"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.08079", 
+    "paper_abstract": "Traffic speed is a key indicator for the efficiency of an urban\ntransportation system. Accurate modeling of the spatiotemporally varying\ntraffic speed thus plays a crucial role in urban planning and development. This\npaper addresses the problem of efficient fine-grained traffic speed prediction\nusing big traffic data obtained from static sensors. Gaussian processes (GPs)\nhave been previously used to model various traffic phenomena, including flow\nand speed. However, GPs do not scale with big traffic data due to their cubic\ntime complexity. In this work, we address their efficiency issues by proposing\nlocal GPs to learn from and make predictions for correlated subsets of data.\nThe main idea is to quickly group speed variables in both spatial and temporal\ndimensions into a finite number of clusters, so that future and unobserved\ntraffic speed queries can be heuristically mapped to one of such clusters. A\nlocal GP corresponding to that cluster can then be trained on the fly to make\npredictions in real-time. We call this method localization. We use non-negative\nmatrix factorization for localization and propose simple heuristics for cluster\nmapping. We additionally leverage on the expressiveness of GP kernel functions\nto model road network topology and incorporate side information. Extensive\nexperiments using real-world traffic data collected in the two U.S. cities of\nPittsburgh and Washington, D.C., show that our proposed local GPs significantly\nimprove both runtime performances and prediction accuracies compared to the\nbaseline global and local GPs.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1708.08079", 
+    "paper_submission_date": "2017/08/27", 
+    "paper_title": "Local Gaussian Processes for Efficient Fine-Grained Traffic Speed Prediction"
+}

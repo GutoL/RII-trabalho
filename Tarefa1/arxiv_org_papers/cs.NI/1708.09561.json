@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Feng, Hao", 
+        "Llorca, Jaime", 
+        "Tulino, Antonia M.", 
+        "Molisch, Andreas F."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09561", 
+    "paper_abstract": "Distributed cloud networking enables the deployment of a wide range of\nservices in the form of interconnected software functions instantiated over\ngeneral purpose hardware at multiple cloud locations distributed throughout the\nnetwork. We consider the problem of optimal service delivery over a distributed\ncloud network, in which nodes are equipped with both communication and\ncomputation resources. We address the design of distributed online solutions\nthat drive flow processing and routing decisions, along with the associated\nallocation of cloud and network resources. For a given set of services, each\ndescribed by a chain of service functions, we characterize the cloud network\ncapacity region and design a family of dynamic cloud network control (DCNC)\nalgorithms that stabilize the underlying queuing system, while achieving\narbitrarily close to minimum cost with a tradeoff in network delay. The\nproposed DCNC algorithms make local decisions based on the online minimization\nof linear and quadratic metrics obtained from an upper bound on the Lyapunov\ndrift-plus-penalty of the cloud network queuing system. Minimizing a quadratic\nvs. a linear metric is shown to improve the cost-delay tradeoff at the expense\nof increased computational complexity. Our algorithms are further enhanced with\na shortest transmission-plus-processing distance bias that improves delay\nperformance without compromising throughput or overall cloud network cost. We\nprovide throughput and cost optimality guarantees, convergence time analysis,\nand extensive simulations in representative cloud network scenarios.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09561", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Optimal Dynamic Cloud Network Control"
+}

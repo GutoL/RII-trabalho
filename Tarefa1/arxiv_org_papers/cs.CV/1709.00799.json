@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Li, Hongming", 
+        "Fan, Yong"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00799", 
+    "paper_abstract": "We propose a novel non-rigid image registration algorithm that is built upon\nfully convolutional networks (FCNs) to optimize and learn spatial\ntransformations between pairs of images to be registered. Different from most\nexisting deep learning based image registration methods that learn spatial\ntransformations from training data with known corresponding spatial\ntransformations, our method directly estimates spatial transformations between\npairs of images by maximizing an image-wise similarity metric between fixed and\ndeformed moving images, similar to conventional image registration algorithms.\nAt the same time, our method also learns FCNs for encoding the spatial\ntransformations at the same spatial resolution of images to be registered,\nrather than learning coarse-grained spatial transformation information. The\nimage registration is implemented in a multi-resolution image registration\nframework to jointly optimize and learn spatial transformations and FCNs at\ndifferent resolutions with deep self-supervision through typical feedforward\nand backpropagation computation. Since our method simultaneously optimizes and\nlearns spatial transformations for the image registration, our method can be\ndirectly used to register a pair of images, and the registration of a set of\nimages is also a training procedure for FCNs so that the trained FCNs can be\ndirectly adopted to register new images by feedforward computation of the\nlearned FCNs without any optimization. The proposed method has been evaluated\nfor registering 3D structural brain magnetic resonance (MR) images and obtained\nbetter performance than state-of-the-art image registration algorithms.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00799", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Non-rigid image registration using fully convolutional networks with deep self-supervision"
+}

@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Cha, Miriam", 
+        "Gwon, Youngjune", 
+        "Kung, H. T."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09321", 
+    "paper_abstract": "Recent approaches in generative adversarial networks (GANs) can automatically\nsynthesize realistic images from descriptive text. Despite the overall fair\nquality, the generated images often expose visible flaws that lack structural\ndefinition for an object of interest. In this paper, we aim to extend state of\nthe art for GAN-based text-to-image synthesis by improving perceptual quality\nof generated images. Differentiated from previous work, our synthetic image\ngenerator optimizes on perceptual loss functions that measure pixel, feature\nactivation, and texture differences against a natural image. We present\nvisually more compelling synthetic images of birds and flowers generated from\ntext descriptions in comparison to some of the most prominent existing work.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09321", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Adversarial nets with perceptual losses for text-to-image synthesis"
+}

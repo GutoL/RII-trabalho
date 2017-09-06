@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Ball, John E.", 
+        "Anderson, Derek T.", 
+        "Chan, Chee Seng"
+    ], 
+    "paper_comments": "64 pages, 411 references. To appear in Journal of Applied Remote Sensing", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00308", 
+    "paper_abstract": "In recent years, deep learning (DL), a re-branding of neural networks (NNs),\nhas risen to the top in numerous areas, namely computer vision (CV), speech\nrecognition, natural language processing, etc. Whereas remote sensing (RS)\npossesses a number of unique challenges, primarily related to sensors and\napplications, inevitably RS draws from many of the same theories as CV; e.g.,\nstatistics, fusion, and machine learning, to name a few. This means that the RS\ncommunity should be aware of, if not at the leading edge of, of advancements\nlike DL. Herein, we provide the most comprehensive survey of state-of-the-art\nRS DL research. We also review recent new developments in the DL field that can\nbe used in DL for RS. Namely, we focus on theories, tools and challenges for\nthe RS community. Specifically, we focus on unsolved challenges and\nopportunities as it relates to (i) inadequate data sets, (ii)\nhuman-understandable solutions for modelling physical phenomena, (iii) Big\nData, (iv) non-traditional heterogeneous data sources, (v) DL architectures and\nlearning algorithms for spectral, spatial and temporal data, (vi) transfer\nlearning, (vii) an improved theoretical understanding of DL systems, (viii)\nhigh barriers to entry, and (ix) training and optimizing the DL.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00308", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "A Comprehensive Survey of Deep Learning in Remote Sensing: Theories, Tools and Challenges for the Community"
+}

@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Alvarez-Gila, Aitor", 
+        "van de Weijer, Joost", 
+        "Garrote, Estibaliz"
+    ], 
+    "paper_comments": "11 pages, 4 figures, 1 table. Accepted at the IEEE International Conference on Computer Vision Workshop (ICCVW 2017) \"Physics Based Vision meets Deep Learning\" (PBDL 2017). Copyright IEEE", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00265", 
+    "paper_abstract": "Hyperspectral signal reconstruction aims at recovering the original spectral\ninput that produced a certain trichromatic (RGB) response from a capturing\ndevice or observer. Given the heavily underconstrained, non-linear nature of\nthe problem, traditional techniques leverage different statistical properties\nof the spectral signal in order to build informative priors from real world\nobject reflectances for constructing such RGB to spectral signal mapping.\nHowever, most of them treat each sample independently, and thus do not benefit\nfrom the contextual information that the spatial dimensions can provide. We\npose hyperspectral natural image reconstruction as an image to image mapping\nlearning problem, and apply a conditional generative adversarial framework to\nhelp capture spatial semantics. This is the first time Convolutional Neural\nNetworks -and, particularly, Generative Adversarial Networks- are used to solve\nthis task. Quantitative evaluation shows a Root Mean Squared Error (RMSE) drop\nof 44.7% and a Relative RMSE drop of 47.0% on the ICVL natural hyperspectral\nimage dataset.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00265", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Adversarial Networks for Spatial Context-Aware Spectral Image Reconstruction from RGB"
+}

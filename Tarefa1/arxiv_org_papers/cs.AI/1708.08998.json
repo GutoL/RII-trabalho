@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Kamyab, Shima", 
+        "Ghodsi, Ali", 
+        "Azimifar, S. Zohreh"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.08998", 
+    "paper_abstract": "Inverse rendering in a 3D format denoted to recovering the 3D properties of a\nscene given 2D input image(s) and is typically done using 3D Morphable Model\n(3DMM) based methods from single view images. These models formulate each face\nas a weighted combination of some basis vectors extracted from the training\ndata. In this paper a deep framework is proposed in which the coefficients and\nbasis vectors are computed by training an autoencoder network and a\nConvolutional Neural Network (CNN) simultaneously. The idea is to find a common\ncause which can be mapped to both the 3D structure and corresponding 2D image\nusing deep networks. The empirical results verify the power of deep framework\nin finding accurate 3D shapes of human faces from their corresponding 2D images\non synthetic datasets of human faces.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.08998", 
+    "paper_submission_date": "2017/08/25", 
+    "paper_title": "Deep Structure for end-to-end inverse rendering"
+}

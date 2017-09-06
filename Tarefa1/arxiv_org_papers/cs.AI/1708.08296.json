@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Samek, Wojciech", 
+        "Wiegand, Thomas", 
+        "M&#xfc;ller, Klaus-Robert"
+    ], 
+    "paper_comments": "8 pages, 2 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08296", 
+    "paper_abstract": "With the availability of large databases and recent improvements in deep\nlearning methodology, the performance of AI systems is reaching or even\nexceeding the human level on an increasing number of complex tasks. Impressive\nexamples of this development can be found in domains such as image\nclassification, sentiment analysis, speech understanding or strategic game\nplaying. However, because of their nested non-linear structure, these highly\nsuccessful machine learning and artificial intelligence models are usually\napplied in a black box manner, i.e., no information is provided about what\nexactly makes them arrive at their predictions. Since this lack of transparency\ncan be a major drawback, e.g., in medical applications, the development of\nmethods for visualizing, explaining and interpreting deep learning models has\nrecently attracted increasing attention. This paper summarizes recent\ndevelopments in this field and makes a plea for more interpretability in\nartificial intelligence. Furthermore, it presents two approaches to explaining\npredictions of deep learning models, one method which computes the sensitivity\nof the prediction with respect to changes in the input and one approach which\nmeaningfully decomposes the decision in terms of the input variables. These\nmethods are evaluated on three classification tasks.", 
+    "paper_subjects": [
+        "Computers and Society (cs.CY)", 
+        "Neural and Evolutionary Computing (cs.NE)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.08296", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "Explainable Artificial Intelligence: Understanding, Visualizing and Interpreting Deep Learning Models"
+}

@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Esmaili, Kyumars Sheykh", 
+        "Chandrashekar, Jaideep", 
+        "Guyadec, Pascal Le"
+    ], 
+    "paper_comments": "14 pages, 9 figures, 7 tables", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00348", 
+    "paper_abstract": "We study the problem of inferring the type of a networked device in a home\nnetwork by leveraging low level traffic activity indicators seen at commodity\nhome gateways. We analyze a dataset of detailed device network activity\nobtained from 240 subscriber homes of a large European ISP and extract a number\nof traffic and spatial fingerprints for individual devices. We develop a two\nlevel taxonomy to describe devices onto which we map individual devices using a\nnumber of heuristics. We leverage the heuristically derived labels to train\nclassifiers that distinguish device classes based on the traffic and spatial\nfingerprints of a device. Our results show an accuracy level up to 91% for the\ncoarse level category and up to 84% for the fine grained category. By\nincorporating information from other sources (e.g., MAC OUI), we are able to\nfurther improve accuracy to above 97% and 92%, respectively. Finally, we also\nextract a set of simple and human-readable rules that concisely capture the\nbehaviour of these distinct device categories.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1709.00348", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Inferring Networked Device Categories from Low-Level Activity Indicators"
+}

@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Montazerolghaem, Ahmadreza", 
+        "Yaghmaee, Mohammad Hossein", 
+        "Leon-Garcia, Alberto"
+    ], 
+    "paper_comments": "IEEE Transactions on Network and Service Management, vol. PP, no. 99, pp. 1-1. keywords: {Databases;IP networks;Resource management;Routing;Routing protocols;Servers;OpenFlow.;SDN and NFV orchestration;SIP Network management;SIP Resource Allocation;SIP Routing}", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01320", 
+    "paper_abstract": "VoIP is becoming a low-priced and efficient replacement for PSTN in\ncommunication industries. With a widely growing adoption rate, SIP is an\napplication layer signaling protocol, standardized by the IETF, for creating,\nmodifying, and terminating VoIP sessions. Generally speaking, SIP routes a call\nrequest to its destination by using SIP proxies. With the increasing use of\nSIP, traditional configurations pose certain drawbacks, such as ineffective\nrouting, un-optimized management of proxy resources (including CPU and memory),\nand overload conditions. This paper presents OpenSIP to upgrade the SIP network\nframework with emerging technologies, such as SDN and NFV. SDN provides for\nmanagement that decouples the data and control planes along with a\nsoftware-based centralized control that results in effective routing and\nresource management. Moreover, NFV assists SDN by virtualizing various network\ndevices and functions. However, current SDN elements limit the inspected fields\nto layer 2-4 headers, whereas SIP routing information resides in the layer-7\nheader. A benefit of OpenSIP is that it enforces policies on SIP networking\nthat are agnostic to higher layers with the aid of a Deep Packet Inspection\n(DPI) engine. Among the benefits of OpenSIP is programmability, cost reduction,\nunified management, routing, as well as efficient load balancing. The present\nstudy implements OpenSIP on a real testbed which includes Open vSwitch and the\nFloodlight controller. The results show that the proposed architecture has a\nlow overhead and satisfactory performance and, in addition, can take advantage\nof a flexible scale-out design during application deployment.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01320", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "OpenSIP: Toward Software-Defined SIP Networking"
+}

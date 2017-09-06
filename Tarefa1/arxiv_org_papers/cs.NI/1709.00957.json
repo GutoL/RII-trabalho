@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Wang, Lifeng", 
+        "Wong, Kai-Kit", 
+        "Lambotharan, Sangarapillai", 
+        "Nallanathan, Arumugam", 
+        "Elkashlan, Maged"
+    ], 
+    "paper_comments": "26 pages, 6 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00957", 
+    "paper_abstract": "This paper studies edge caching in dense heterogeneous cellular networks, in\nwhich small base stations (SBSs) with limited cache size store the popular\ncontents, and massive multiple-input multiple-output (MIMO) aided macro base\nstations provide wireless self-backhaul when SBSs require the non-cached\ncontents. We address the effects of cell load and hit probability on the\nsuccessful content delivery (SCD), and evaluate the minimum required base\nstation density for avoiding the access overload in a small cell and backhaul\noverload in a macrocell. We demonstrate that hit probability needs to be\nappropriately selected, in order to achieve SCD. We derive the massive MIMO\nbackhaul achievable rate without downlink channel estimation, to calculate the\nbackhaul time. We provide important insights on the interplay between cache\nsize and SCD, and analyze the latency in such networks. We demonstrate that\nwhen non-cached contents are requested, the average delay of the non-cached\ncontent delivery could be comparable to the cached content delivery with the\nhelp of massive MIMO aided self-backhaul, if the average access rate of cached\ncontent delivery is lower than that of self-backhauled content delivery.\nSimulation results are presented to validate our analysis.", 
+    "paper_subjects": [
+        "Information Theory (cs.IT)"
+    ], 
+    "paper_code": "1709.00957", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "Edge Caching in Dense Heterogeneous Cellular Networks with Massive MIMO Aided Self-backhaul"
+}

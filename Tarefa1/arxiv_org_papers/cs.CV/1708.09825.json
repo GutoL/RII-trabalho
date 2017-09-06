@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Vrigkas, Michalis", 
+        "Kazakos, Evangelos", 
+        "Nikou, Christophoros", 
+        "Kakadiaris, Ioannis A."
+    ], 
+    "paper_comments": "To appear in ICCV Workshops 2017 (TASK-CV)", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09825", 
+    "paper_abstract": "Classification models may often suffer from \"structure imbalance\" between\ntraining and testing data that may occur due to the deficient data collection\nprocess. This imbalance can be represented by the learning using privileged\ninformation (LUPI) paradigm. In this paper, we present a supervised\nprobabilistic classification approach that integrates LUPI into a hidden\nconditional random field (HCRF) model. The proposed model is called LUPI-HCRF\nand is able to cope with additional information that is only available during\ntraining. Moreover, the proposed method employes Student's t-distribution to\nprovide robustness to outliers by modeling the conditional distribution of the\nprivileged information. Experimental results in three publicly available\ndatasets demonstrate the effectiveness of the proposed approach and improve the\nstate-of-the-art in the LUPI framework for recognizing human activities.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09825", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Inferring Human Activities Using Robust Privileged Probabilistic Learning"
+}

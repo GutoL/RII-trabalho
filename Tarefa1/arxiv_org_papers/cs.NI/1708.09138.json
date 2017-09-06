@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Schwarz, Stefan", 
+        "Rupp, Markus"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09138", 
+    "paper_abstract": "Due to rising mobility worldwide, a growing number of people utilizes\ncellular network services while on the move. Persistent urbanization trends\nraise the number of daily commuters, leading to a situation where\ntelecommunication requirements are mainly dictated by two categories of users:\n1) Static users inside buildings, demanding instantaneous and virtually\nbandwidth unlimited access to the Internet and Cloud services; 2) moving users\noutside, expecting ubiquitous and seamless mobility even at high velocity.\nWhile most work on future mobile communications is motivated by the first\ncategory of users, we outline in this article a layered cellular network\narchitecture that has the potential to efficiently support both user groups\nsimultaneously. We deduce novel transceiver architectures and derive research\nquestions that need to be tackled to effectively maintain wireless connectivity\nfor the envisioned Society in Motion.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09138", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "Cellular Network Architectures for the Society in Motion"
+}

@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Zhang, Jie", 
+        "Li, Qingyang", 
+        "Caselli, Richard J.", 
+        "Ye, Jieping", 
+        "Wang, Yalin"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00042", 
+    "paper_abstract": "Algorithmic image-based diagnosis and prognosis of neurodegenerative diseases\non longitudinal data has drawn great interest from computer vision researchers.\nThe current state-of-the-art models for many image classification tasks are\nbased on the Convolutional Neural Networks (CNN). However, a key challenge in\napplying CNN to biological problems is that the available labeled training\nsamples are very limited. Another issue for CNN to be applied in computer aided\ndiagnosis applications is that to achieve better diagnosis and prognosis\naccuracy, one usually has to deal with the longitudinal dataset, i.e., the\ndataset of images scanned at different time points. Here we argue that an\nenhanced CNN model with transfer learning for the joint analysis of tasks from\nmultiple time points or regions of interests may have a potential to improve\nthe accuracy of computer aided diagnosis. To reach this goal, we innovate a CNN\nbased deep learning multi-task dictionary learning framework to address the\nabove challenges. Firstly, we pre-train CNN on the ImageNet dataset and\ntransfer the knowledge from the pre-trained model to the medical imaging\nprogression representation, generating the features for different tasks. Then,\nwe propose a novel unsupervised learning method, termed Multi-task Stochastic\nCoordinate Coding (MSCC), for learning different tasks by using shared and\nindividual dictionaries and generating the sparse features required to predict\nthe future cognitive clinical scores. We apply our new model in a publicly\navailable neuroimaging cohort to predict clinical measures with two different\nfeature sets and compare them with seven other state-of-the-art methods. The\nexperimental results show our proposed method achieved superior results.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00042", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Multi-task Dictionary Learning based Convolutional Neural Network for Computer aided Diagnosis with Longitudinal Images"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Nag, Sayan"
+    ], 
+    "paper_comments": "11 pages, 2 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1708.07040", 
+    "paper_abstract": "Optimization problems in design engineering are complex by nature, often\nbecause of the involvement of critical objective functions accompanied by a\nnumber of rigid constraints associated with the products involved. One such\nproblem is Economic Load Dispatch (ED) problem which focuses on the\noptimization of the fuel cost while satisfying some system constraints.\nClassical optimization algorithms are not sufficient and also inefficient for\nthe ED problem involving highly nonlinear, and non-convex functions both in the\nobjective and in the constraints. This led to the development of metaheuristic\noptimization approaches which can solve the ED problem almost efficiently. This\npaper presents a novel robust plant intelligence based Adaptive Plant\nPropagation Algorithm (APPA) which is used to solve the classical ED problem.\nThe application of the proposed method to the 3-generator and 6-generator\nsystems shows the efficiency and robustness of the proposed algorithm. A\ncomparative study with another state-of-the-art algorithm (APSO) demonstrates\nthe quality of the solution achieved by the proposed method along with the\nconvergence characteristics of the proposed approach.", 
+    "paper_subjects": [
+        "Neural and Evolutionary Computing (cs.NE)", 
+        "Optimization and Control (math.OC)"
+    ], 
+    "paper_code": "1708.07040", 
+    "paper_submission_date": "2017/08/04", 
+    "paper_title": "Adaptive Plant Propagation Algorithm for Solving Economic Load Dispatch Problem"
+}

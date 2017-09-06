@@ -1,0 +1,23 @@
+{
+    "paper_authors_list": [
+        "Li, Chunyuan", 
+        "Liu, Hao", 
+        "Chen, Changyou", 
+        "Pu, Yunchen", 
+        "Chen, Liqun", 
+        "Henao, Ricardo", 
+        "Carin, Lawrence"
+    ], 
+    "paper_comments": "To appear at NIPS 2017 (keep updating before camera-ready)", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01215", 
+    "paper_abstract": "We investigate the non-identifiability issues associated with bidirectional\nadversarial training for joint distribution matching. Within a framework of\nconditional entropy, we propose both adversarial and non-adversarial approaches\nto learn desirable matched joint distributions for unsupervised and supervised\ntasks. We unify a broad family of adversarial models as joint distribution\nmatching problems. Our approach stabilizes learning of unsupervised\nbidirectional adversarial learning methods. Further, we introduce an extension\nfor semi-supervised learning tasks. Theoretical results are validated in\nsynthetic data and real-world applications.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Computer Vision and Pattern Recognition (cs.CV)", 
+        "Learning (cs.LG)", 
+        "Neural and Evolutionary Computing (cs.NE)"
+    ], 
+    "paper_code": "1709.01215", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Towards Understanding Adversarial Learning for Joint Distribution Matching"
+}

@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Tian, Yuchi", 
+        "Pei, Kexin", 
+        "Jana, Suman", 
+        "Ray, Baishakhi"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.08559", 
+    "paper_abstract": "Recent advances in Deep Neural Networks (DNNs) have led to the development of\nDNN-driven autonomous cars that, using sensors like camera, LiDAR, etc., can\ndrive without any human intervention. Most major manufacturers including Tesla,\nGM, Ford, BMW, and Waymo/Google are working on building and testing different\ntypes of autonomous vehicles. The lawmakers of several US states including\nCalifornia, Texas, and New York have passed new legislation to fast-track the\nprocess of testing and deployment of autonomous vehicles on their roads.\n<br />However, despite their spectacular progress, DNNs, just like traditional\nsoftware, often demonstrate incorrect or unexpected corner case behaviors that\ncan lead to potentially fatal collisions. Several such real-world accidents\ninvolving autonomous cars have already happened including one which resulted in\na fatality. Most existing testing techniques for DNN-driven vehicles are\nheavily dependent on the manual collection of test data under different driving\nconditions which become prohibitively expensive as the number of test\nconditions increases.\n<br />In this paper, we design, implement and evaluate DeepTest, a systematic\ntesting tool for automatically detecting erroneous behaviors of DNN-driven\nvehicles that can potentially lead to fatal crashes. First, our tool is\ndesigned to automatically generated test cases leveraging real-world changes in\ndriving conditions like rain, fog, lighting conditions, etc. DeepTest\nsystematically explores different parts of the DNN logic by generating test\ninputs that maximize the numbers of activated neurons. DeepTest found thousands\nof erroneous behaviors under different realistic driving conditions (e.g.,\nblurring, rain, fog, etc.) many of which lead to potentially fatal crashes in\nthree top performing DNNs in the Udacity self-driving car challenge.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1708.08559", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "DeepTest: Automated Testing of Deep-Neural-Network-driven Autonomous Cars"
+}

@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Bilgen, Omer", 
+        "Wagner, Aaron B."
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09087", 
+    "paper_abstract": "Recent studies have suggested that the stability of peer-to-peer networks may\nrely on persistent peers, who dwell on the network after they obtain the entire\nfile. In the absence of such peers, one piece becomes extremely rare in the\nnetwork, which leads to instability. Technological developments, however, are\npoised to reduce the incidence of persistent peers, giving rise to a need for a\nprotocol that guarantees stability with non-persistent peers. We propose a\nnovel peer-to-peer protocol, the group suppression protocol, to ensure the\nstability of peer-to-peer networks under the scenario that all the peers adopt\nnon-persistent behavior. Using a suitable Lyapunov potential function, the\ngroup suppression protocol is proven to be stable when the file is broken into\ntwo pieces, and detailed experiments demonstrate the stability of the protocol\nfor arbitrary number of pieces. We define and simulate a decentralized version\nof this protocol for practical applications. Straightforward incorporation of\nthe group suppression protocol into BitTorrent while retaining most of\nBitTorrent's core mechanisms is also presented. Subsequent simulations show\nthat under certain assumptions, BitTorrent with the official protocol cannot\nescape from the missing piece syndrome, but BitTorrent with group suppression\ndoes.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09087", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "A New Stable Peer-to-Peer Protocol with Non-persistent Peers"
+}

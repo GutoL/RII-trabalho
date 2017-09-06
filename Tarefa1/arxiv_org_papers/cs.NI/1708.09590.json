@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Boeuf, Vianney", 
+        "Robert, Philippe"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09590", 
+    "paper_abstract": "In this paper a stochastic model of a call center with a two-level\narchitecture is analyzed. A first-level pool of operators answers calls,\nidentifies, and handles non-urgent calls. A call classified as urgent has to be\ntransferred to specialized operators at the second level. When the operators of\nthe second level are all busy, the operator of first level handling the urgent\ncall is blocked until an operator at the second level is available. Under a\nscaling assumption, the evolution of the number of urgent calls blocked at\nlevel~$1$ is investigated. It is shown that if the ratio of the number of\noperators at level $2$ and~$1$ is greater than some threshold, then,\nessentially, the system operates without congestion, with probability close to\n$1$, no urgent call is blocked after some finite time. Otherwise, we prove that\na positive fraction of the operators of the first level are blocked due to the\ncongestion of the second level. Stochastic calculus with Poisson processes,\ncoupling arguments and formulations in terms of Skorokhod problems are the main\nmathematical tools to establish these convergence results.", 
+    "paper_subjects": [
+        "Probability (math.PR)"
+    ], 
+    "paper_code": "1708.09590", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "A Stochastic Analysis of a Network with Two Levels of Service"
+}

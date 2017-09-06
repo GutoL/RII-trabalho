@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Chen, Shizhe", 
+        "Chen, Jia", 
+        "Jin, Qin", 
+        "Hauptmann, Alexander"
+    ], 
+    "paper_comments": "To appear in ACM Multimedia 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09667", 
+    "paper_abstract": "The topic diversity of open-domain videos leads to various vocabularies and\nlinguistic expressions in describing video contents, and therefore, makes the\nvideo captioning task even more challenging. In this paper, we propose an\nunified caption framework, M&amp;M TGM, which mines multimodal topics in\nunsupervised fashion from data and guides the caption decoder with these\ntopics. Compared to pre-defined topics, the mined multimodal topics are more\nsemantically and visually coherent and can reflect the topic distribution of\nvideos better. We formulate the topic-aware caption generation as a multi-task\nlearning problem, in which we add a parallel task, topic prediction, in\naddition to the caption task. For the topic prediction task, we use the mined\ntopics as the teacher to train a student topic prediction model, which learns\nto predict the latent topics from multimodal contents of videos. The topic\nprediction provides intermediate supervision to the learning process. As for\nthe caption task, we propose a novel topic-aware decoder to generate more\naccurate and detailed video descriptions with the guidance from latent topics.\nThe entire learning procedure is end-to-end and it optimizes both tasks\nsimultaneously. The results from extensive experiments conducted on the MSR-VTT\nand Youtube2Text datasets demonstrate the effectiveness of our proposed model.\nM&amp;M TGM not only outperforms prior state-of-the-art methods on multiple\nevaluation metrics and on both benchmark datasets, but also achieves better\ngeneralization ability.", 
+    "paper_subjects": [
+        "Computation and Language (cs.CL)"
+    ], 
+    "paper_code": "1708.09667", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Video Captioning with Guidance of Multimodal Latent Topics"
+}

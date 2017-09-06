@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Turan, Mehmet", 
+        "Pilavci, Yusuf Yigit", 
+        "Ganiyusufoglu, Ipek", 
+        "Araujo, Helder", 
+        "Konukoglu, Ender", 
+        "Sitti, Metin"
+    ], 
+    "paper_comments": "", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09740", 
+    "paper_abstract": "Since the development of capsule endoscopcy technology, substantial progress\nwere made in converting passive capsule endoscopes to robotic active capsule\nendoscopes which can be controlled by the doctor. However, robotic capsule\nendoscopy still has some challenges. In particular, the use of such devices to\ngenerate a precise and globally consistent three-dimensional (3D) map of the\nentire inner organ remains an unsolved problem. Such global 3D maps of inner\norgans would help doctors to detect the location and size of diseased areas\nmore accurately, precisely, and intuitively, thus permitting more accurate and\nintuitive diagnoses. The proposed 3D reconstruction system is built in a\nmodular fashion including preprocessing, frame stitching, and shading-based 3D\nreconstruction modules. We propose an efficient scheme to automatically select\nthe key frames out of the huge quantity of raw endoscopic images. Together with\na bundle fusion approach that aligns all the selected key frames jointly in a\nglobally consistent way, a significant improvement of the mosaic and 3D map\naccuracy was reached. To the best of our knowledge, this framework is the first\ncomplete pipeline for an endoscopic capsule robot based 3D map reconstruction\ncontaining all of the necessary steps for a reliable and accurate endoscopic 3D\nmap. For the qualitative evaluations, a real pig stomach is employed. Moreover,\nfor the first time in literature, a detailed and comprehensive quantitative\nanalysis of each proposed pipeline modules is performed using a non-rigid\nesophagus gastro duodenoscopy simulator, four different endoscopic cameras, a\nmagnetically activated soft capsule robot (MASCE), a sub-millimeter precise\noptical motion tracker and a fine-scale 3D optical scanner.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09740", 
+    "paper_submission_date": "2017/08/29", 
+    "paper_title": "Sparse-then-Dense Alignment based 3D Map Reconstruction Method for Endoscopic Capsule Robots"
+}

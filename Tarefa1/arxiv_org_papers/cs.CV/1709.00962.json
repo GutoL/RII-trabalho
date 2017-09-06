@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Heusch, Guillaume", 
+        "Anjos, Andr&#xe9;", 
+        "Marcel, S&#xe9;bastien"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00962", 
+    "paper_abstract": "This paper studies the problem of reproducible research in remote\nphotoplethysmography (rPPG). Most of the work published in this domain is\nassessed on privately-owned databases, making it difficult to evaluate proposed\nalgorithms in a standard and principled manner. As a consequence, we present a\nnew, publicly available database containing a relatively large number of\nsubjects recorded under two different lighting conditions. Also, three\nstate-of-the-art rPPG algorithms from the literature were selected, implemented\nand released as open source free software. After a thorough, unbiased\nexperimental evaluation in various settings, it is shown that none of the\nselected algorithms is precise enough to be used in a real-world scenario.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00962", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "A Reproducible Study on Remote Heart Rate Measurement"
+}

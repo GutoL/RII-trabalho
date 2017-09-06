@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Nabian, Mohammad Amin", 
+        "Meidani, Hadi"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.08551", 
+    "paper_abstract": "Natural disasters can have catastrophic impacts on the functionality of\ninfrastructure systems and cause severe physical and socio-economic losses.\nGiven budget constraints, it is crucial to optimize decisions regarding\nmitigation, preparedness, response, and recovery practices for these systems.\nThis requires accurate and efficient means to evaluate the infrastructure\nsystem reliability. While numerous research efforts have addressed and\nquantified the impact of natural disasters on infrastructure systems, typically\nusing the Monte Carlo approach, they still suffer from high computational cost\nand, thus, are of limited applicability to large systems. This paper presents a\ndeep learning framework for accelerating infrastructure system reliability\nanalysis. In particular, two distinct deep neural network surrogates are\nconstructed and studied: (1) A classifier surrogate which speeds up the\nconnectivity determination of networks, and (2) An end-to-end surrogate that\nreplaces a number of components such as roadway status realization,\nconnectivity determination, and connectivity averaging. The proposed approach\nis applied to a simulation-based study of the two-terminal connectivity of a\nCalifornia transportation network subject to extreme probabilistic earthquake\nevents. Numerical results highlight the effectiveness of the proposed approach\nin accelerating the transportation system two-terminal reliability analysis\nwith extremely high prediction accuracy.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Machine Learning (stat.ML)"
+    ], 
+    "paper_code": "1708.08551", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "Deep Learning for Accelerated Reliability Analysis of Infrastructure Networks"
+}

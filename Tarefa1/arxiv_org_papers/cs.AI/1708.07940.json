@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Zhao, Kui", 
+        "Li, Bangpeng", 
+        "Peng, Zilun", 
+        "Bu, Jiajun", 
+        "Wang, Can"
+    ], 
+    "paper_comments": "2017 IEEE/WIC/ACM International Conference on Web Intelligence (WI)", 
+    "paper_page_url": "https://arxiv.org/abs/1708.07940", 
+    "paper_abstract": "Existing works for extracting navigation objects from webpages focus on\nnavigation menus, so as to reveal the information architecture of the site.\nHowever, web 2.0 sites such as social networks, e-commerce portals etc. are\nmaking the understanding of the content structure in a web site increasingly\ndifficult. Dynamic and personalized elements such as top stories, recommended\nlist in a webpage are vital to the understanding of the dynamic nature of web\n2.0 sites. To better understand the content structure in web 2.0 sites, in this\npaper we propose a new extraction method for navigation objects in a webpage.\nOur method will extract not only the static navigation menus, but also the\ndynamic and personalized page-specific navigation lists. Since the navigation\nobjects in a webpage naturally come in blocks, we first cluster hyperlinks into\ndifferent blocks by exploiting spatial locations of hyperlinks, the\nhierarchical structure of the DOM-tree and the hyperlink density. Then we\nidentify navigation objects from those blocks using the SVM classifier with\nnovel features such as anchor text lengths etc. Experiments on real-world data\nsets with webpages from various domains and styles verified the effectiveness\nof our method.", 
+    "paper_subjects": [
+        "Information Retrieval (cs.IR)"
+    ], 
+    "paper_code": "1708.07940", 
+    "paper_submission_date": "2017/08/26", 
+    "paper_title": "Navigation Objects Extraction for Better Content Structure Understanding"
+}

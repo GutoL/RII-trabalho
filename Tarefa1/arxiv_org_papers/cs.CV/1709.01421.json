@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Sozykin, Konstantin", 
+        "Khan, Adil Mehmood", 
+        "Protasov, Stanislav", 
+        "Hussain, Rasheed"
+    ], 
+    "paper_comments": "9 pages, 4 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01421", 
+    "paper_abstract": "Automatic analysis of the video is one of most complex problems in the fields\nof computer vision and machine learning. A significant part of this research\ndeals with (human) activity recognition (HAR) since humans, and the activities\nthat they perform, generate most of the video semantics. Video-based HAR has\napplications in various domains, but one of the most important and challenging\nis HAR in sports videos. Some of the major issues include high inter- and\nintra-class variations, large class imbalance, the presence of both group\nactions and single player actions, and recognizing simultaneous actions, i.e.,\nthe multi-label learning problem. Keeping in mind these challenges and the\nrecent success of CNNs in solving various computer vision problems, in this\nwork, we implement a 3D CNN based multi-label deep HAR system for multi-label\nclass-imbalanced action recognition in hockey videos. We test our system for\ntwo different scenarios: an ensemble of k binary networks vs. a single k-output\nnetwork, on a publicly available dataset. We also compare our results with the\nsystem that was originally designed for the chosen dataset. Experimental\nresults show that the proposed approach performs better than the existing\nsolution.", 
+    "paper_subjects": [
+        "Learning (cs.LG)"
+    ], 
+    "paper_code": "1709.01421", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Multi-label Class-imbalanced Action Recognition in Hockey Videos via 3D Convolutional Neural Networks"
+}

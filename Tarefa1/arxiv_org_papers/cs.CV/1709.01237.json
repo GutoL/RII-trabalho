@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Kannan, Hariprasad", 
+        "Komodakis, Nikos", 
+        "Paragios, Nikos"
+    ], 
+    "paper_comments": "10 pages, 3 figures, 3 tables, CVPR 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1709.01237", 
+    "paper_abstract": "Linear programming relaxations are central to {\\sc map} inference in discrete\nMarkov Random Fields. The ability to properly solve the Lagrangian dual is a\ncritical component of such methods. In this paper, we study the benefit of\nusing Newton-type methods to solve the Lagrangian dual of a smooth version of\nthe problem. We investigate their ability to achieve superior convergence\nbehavior and to better handle the ill-conditioned nature of the formulation, as\ncompared to first order methods. We show that it is indeed possible to\nefficiently apply a trust region Newton method for a broad range of {\\sc map}\ninference problems. In this paper we propose a provably convergent and\nefficient framework that includes (i) excellent compromise between\ncomputational complexity and precision concerning the Hessian matrix\nconstruction, (ii) a damping strategy that aids efficient optimization, (iii) a\ntruncation strategy coupled with a generic pre-conditioner for Conjugate\nGradients, (iv) efficient sum-product computation for sparse clique potentials.\nResults for higher-order Markov Random Fields demonstrate the potential of this\napproach.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Numerical Analysis (cs.NA)"
+    ], 
+    "paper_code": "1709.01237", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "Newton-type Methods for Inference in Higher-Order Markov Random Fields"
+}

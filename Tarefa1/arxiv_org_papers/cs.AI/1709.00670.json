@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "E. V, Vinu", 
+        "Kumar, P Sreenivasa"
+    ], 
+    "paper_comments": ")", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00670", 
+    "paper_abstract": "Semantics based knowledge representations such as ontologies are found to be\nvery useful in automatically generating meaningful factual questions.\nDetermining the difficulty level of these system generated questions is helpful\nto effectively utilize them in various educational and professional\napplications. The existing approaches for finding the difficulty level of\nfactual questions are very simple and are limited to a few basic principles. We\npropose a new methodology for this problem by considering an educational theory\ncalled Item Response Theory (IRT). In the IRT, knowledge proficiency of end\nusers (learners) are considered for assigning difficulty levels, because of the\nassumptions that a given question is perceived differently by learners of\nvarious proficiencies. We have done a detailed study on the features (factors)\nof a question statement which could possibly determine its difficulty level for\nthree learner categories (experts, intermediates and beginners). We formulate\nontology based metrics for the same. We then train three logistic regression\nmodels to predict the difficulty level corresponding to the three learner\ncategories.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00670", 
+    "paper_submission_date": "2017/09/03", 
+    "paper_title": "Difficulty-level Modeling of Ontology-based Factual Questions"
+}

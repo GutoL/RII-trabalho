@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Mendez, Oscar", 
+        "Hadfield, Simon", 
+        "Pugeault, Nicolas", 
+        "Bowden, Richard"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01500", 
+    "paper_abstract": "How does a person work out their location using a floorplan? It is probably\nsafe to say that we do not explicitly measure depths to every visible surface\nand try to match them against different pose estimates in the floorplan. And\nyet, this is exactly how most robotic scan-matching algorithms operate.\nSimilarly, we do not extrude the 2D geometry present in the floorplan into 3D\nand try to align it to the real-world. And yet, this is how most vision-based\napproaches localise.\n<br />Humans do the exact opposite. Instead of depth, we use high level semantic\ncues. Instead of extruding the floorplan up into the third dimension, we\ncollapse the 3D world into a 2D representation. Evidence of this is that many\nof the floorplans we use in everyday life are not accurate, opting instead for\nhigh levels of discriminative landmarks.\n<br />In this work, we use this insight to present a global localisation approach\nthat relies solely on the semantic labels present in the floorplan and\nextracted from RGB images. While our approach is able to use range measurements\nif available, we demonstrate that they are unnecessary as we can achieve\nresults comparable to state-of-the-art without them.", 
+    "paper_subjects": [
+        "Computer Vision and Pattern Recognition (cs.CV)"
+    ], 
+    "paper_code": "1709.01500", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "SeDAR - Semantic Detection and Ranging: Humans can localise without LiDAR, can robots?"
+}

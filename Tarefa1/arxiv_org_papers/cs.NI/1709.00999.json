@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Andres-Maldonado, Pilar", 
+        "Ameigeiras, Pablo", 
+        "Prados-Garzon, Jonathan", 
+        "Navarro-Ortiz, Jorge", 
+        "Lopez-Soler, Juan M."
+    ], 
+    "paper_comments": "Submitted to IEEE Networks Magazine. 17 pages, 5 figures, 1 table", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00999", 
+    "paper_abstract": "Large-scale deployments of massive Machine Type Communications (mMTC) involve\nseveral challenges on cellular networks. To address the challenges of mMTC, or\nmore generally, Internet of Things (IoT), the 3rd Generation Partnership\nProject has developed NarrowBand IoT (NB-IoT) as part of Release 13. NB-IoT is\ndesigned to provide better indoor coverage, support of a massive number of\nlow-throughput devices, with relaxed delay requirements, and lower-energy\nconsumption. NB-IoT reuses Long Term Evolution functionality with\nsimplifications and optimizations. Particularly for small data transmissions,\nNB-IoT specifies two procedures to reduce the required signaling: one of them\nbased on the Control Plane (CP), and the other on the User Plane (UP). In this\nwork, we provide an overview of these procedures as well as an evaluation of\ntheir performance. The results of the energy consumption show both\noptimizations achieve a battery lifetime extension of more than 2 years for a\nlarge range in the considered cases, and up to 8 years for CP with good\ncoverage. In terms of cell capacity relative to SR, CP achieves gains from 26%\nto 224%, and UP ranges from 36% to 165%. The comparison of CP and UP\noptimizations yields similar results, except for some specific configurations.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00999", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "NarrowBand IoT Data Transmission Procedures for Massive Machine Type Communications"
+}

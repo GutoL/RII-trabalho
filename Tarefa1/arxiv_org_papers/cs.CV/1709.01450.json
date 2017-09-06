@@ -1,0 +1,13 @@
+{
+    "paper_authors_list": [
+        "Van Horn, Grant", 
+        "Perona, Pietro"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01450", 
+    "paper_abstract": "The world is long-tailed. What does this mean for computer vision and visual\nrecognition? The main two implications are (1) the number of categories we need\nto consider in applications can be very large, and (2) the number of training\nexamples for most categories can be very small. Current visual recognition\nalgorithms have achieved excellent classification accuracy. However, they\nrequire many training examples to reach peak performance, which suggests that\nlong-tailed distributions will not be dealt with well. We analyze this question\nin the context of eBird, a large fine-grained classification dataset, and a\nstate-of-the-art deep network classification algorithm. We find that (a) peak\nclassification performance on well-represented categories is excellent, (b)\ngiven enough data, classification performance suffers only minimally from an\nincrease in the number of classes, (c) classification performance decays\nprecipitously as the number of training examples decreases, (d) surprisingly,\ntransfer learning is virtually absent in current methods. Our findings suggest\nthat our community should come to grips with the question of long tails.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.01450", 
+    "paper_submission_date": "2017/09/05", 
+    "paper_title": "The Devil is in the Tails: Fine-grained Classification in the Wild"
+}

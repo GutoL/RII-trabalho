@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Zhang, Xiaowei", 
+        "Cheng, Li", 
+        "Li, Bo", 
+        "Hu, Hai-Miao"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00235", 
+    "paper_abstract": "A major bottleneck of pedestrian detection lies on the sharp performance\ndeterioration in the presence of small-size pedestrians that are relatively far\nfrom the camera. Motivated by the observation that pedestrians of disparate\nspatial scales exhibit distinct visual appearances, we propose in this paper an\nactive pedestrian detector that explicitly operates over multiple-layer\nneuronal representations of the input still image. More specifically,\nconvolutional neural nets such as ResNet and faster R-CNNs are exploited to\nprovide a rich and discriminative hierarchy of feature representations as well\nas initial pedestrian proposals. Here each pedestrian observation of distinct\nsize could be best characterized in terms of the ResNet feature representation\nat a certain layer of the hierarchy; Meanwhile, initial pedestrian proposals\nare attained by faster R-CNNs techniques, i.e. region proposal network and\nfollow-up region of interesting pooling layer employed right after the specific\nResNet convolutional layer of interest, to produce joint predictions on the\nbounding-box proposals' locations and categories (i.e. pedestrian or not). This\nis engaged as input to our active detector where for each initial pedestrian\nproposal, a sequence of coordinate transformation actions is carried out to\ndetermine its proper x-y 2D location and layer of feature representation, or\neventually terminated as being background. Empirically our approach is\ndemonstrated to produce overall lower detection errors on widely-used\nbenchmarks, and it works particularly well with far-scale pedestrians. For\nexample, compared with 60.51% log-average miss rate of the state-of-the-art\nMS-CNN for far-scale pedestrians (those below 80 pixels in bounding-box height)\nof the Caltech benchmark, the miss rate of our approach is 41.85%, with a\nnotable reduction of 18.68%.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00235", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Too Far to See? Not Really! --- Pedestrian Detection with Scale-aware Localization Policy"
+}

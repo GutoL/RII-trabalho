@@ -1,0 +1,14 @@
+{
+    "paper_authors_list": [
+        "Jayaraman, Dinesh", 
+        "Gao, Ruohan", 
+        "Grauman, Kristen"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.00505", 
+    "paper_abstract": "Objects are three-dimensional entities, but visual observations are largely\n2D. Inferring 3D properties from individual 2D views is thus a generically\nuseful skill that is critical to object perception. We ask the question: can we\nlearn useful image representations by explicitly training a system to infer 3D\nshape from 2D views? The few prior attempts at single view 3D reconstruction\nall target the reconstruction task as an end in itself, and largely build\ncategory-specific models to get better reconstructions. In contrast, we are\ninterested in this task as a means to learn generic visual representations that\nembed knowledge of 3D shape properties from arbitrary object views. We train a\nsingle category-agnostic neural network from scratch to produce a complete\nimage-based shape representation from one view of a generic object in a single\nforward pass. Through comparison against several baselines on widely used shape\ndatasets, we show that our system learns to infer shape for generic objects\nincluding even those from categories that are not present in the training set.\nIn order to perform this \"mental rotation\" task, our system is forced to learn\nintermediate image representations that embed object geometry, without\nrequiring any manual supervision. We show that these learned representations\noutperform other unsupervised representations on various semantic tasks, such\nas object recognition and object retrieval.", 
+    "paper_subjects": null, 
+    "paper_code": "1709.00505", 
+    "paper_submission_date": "2017/09/01", 
+    "paper_title": "Unsupervised learning through one-shot image-based shape reconstruction"
+}

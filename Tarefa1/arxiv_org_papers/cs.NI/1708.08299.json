@@ -1,0 +1,17 @@
+{
+    "paper_authors_list": [
+        "Samek, Wojciech", 
+        "Stanczak, Slawomir", 
+        "Wiegand, Thomas"
+    ], 
+    "paper_comments": "8 pages, 4 figures", 
+    "paper_page_url": "https://arxiv.org/abs/1708.08299", 
+    "paper_abstract": "The areas of machine learning and communication technology are converging.\nToday's communications systems generate a huge amount of traffic data, which\ncan help to significantly enhance the design and management of networks and\ncommunication components when combined with advanced machine learning methods.\nFurthermore, recently developed end-to-end training procedures offer new ways\nto jointly optimize the components of a communication system. Also in many\nemerging application fields of communication technology, e.g., smart cities or\ninternet of things, machine learning methods are of central importance. This\npaper gives an overview over the use of machine learning in different areas of\ncommunications and discusses two exemplar applications in wireless networking.\nFurthermore, it identifies promising future research topics and discusses their\npotential impact.", 
+    "paper_subjects": [
+        "Artificial Intelligence (cs.AI)", 
+        "Computers and Society (cs.CY)"
+    ], 
+    "paper_code": "1708.08299", 
+    "paper_submission_date": "2017/08/28", 
+    "paper_title": "The Convergence of Machine Learning and Communications"
+}

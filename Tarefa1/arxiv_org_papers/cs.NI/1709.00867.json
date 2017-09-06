@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Thomsen, Henning", 
+        "Manch&#xf3;n, Carles Navarro", 
+        "Fleury, Bernard Henri"
+    ], 
+    "paper_comments": "Accepted at the 2017 IEEE 28th Annual International Symposium on Personal, Indoor, and Mobile Radio Communications (PIMRC) - Workshop WS-07 on \"The Internet of Things (IoT), the Road Ahead: Applications, Challenges, and Solutions\"", 
+    "paper_page_url": "https://arxiv.org/abs/1709.00867", 
+    "paper_abstract": "A source traffic model for machine-to-machine communications is presented in\nthis paper. We consider a model in which devices operate in a regular mode\nuntil they are triggered into an alarm mode by an alarm event. The positions of\ndevices and events are modeled by means of Poisson point processes, where the\ngenerated traffic by a given device depends on its position and event\npositions. We first consider the case where devices and events are static and\ndevices generate traffic according to a Bernoulli process, where we derive the\ntotal rate from the devices at the base station. We then extend the model by\ndefining a two-state Markov chain for each device, which allows for devices to\nstay in alarm mode for a geometrically distributed holding time. The temporal\ncharacteristics of this model are analyzed via the autocovariance function,\nwhere the effect of event density and mean holding time are shown.", 
+    "paper_subjects": [
+        "Information Theory (cs.IT)"
+    ], 
+    "paper_code": "1709.00867", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "A Traffic Model for Machine-Type Communications Using Spatial Point Processes"
+}

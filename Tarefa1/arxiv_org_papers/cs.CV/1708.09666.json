@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Chen, Shizhe", 
+        "Chen, Jia", 
+        "Jin, Qin"
+    ], 
+    "paper_comments": "Appeared at ICMI 2017", 
+    "paper_page_url": "https://arxiv.org/abs/1708.09666", 
+    "paper_abstract": "Generating video descriptions in natural language (a.k.a. video captioning)\nis a more challenging task than image captioning as the videos are\nintrinsically more complicated than images in two aspects. First, videos cover\na broader range of topics, such as news, music, sports and so on. Second,\nmultiple topics could coexist in the same video. In this paper, we propose a\nnovel caption model, topic-guided model (TGM), to generate topic-oriented\ndescriptions for videos in the wild via exploiting topic information. In\naddition to predefined topics, i.e., category tags crawled from the web, we\nalso mine topics in a data-driven way based on training captions by an\nunsupervised topic mining model. We show that data-driven topics reflect a\nbetter topic schema than the predefined topics. As for testing video topic\nprediction, we treat the topic mining model as teacher to train the student,\nthe topic prediction model, by utilizing the full multi-modalities in the video\nespecially the speech modality. We propose a series of caption models to\nexploit topic guidance, including implicitly using the topics as input features\nto generate words related to the topic and explicitly modifying the weights in\nthe decoder with topics to function as an ensemble of topic-aware language\ndecoders. Our comprehensive experimental results on the current largest video\ncaption dataset MSR-VTT prove the effectiveness of our topic-guided model,\nwhich significantly surpasses the winning performance in the 2016 MSR video to\nlanguage challenge.", 
+    "paper_subjects": [
+        "Computation and Language (cs.CL)"
+    ], 
+    "paper_code": "1708.09666", 
+    "paper_submission_date": "2017/08/31", 
+    "paper_title": "Generating Video Descriptions with Topic Guidance"
+}

@@ -1,0 +1,15 @@
+{
+    "paper_authors_list": [
+        "Dutta, Sourav", 
+        "Roy, Dibbendu", 
+        "Bhar, Chayan", 
+        "Das, Goutam"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1708.09218", 
+    "paper_abstract": "Design of energy-efficient access networks has emerged as an important area\nof research, since access networks consume $80-90\\%$ of the overall Internet\npower consumption. TWDM-PON is envisaged to be one of the widely accepted\nfuture access technologies. TWDM-PON offers an additional opportunity to save\nenergy at the OLT along with the existing energy-efficient ONU design. In this\npaper, we focus on the energy-efficient OLT design in a TWDM-PON. While most of\nthe conventional methods employ a minimization of the number of wavelengths, we\npropose a novel approach which aims at minimizing the number of voids created\ndue to scheduling. In the process, for the first time, we present a\nlow-complexity on-line scheduling algorithm for the upstream traffic\nconsidering delay constraints. Our extensive simulations demonstrate a\nsignificant improvement in energy efficiency of $\\sim 25\\%$ for high load at\nthe OLT receivers. Furthermore, we provide an analytical upper-bound on the\nenergy-efficiency of the OLT receivers and demonstrate that the proposed\nprotocol achieves an energy efficiency very close to the bound with a maximum\ndeviation $\\sim 2\\%$ for $64$ ONUs.", 
+    "paper_subjects": null, 
+    "paper_code": "1708.09218", 
+    "paper_submission_date": "2017/08/30", 
+    "paper_title": "A novel online scheduling protocol for energy-efficient TWDM-OLT design"
+}

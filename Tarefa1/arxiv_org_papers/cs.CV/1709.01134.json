@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Mishra, Asit", 
+        "Nurvitadhi, Eriko", 
+        "Cook, Jeffrey J", 
+        "Marr, Debbie"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.01134", 
+    "paper_abstract": "For computer vision applications, prior works have shown the efficacy of\nreducing numeric precision of model parameters (network weights) in deep neural\nnetworks. Activation maps, however, occupy a large memory footprint during both\nthe training and inference step when using mini-batches of inputs. One way to\nreduce this large memory footprint is to reduce the precision of activations.\nHowever, past works have shown that reducing the precision of activations hurts\nmodel accuracy. We study schemes to train networks from scratch using\nreduced-precision activations without hurting accuracy. We reduce the precision\nof activation maps (along with model parameters) and increase the number of\nfilter maps in a layer, and find that this scheme matches or surpasses the\naccuracy of the baseline full-precision network. As a result, one can\nsignificantly improve the execution efficiency (e.g. reduce dynamic memory\nfootprint, memory bandwidth and computational energy) and speed up the training\nand inference process with appropriate hardware support. We call our scheme\nWRPN - wide reduced-precision networks. We report results and show that WRPN\nscheme is better than previously reported accuracies on ILSVRC-12 dataset while\nbeing computationally less expensive compared to previously reported\nreduced-precision networks.", 
+    "paper_subjects": [
+        "Learning (cs.LG)", 
+        "Neural and Evolutionary Computing (cs.NE)"
+    ], 
+    "paper_code": "1709.01134", 
+    "paper_submission_date": "2017/09/04", 
+    "paper_title": "WRPN: Wide Reduced-Precision Networks"
+}
