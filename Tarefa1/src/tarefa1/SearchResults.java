@@ -6,6 +6,8 @@
 package tarefa1;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import matrix.MatrixReader;
 
 /**
  *
@@ -38,6 +40,21 @@ public class SearchResults {
 
     public ArrayList<String> getFiles() {
         return files;
+    }
+    
+    public double precision(HashMap<String,HashMap> relevanceMatrix){
+        double precision=0.0;
+        int relevantDocuments=0;
+         for (String file : files){
+             String filename=file.split("/")[2];
+             if(relevanceMatrix.get(filename).get(SearchString).equals("1")){
+                 relevantDocuments+=1;
+             }
+         }
+         
+         precision=relevantDocuments/(double)files.size();
+        
+        return precision;
     }
     
     
