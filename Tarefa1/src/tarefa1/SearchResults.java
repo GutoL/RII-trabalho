@@ -17,7 +17,7 @@ import matrix.MatrixReader;
 public class SearchResults {
     
     int numerFilesRetrieved;
-    String SearchString;
+    String SearchString,originalSearchString;
     ArrayList<String> files = new ArrayList<>();
 
     public SearchResults() {
@@ -42,6 +42,17 @@ public class SearchResults {
     public ArrayList<String> getFiles() {
         return files;
     }
+
+    public String getOriginalSearchString() {
+        return originalSearchString;
+    }
+
+    public void setOriginalSearchString(String originalSearchString) {
+        this.originalSearchString = originalSearchString;
+    }
+    
+    
+    
     
     public double precision(HashMap<String,HashMap> relevanceMatrix){
         double precision=0.0;

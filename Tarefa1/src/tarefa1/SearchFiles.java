@@ -53,6 +53,7 @@ public class SearchFiles {
     int hitsPerPage = 200;
     //int numberFilesRetrieved = 0;
     SearchResults searchResults = new SearchResults();
+    searchResults.setOriginalSearchString(line);
     
     IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(index)));
     IndexSearcher searcher = new IndexSearcher(reader);
