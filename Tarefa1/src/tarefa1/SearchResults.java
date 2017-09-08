@@ -57,15 +57,20 @@ public class SearchResults {
     public double precision(HashMap<String,HashMap> relevanceMatrix){
         double precision=0.0;
         int relevantDocuments=0;
+        //System.out.print(originalSearchString+ " ORIGINAL");
          for (String file : files){
              String filename=file.split("/")[2];
-             System.out.print("File name: "+filename);
-             if(relevanceMatrix.get(filename).get(SearchString).equals("1")){
-                 relevantDocuments+=1;
+             //System.out.print("File name: "+filename);
+             //System.out.println(relevanceMatrix.get(filename));
+             if(relevanceMatrix.get(filename).get(originalSearchString)!=null){
+                if(relevanceMatrix.get(filename).get(originalSearchString).equals("1")){
+                    relevantDocuments+=1;
+                }
              }
+             
          }
          
-         if(files.size()!=0){
+         if(!files.isEmpty()){
             precision=relevantDocuments/(double)files.size();
          }
          
@@ -78,14 +83,18 @@ public class SearchResults {
         int relevantDocuments=0;
         for (String file : files){
             String filename=file.split("/")[2];
-            if(relevanceMatrix.get(filename).get(SearchString).equals("1")){
-                 relevantReturnedDocuments+=1;
-             }
+            if(relevanceMatrix.get(filename).get(originalSearchString)!=null){
+                if(relevanceMatrix.get(filename).get(originalSearchString).equals("1")){
+                     relevantReturnedDocuments+=1;
+                 }
+            }
         }
         
         for (Map.Entry<String,HashMap> fileQuery: relevanceMatrix.entrySet()){
-            if(fileQuery.getValue().get(SearchString).equals("1")){
-                relevantDocuments+=1;
+            if(fileQuery.getValue().get(originalSearchString)!=null){
+                if(fileQuery.getValue().get(originalSearchString).equals("1")){
+                    relevantDocuments+=1;
+                }
             }
         }
         
