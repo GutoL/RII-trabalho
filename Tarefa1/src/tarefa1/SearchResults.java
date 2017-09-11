@@ -63,7 +63,7 @@ public class SearchResults {
              //System.out.print("File name: "+filename);
              //System.out.println(relevanceMatrix.get(filename));
              if(relevanceMatrix.get(filename).get(originalSearchString)!=null){
-                if(relevanceMatrix.get(filename).get(originalSearchString).equals("1")){
+                if(relevanceMatrix.get(filename).get(originalSearchString).equals("1")||relevanceMatrix.get(filename).get(originalSearchString).equals("1-n")){
                     relevantDocuments+=1;
                 }
              }
