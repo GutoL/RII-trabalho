@@ -75,7 +75,7 @@ public class IndexFiles {
     final Path docDir = Paths.get(docsPath);
     
     if (!Files.isReadable(docDir)) {
-      System.out.println("Document directory '" +docDir.toAbsolutePath()+ "' does not exist or is not readable, please check the path");
+      //System.out.println("Document directory '" +docDir.toAbsolutePath()+ "' does not exist or is not readable, please check the path");
       System.exit(1);
     }
     
@@ -83,7 +83,7 @@ public class IndexFiles {
     
     try {
       Analyzer analyzer;
-      System.out.println("Indexing to directory '" + indexPath + "'...");
+      //System.out.println("Indexing to directory '" + indexPath + "'...");
 
       Directory dir = FSDirectory.open(Paths.get(indexPath));
       
@@ -129,11 +129,10 @@ public class IndexFiles {
       writer.close();
 
       Date end = new Date();
-      System.out.println(end.getTime() - start.getTime() + " total milliseconds");
+      //System.out.println(end.getTime() - start.getTime() + " total milliseconds");
 
     } catch (IOException e) {
-      System.out.println(" caught a " + e.getClass() +
-       "\n with message: " + e.getMessage());
+      //System.out.println(" caught a " + e.getClass() +"\n with message: " + e.getMessage());
     }
   }
 
@@ -201,13 +200,13 @@ public class IndexFiles {
       
       if (writer.getConfig().getOpenMode() == OpenMode.CREATE) {
         // New index, so we just add the document (no old document can be there):
-        System.out.println("adding " + file);
+        //System.out.println("adding " + file);
         writer.addDocument(doc);
       } else {
         // Existing index (an old copy of this document may have been indexed) so 
         // we use updateDocument instead to replace the old one matching the exact 
         // path, if present:
-        System.out.println("updating " + file);
+       // System.out.println("updating " + file);
         writer.updateDocument(new Term("path", file.toString()), doc);
       }
     }

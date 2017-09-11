@@ -110,7 +110,7 @@ public class SearchFiles {
             }
         
             Date end = new Date();
-            System.out.println("Time: "+(end.getTime()-start.getTime())+"ms");
+            //System.out.println("Time: "+(end.getTime()-start.getTime())+"ms");
         }
 
         //doPagingSearch(in, searcher, query, hitsPerPage, raw, queries == null && queryString == null);
@@ -126,7 +126,7 @@ public class SearchFiles {
         
         for (int i = start; i < end; i++) {
         if (raw) {                              // output raw format
-          System.out.println("doc="+hits[i].doc+" score="+hits[i].score);
+          //.out.println("doc="+hits[i].doc+" score="+hits[i].score);
           continue;
         }
 
@@ -134,16 +134,16 @@ public class SearchFiles {
         String path = doc.get("path");
         
         if (path != null) {
-          System.out.println((i+1) + ". " + path);
+          //System.out.println((i+1) + ". " + path);
           searchResults.files.add(path);
           String title = doc.get("title");
           
           if (title != null) {
-            System.out.println("   Title: " + doc.get("title"));
+            //System.out.println("   Title: " + doc.get("title"));
           }
           
         }else {
-          System.out.println((i+1) + ". " + "No path for this document");
+          //System.out.println((i+1) + ". " + "No path for this document");
         }
                
       }
@@ -172,15 +172,15 @@ public class SearchFiles {
     ScoreDoc[] hits = results.scoreDocs;
     
     int numTotalHits = results.totalHits;
-    System.out.println(numTotalHits + " total matching documents");
+    //System.out.println(numTotalHits + " total matching documents");
 
     int start = 0;
     int end = Math.min(numTotalHits, hitsPerPage);
         
     while (true) {
       if (end > hits.length) {
-        System.out.println("Only results 1 - " + hits.length +" of " + numTotalHits + " total matching documents collected.");
-        System.out.println("Collect more (y/n) ?");
+        //System.out.println("Only results 1 - " + hits.length +" of " + numTotalHits + " total matching documents collected.");
+        //System.out.println("Collect more (y/n) ?");
         String line = in.readLine();
         if (line.length() == 0 || line.charAt(0) == 'n') {
           break;
@@ -193,22 +193,22 @@ public class SearchFiles {
       
       for (int i = start; i < end; i++) {
         if (raw) {                              // output raw format
-          System.out.println("doc="+hits[i].doc+" score="+hits[i].score);
+          //System.out.println("doc="+hits[i].doc+" score="+hits[i].score);
           continue;
         }
 
         Document doc = searcher.doc(hits[i].doc);
         String path = doc.get("path");
         if (path != null) {
-          System.out.println((i+1) + ". " + path);
+          //System.out.println((i+1) + ". " + path);
           
           String title = doc.get("title");
           
           if (title != null) {
-            System.out.println("   Title: " + doc.get("title"));
+            //System.out.println("   Title: " + doc.get("title"));
           }
         } else {
-          System.out.println((i+1) + ". " + "No path for this document");
+         // System.out.println((i+1) + ". " + "No path for this document");
         }
                
       }
@@ -220,14 +220,14 @@ public class SearchFiles {
       if (numTotalHits >= end) {
         boolean quit = false;
         while (true) {
-          System.out.print("Press ");
+          //System.out.print("Press ");
           if (start - hitsPerPage >= 0) {
-            System.out.print("(p)revious page, ");  
+            //System.out.print("(p)revious page, ");  
           }
           if (start + hitsPerPage < numTotalHits) {
-            System.out.print("(n)ext page, ");
+            //System.out.print("(n)ext page, ");
           }
-          System.out.println("(q)uit or enter number to jump to a page.");
+          //System.out.println("(q)uit or enter number to jump to a page.");
           
           String line = in.readLine();
           if (line.length() == 0 || line.charAt(0)=='q') {
@@ -248,7 +248,7 @@ public class SearchFiles {
               start = (page - 1) * hitsPerPage;
               break;
             } else {
-              System.out.println("No such page");
+              //System.out.println("No such page");
             }
           }
         }
