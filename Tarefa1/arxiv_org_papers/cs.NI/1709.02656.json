@@ -1,0 +1,18 @@
+{
+    "paper_authors_list": [
+        "Lotfollahi, Mohammad", 
+        "Shirali, Ramin", 
+        "Siavoshani, Mahdi Jafari", 
+        "Saberian, Mohammdsadegh"
+    ], 
+    "paper_comments": null, 
+    "paper_page_url": "https://arxiv.org/abs/1709.02656", 
+    "paper_abstract": "Internet traffic classification has become more important with rapid growth\nof current Internet network and online applications. There have been numerous\nstudies on this topic which have led to many different approaches. Most of\nthese approaches exploit predefined features extracted by an expert in order to\nclassify network traffic. In contrast, in this study, we propose a deep\nlearning based approach which integrate both feature extraction and\nclassification phases into one system. Our proposed scheme, called \"Deep\nPacket,\" can handle both traffic categorization in which the network traffic is\ncategorize into major classes (e.g. FTP, P2P, etc.) and application\nidentification in which one identify end-user applications (e.g., BitTorrent,\nSkype, etc.). Contrary to most of the current methods, Deep Packet can identify\nencrypted traffic and also distinguishes between VPN and non-VPN network\ntraffic. After initial pre-processing phase on data, packets are fed to Deep\nPacket framework that embeds stacked autoencoder and convolution neural network\nin order to classify network traffic. Deep packet with CNN as its\nclassification model achieved $F_{1}$ score of $0.95$ in application\nidentification and it also accomplished $F_{1}$ score of $0.97$ in traffic\ncategorization task. To the best of our knowledge, Deep Packet outperforms all\nof the classification and categorization methods on UNB ISCX VPN-nonVPN\ndataset.", 
+    "paper_subjects": [
+        "Cryptography and Security (cs.CR)", 
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1709.02656", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "Deep Packet: A Novel Approach For Encrypted Traffic Classification Using Deep Learning"
+}

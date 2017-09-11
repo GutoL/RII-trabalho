@@ -1,0 +1,16 @@
+{
+    "paper_authors_list": [
+        "Sun, Yuxuan", 
+        "Zhou, Sheng", 
+        "Xu, Jie"
+    ], 
+    "paper_comments": "14 pages, 6 figures, an extended version of the paper submitted to IEEE JSAC", 
+    "paper_page_url": "https://arxiv.org/abs/1709.02582", 
+    "paper_abstract": "Merging mobile edge computing (MEC) functionality with the dense deployment\nof base stations (BSs) provides enormous benefits such as a real proximity, low\nlatency access to computing resources. However, the envisioned integration\ncreates many new challenges, among which mobility management (MM) is a critical\none. Simply applying existing radio access oriented MM schemes leads to poor\nperformance mainly due to the co-provisioning of radio access and computing\nservices of the MEC-enabled BSs. In this paper, we develop a novel user-centric\nenergy-aware mobility management (EMM) scheme, in order to optimize the delay\ndue to both radio access and computation, under the long-term energy\nconsumption constraint of the user. Based on Lyapunov optimization and\nmulti-armed bandit theories, EMM works in an online fashion without future\nsystem state information, and effectively handles the imperfect system state\ninformation. Theoretical analysis explicitly takes radio handover and\ncomputation migration cost into consideration and proves a bounded deviation on\nboth the delay performance and energy consumption compared to the oracle\nsolution with exact and complete future system information. The proposed\nalgorithm also effectively handles the scenario in which candidate BSs randomly\nswitch on/off during the offloading process of a task. Simulations show that\nthe proposed algorithms can achieve close-to-optimal delay performance while\nsatisfying the user energy consumption constraint.", 
+    "paper_subjects": [
+        "Networking and Internet Architecture (cs.NI)"
+    ], 
+    "paper_code": "1709.02582", 
+    "paper_submission_date": "2017/09/08", 
+    "paper_title": "EMM: Energy-Aware Mobility Management for Mobile Edge Computing in Ultra Dense Networks"
+}

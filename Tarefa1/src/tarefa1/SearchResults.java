@@ -90,13 +90,18 @@ public class SearchResults {
             }
         }
         
+        //System.out.println(relevantReturnedDocuments);
+        
         for (Map.Entry<String,HashMap> fileQuery: relevanceMatrix.entrySet()){
             if(fileQuery.getValue().get(originalSearchString)!=null){
                 if(fileQuery.getValue().get(originalSearchString).equals("1")||fileQuery.getValue().get(originalSearchString).equals("1-n")){
                     relevantDocuments+=1;
                 }
             }
+            
+            
         }
+        //System.out.println(relevantDocuments);
         
         if(relevantDocuments!=0){
             coverage=(double)relevantReturnedDocuments/(double)relevantDocuments;
