@@ -84,7 +84,7 @@ public class SearchResults {
         for (String file : files){
             String filename=file.split("/")[2];
             if(relevanceMatrix.get(filename).get(originalSearchString)!=null){
-                if(relevanceMatrix.get(filename).get(originalSearchString).equals("1")){
+                if(relevanceMatrix.get(filename).get(originalSearchString).equals("1")||relevanceMatrix.get(filename).get(originalSearchString).equals("1-n")){
                      relevantReturnedDocuments+=1;
                  }
             }
@@ -92,7 +92,7 @@ public class SearchResults {
         
         for (Map.Entry<String,HashMap> fileQuery: relevanceMatrix.entrySet()){
             if(fileQuery.getValue().get(originalSearchString)!=null){
-                if(fileQuery.getValue().get(originalSearchString).equals("1")){
+                if(fileQuery.getValue().get(originalSearchString).equals("1")||fileQuery.getValue().get(originalSearchString).equals("1-n")){
                     relevantDocuments+=1;
                 }
             }
