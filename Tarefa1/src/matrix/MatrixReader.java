@@ -21,7 +21,7 @@ import java.util.logging.Logger;
  * @author demis
  */
 public class MatrixReader {
-    private final String PATH="src/matrix/relevance-matrix.csv";
+    private final String PATH="relevance-matrix.csv";
     
     /**
      * Read the relevance matrix and put it in a HashMap
