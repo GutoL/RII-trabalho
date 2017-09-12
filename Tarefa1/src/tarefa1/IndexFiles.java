@@ -66,7 +66,7 @@ public class IndexFiles {
   /** Index all text files under a directory. */
   public void index(String docsPath,char stopWords,char steamming) {
     
-    String indexPath = "index";
+    String indexPath;
     //String docsPath = null;
     boolean create = true;
     
@@ -82,29 +82,33 @@ public class IndexFiles {
     Date start = new Date();
     
     try {
+      
       Analyzer analyzer;
       //System.out.println("Indexing to directory '" + indexPath + "'...");
 
-      Directory dir = FSDirectory.open(Paths.get(indexPath));
-      
       if(stopWords=='0' && steamming=='0'){
           
+           indexPath = "index/0/";
            analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/without stemming
           
       }else if(stopWords=='1' && steamming=='0'){
-          
-           analyzer = new StandardAnalyzer();                           // with stopwords filter/without stemming
+           
+          indexPath = "index/1/";
+          analyzer = new StandardAnalyzer();                           // with stopwords filter/without stemming
           
       }else if(stopWords=='0' && steamming=='1'){
-           
-           analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/ with stemming
+          
+          indexPath = "index/2/";
+          analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/ with stemming
           
       }else{
           
+          indexPath = "index/3/";
           analyzer = new EnglishAnalyzer();                            // with stop words/with stemming
           
       }
      
+      Directory dir = FSDirectory.open(Paths.get(indexPath));
       IndexWriterConfig iwc = new IndexWriterConfig(analyzer);
 
       if (create) {
@@ -211,23 +215,5 @@ public class IndexFiles {
       }
     }
   }
-  
-    /*public List<String> stem(String term) throws Exception {
-        
-        Analyzer analyzer = new StandardAnalyzer();
-        TokenStream result = analyzer.tokenStream(null, term);
-        result = new PorterStemFilter(result);
-        result = new StopFilter(result, StopAnalyzer.ENGLISH_STOP_WORDS_SET);
-        CharTermAttribute resultAttr = result.addAttribute(CharTermAttribute.class);
-        result.reset();
-
-        List<String> tokens = new ArrayList<>();
-        while (result.incrementToken()) {
-            tokens.add(resultAttr.toString());
-        }
-        return tokens;
-    }*/
-  
-  
   
 }

@@ -39,224 +39,92 @@ import org.apache.lucene.store.FSDirectory;
 /** Simple command-line based search demo. */
 public class SearchFiles {
 
-  public SearchFiles() {}
+    public SearchFiles() {}
 
-  /** Simple command-line based search demo. */
-  public SearchResults search(String line, char stopWords, char steamming) throws Exception {
+    /** Simple command-line based search demo. */
+    public SearchResults search(String line, char stopWords, char steamming, int hitsPerPage) throws Exception {
     
-    String index = "index";
-    String field = "contents";
-    String queries = null;
-    int repeat = 0;
-    boolean raw = false;
-    String queryString = null;
-    int hitsPerPage = 200;
-    //int numberFilesRetrieved = 0;
-    SearchResults searchResults = new SearchResults();
-    searchResults.setOriginalSearchString(line);
+        String indexPath;
+        String field = "contents";
+        String queries = null;
+        int repeat = 0;
+        boolean raw = false;
+        String queryString = null;
+        //int hitsPerPage = 10;//200
+        int max = 1000;//200
+        //int numberFilesRetrieved = 0;
     
-    IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(index)));
-    IndexSearcher searcher = new IndexSearcher(reader);
-    int max = 200;
-    Analyzer analyzer;
-    
-    if(stopWords=='0' && steamming=='0'){
-          
-           analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/without stemming
-          
-      }else if(stopWords=='1' && steamming=='0'){
-          
-           analyzer = new StandardAnalyzer();                           // with stopwords filter/without stemming
-          
-      }else if(stopWords=='0' && steamming=='1'){
-           
-           analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/ with stemming
-          
-      }else{
-          
-          analyzer = new EnglishAnalyzer();                            // with stop words/with stemming
-          
-      }
+        SearchResults searchResults = new SearchResults();
+        searchResults.setOriginalSearchString(line);
     
     
-    QueryParser parser = new QueryParser(field, analyzer);
+        Analyzer analyzer;
     
-    //while (true) {
-      
-        /*if (queries == null && queryString == null) {                        // prompt the user
-            System.out.println("Enter query: ");
+        if(stopWords=='0' && steamming=='0'){
+          
+            indexPath = "index/0/";
+            analyzer = new StandardAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/without stemming
+          
+        }else if(stopWords=='1' && steamming=='0'){
+          
+            indexPath = "index/1/";
+            analyzer = new StandardAnalyzer();                           // with stopwords filter/without stemming
+          
+        }else if(stopWords=='0' && steamming=='1'){
+          
+            indexPath = "index/2/";
+            analyzer = new  EnglishAnalyzer(CharArraySet.EMPTY_SET);     // without stopwords filter/ with stemming
+          
+        }else{
+          
+            indexPath = "index/3/";
+            analyzer = new EnglishAnalyzer();                            // with stop words/with stemming
         }
-
-        if (line == null || line.length() == -1) {
-            break;
-        }*/
-
-        line = line.trim();
+    
+        IndexReader reader = DirectoryReader.open(FSDirectory.open(Paths.get(indexPath)));
+        IndexSearcher searcher = new IndexSearcher(reader);
+        QueryParser parser = new QueryParser(field, analyzer);
         
-        /*if (line.length() == 0) {
-            break;
-        }*/
-      
+        line = line.trim();
+       
         Query query = parser.parse(line);
-        //System.out.println("Searching for: " + query.toString(field));
+        
         searchResults.setSearchString(query.toString(field));
         
-        if (repeat > 0) {                           // repeat & time as benchmark
-            
-            Date start = new Date();
-            
-            for (int i = 0; i < repeat; i++) {
-                searcher.search(query, 100);
-            }
+        TopDocs results = searcher.search(query, max);
         
-            Date end = new Date();
-            //System.out.println("Time: "+(end.getTime()-start.getTime())+"ms");
-        }
-
-        //doPagingSearch(in, searcher, query, hitsPerPage, raw, queries == null && queryString == null);
-        
-        TopDocs results = searcher.search(query, max * hitsPerPage);
         ScoreDoc[] hits = results.scoreDocs;
         int numTotalHits = results.totalHits;
-        //System.out.println(numTotalHits + " total matching documents");
+        
         searchResults.setNumerFilesRetrieved(numTotalHits);
         
-        int start = 0;
+        
         int end = Math.min(numTotalHits, hitsPerPage);
         
-        for (int i = start; i < end; i++) {
-        if (raw) {                              // output raw format
-          //.out.println("doc="+hits[i].doc+" score="+hits[i].score);
-          continue;
-        }
-
-        Document doc = searcher.doc(hits[i].doc);
-        String path = doc.get("path");
+        int cont = 0;
         
-        if (path != null) {
-          //System.out.println((i+1) + ". " + path);
-          searchResults.files.add(path);
-          String title = doc.get("title");
-          
-          if (title != null) {
-            //System.out.println("   Title: " + doc.get("title"));
-          }
-          
-        }else {
-          //System.out.println((i+1) + ". " + "No path for this document");
-        }
-               
+        for (int i = 0; i < end; i++) {
+            
+            Document doc = searcher.doc(hits[i].doc);
+            String path = doc.get("path");
+
+            if (path != null) {
+              
+              searchResults.files.add(path);
+              String title = doc.get("title");
+              cont++;
+            }
+            
       }
+        
+    searchResults.setNumerFilesRetrieved(cont);
     
-    
-    //}// fim do while true
     reader.close();
     return searchResults;
-  }
-
-  /**
-   * This demonstrates a typical paging search scenario, where the search engine presents 
-   * pages of size n to the user. The user can then go to the next page if interested in
-   * the next hits.
-   * 
-   * When the query is executed for the first time, then only enough results are collected
-   * to fill 5 result pages. If the user wants to page beyond this limit, then the query
-   * is executed another time and all hits are collected.
-   * 
-  */
-  public static void doPagingSearch(BufferedReader in, IndexSearcher searcher, Query query, 
-                                    int hitsPerPage, boolean raw, boolean interactive) throws IOException {
- 
-    // Collect enough docs to show 5 pages
-    TopDocs results = searcher.search(query, 5 * hitsPerPage);
-    ScoreDoc[] hits = results.scoreDocs;
     
-    int numTotalHits = results.totalHits;
-    //System.out.println(numTotalHits + " total matching documents");
-
-    int start = 0;
-    int end = Math.min(numTotalHits, hitsPerPage);
-        
-    while (true) {
-      if (end > hits.length) {
-        //System.out.println("Only results 1 - " + hits.length +" of " + numTotalHits + " total matching documents collected.");
-        //System.out.println("Collect more (y/n) ?");
-        String line = in.readLine();
-        if (line.length() == 0 || line.charAt(0) == 'n') {
-          break;
-        }
-
-        hits = searcher.search(query, numTotalHits).scoreDocs;
-      }
-      
-      end = Math.min(hits.length, start + hitsPerPage);
-      
-      for (int i = start; i < end; i++) {
-        if (raw) {                              // output raw format
-          //System.out.println("doc="+hits[i].doc+" score="+hits[i].score);
-          continue;
-        }
-
-        Document doc = searcher.doc(hits[i].doc);
-        String path = doc.get("path");
-        if (path != null) {
-          //System.out.println((i+1) + ". " + path);
-          
-          String title = doc.get("title");
-          
-          if (title != null) {
-            //System.out.println("   Title: " + doc.get("title"));
-          }
-        } else {
-         // System.out.println((i+1) + ". " + "No path for this document");
-        }
-               
-      }
-
-      if (!interactive || end == 0) {
-        break;
-      }
-
-      if (numTotalHits >= end) {
-        boolean quit = false;
-        while (true) {
-          //System.out.print("Press ");
-          if (start - hitsPerPage >= 0) {
-            //System.out.print("(p)revious page, ");  
-          }
-          if (start + hitsPerPage < numTotalHits) {
-            //System.out.print("(n)ext page, ");
-          }
-          //System.out.println("(q)uit or enter number to jump to a page.");
-          
-          String line = in.readLine();
-          if (line.length() == 0 || line.charAt(0)=='q') {
-            quit = true;
-            break;
-          }
-          if (line.charAt(0) == 'p') {
-            start = Math.max(0, start - hitsPerPage);
-            break;
-          } else if (line.charAt(0) == 'n') {
-            if (start + hitsPerPage < numTotalHits) {
-              start+=hitsPerPage;
-            }
-               break;
-          } else {
-            int page = Integer.parseInt(line);
-            if ((page - 1) * hitsPerPage < numTotalHits) {
-              start = (page - 1) * hitsPerPage;
-              break;
-            } else {
-              //System.out.println("No such page");
-            }
-          }
-        }
-        if (quit) break;
-        end = Math.min(numTotalHits, start + hitsPerPage);
-      }
-    }
   }
+
+  
 }
 
 
