@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JOptionPane;
 import matrix.MatrixReader;
 import tarefa1.SearchFiles;
 import tarefa1.SearchResults;
@@ -218,6 +219,10 @@ public class SearchFrame extends javax.swing.JFrame {
                 Logger.getLogger(SearchFrame.class.getName()).log(Level.SEVERE, null, ex);
             }
             
+        }
+        else{
+            
+            JOptionPane.showMessageDialog(null, "Write something in the search field");
         }
         
     }//GEN-LAST:event_jButton1ActionPerformed
