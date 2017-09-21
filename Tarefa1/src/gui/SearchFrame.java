@@ -5,11 +5,17 @@
  */
 package gui;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
+import javax.swing.JTextArea;
+import javax.swing.text.DefaultCaret;
 import matrix.MatrixReader;
 import tarefa1.SearchFiles;
 import tarefa1.SearchResults;
@@ -29,6 +35,89 @@ public class SearchFrame extends javax.swing.JFrame {
     public SearchFrame() {
         results = new SearchResults();
         initComponents();
+        KeyListener listener=new KeyListener() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                
+                //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+            }
+
+            @Override
+            public void keyPressed(KeyEvent e) {
+                if (e.getKeyCode()==KeyEvent.VK_ENTER){
+                    e.consume();
+                    searchString();
+                    //jTextArea1.setText(jTextArea1.getText());
+                }
+                //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+                if (e.getKeyCode()==KeyEvent.VK_ENTER){
+                    
+                    //jTextArea1.setText(jTextArea1.getText());
+                }
+                //throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+            }
+        }; 
+        jTextField2.addKeyListener(listener);
+    }
+    
+    private void searchString(){
+        if(!"".equals(jTextField2.getText())){
+            SearchFiles searchFiles = new SearchFiles();
+            try {
+                
+                char stopwordsOption = '0', stemmingOption = '0';
+                
+                if(jCheckBox1.isSelected()){
+                    stopwordsOption = '1';
+                }
+                
+                if(jCheckBox2.isSelected()){
+                    stemmingOption = '1';
+                }
+                
+                //ReadFiles readFiles = new ReadFiles("setup.txt");
+                //ArrayList<String> values = readFiles.read();
+                
+                MatrixReader matrixReader=new MatrixReader();
+                HashMap<String,HashMap> relevanceMatrix=matrixReader.readMatrix();
+                
+                int limit = 1000;
+                if(!jTextField1.getText().equals("")){
+                    limit = Integer.parseInt(jTextField1.getText());
+                }
+                
+                //results =searchFiles.search(jTextArea1.getText(),values.get(0).charAt(0),values.get(1).charAt(0));
+                results =searchFiles.search(jTextField2.getText(),stopwordsOption,stemmingOption,limit);
+                
+                jLabel1.setText("Number of files retrieved: " +Integer.toString(results.getNumerFilesRetrieved()));
+                jLabel2.setText("Search string: "+results.getSearchString());
+                
+                String files = "";
+                for (int i = 0; i < results.getFiles().size(); i++) {
+                    files = files+(i+1)+"-"+results.getFiles().get(i)+"\n";
+                }
+                jTextArea2.setText(files);
+                jLabel3.setText("Precision: "+results.precision(relevanceMatrix));
+                jLabel4.setText("Coverage: "+results.coverage(relevanceMatrix));
+                jLabel5.setText("F-Measure: "+results.fmeasure(relevanceMatrix));
+               
+                
+                //System.out.print("Precision: "+results.precision(relevanceMatrix));
+                
+            } catch (Exception ex) {
+                Logger.getLogger(SearchFrame.class.getName()).log(Level.SEVERE, null, ex);
+            }
+            
+        }
+        else{
+            
+            JOptionPane.showMessageDialog(null, "Write something in the search field");
+        }
+        
     }
 
     /**
@@ -41,8 +130,6 @@ public class SearchFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         jButton1 = new javax.swing.JButton();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTextArea1 = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
@@ -55,6 +142,7 @@ public class SearchFrame extends javax.swing.JFrame {
         jCheckBox2 = new javax.swing.JCheckBox();
         jLabel6 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setLocation(new java.awt.Point(450, 200));
@@ -65,10 +153,6 @@ public class SearchFrame extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-
-        jTextArea1.setColumns(20);
-        jTextArea1.setRows(5);
-        jScrollPane1.setViewportView(jTextArea1);
 
         jLabel1.setText("Number of files retrieved: ");
 
@@ -97,6 +181,12 @@ public class SearchFrame extends javax.swing.JFrame {
 
         jLabel6.setText("Limit:");
 
+        jTextField2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField2ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -104,53 +194,49 @@ public class SearchFrame extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(22, 22, 22)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel5)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jScrollPane1)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jCheckBox1)
-                                .addGap(66, 66, 66)
-                                .addComponent(jLabel6)
-                                .addGap(18, 18, 18)
-                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jButton2)
-                                .addGap(18, 18, 18)
-                                .addComponent(jButton1)
-                                .addGap(27, 27, 27)))
-                        .addGap(30, 30, 30))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4)
-                            .addComponent(jLabel3)
-                            .addComponent(jLabel1)
-                            .addComponent(jLabel2)
-                            .addComponent(jCheckBox2))
-                        .addGap(0, 510, Short.MAX_VALUE))))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(jLabel5)
+                            .addGap(260, 260, 260))
+                        .addGroup(layout.createSequentialGroup()
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(jLabel4)
+                                .addComponent(jLabel3)
+                                .addComponent(jLabel1)
+                                .addComponent(jLabel2)
+                                .addComponent(jCheckBox2))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(jCheckBox1)
+                            .addGap(66, 66, 66)
+                            .addComponent(jLabel6)
+                            .addGap(18, 18, 18)
+                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 644, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 634, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                            .addGap(265, 265, 265)
+                            .addComponent(jButton2)
+                            .addGap(18, 18, 18)
+                            .addComponent(jButton1))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(21, 21, 21)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jButton1)
-                            .addComponent(jButton2))
-                        .addGap(18, 18, 18))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jCheckBox1)
-                            .addComponent(jLabel6)
-                            .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addContainerGap()
+                .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 34, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton2)
+                    .addComponent(jButton1))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jCheckBox1)
+                    .addComponent(jLabel6)
+                    .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jCheckBox2)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel2)
@@ -160,10 +246,10 @@ public class SearchFrame extends javax.swing.JFrame {
                 .addComponent(jLabel3)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel4)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
-                .addComponent(jLabel5)
                 .addGap(18, 18, 18)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 182, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -171,59 +257,7 @@ public class SearchFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        
-        if(!"".equals(jTextArea1.getText())){
-            SearchFiles searchFiles = new SearchFiles();
-            try {
-                
-                char stopwordsOption = '0', stemmingOption = '0';
-                
-                if(jCheckBox1.isSelected()){
-                    stopwordsOption = '1';
-                }
-                
-                if(jCheckBox2.isSelected()){
-                    stemmingOption = '1';
-                }
-                
-                //ReadFiles readFiles = new ReadFiles("setup.txt");
-                //ArrayList<String> values = readFiles.read();
-                
-                MatrixReader matrixReader=new MatrixReader();
-                HashMap<String,HashMap> relevanceMatrix=matrixReader.readMatrix();
-                
-                int limit = 1000;
-                if(!jTextField1.getText().equals("")){
-                    limit = Integer.parseInt(jTextField1.getText());
-                }
-                
-                //results =searchFiles.search(jTextArea1.getText(),values.get(0).charAt(0),values.get(1).charAt(0));
-                results =searchFiles.search(jTextArea1.getText(),stopwordsOption,stemmingOption,limit);
-                
-                jLabel1.setText("Number of files retrieved: " +Integer.toString(results.getNumerFilesRetrieved()));
-                jLabel2.setText("Search string: "+results.getSearchString());
-                
-                String files = "";
-                for (int i = 0; i < results.getFiles().size(); i++) {
-                    files = files+(i+1)+"-"+results.getFiles().get(i)+"\n";
-                }
-                jTextArea2.setText(files);
-                jLabel3.setText("Precision: "+results.precision(relevanceMatrix));
-                jLabel4.setText("Coverage: "+results.coverage(relevanceMatrix));
-                jLabel5.setText("F-Measure: "+results.fmeasure(relevanceMatrix));
-               
-                
-                //System.out.print("Precision: "+results.precision(relevanceMatrix));
-                
-            } catch (Exception ex) {
-                Logger.getLogger(SearchFrame.class.getName()).log(Level.SEVERE, null, ex);
-            }
-            
-        }
-        else{
-            
-            JOptionPane.showMessageDialog(null, "Write something in the search field");
-        }
+        searchString();
         
     }//GEN-LAST:event_jButton1ActionPerformed
 
@@ -233,6 +267,10 @@ public class SearchFrame extends javax.swing.JFrame {
         InitialFrame ini = new InitialFrame();
         ini.setVisible(true);
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void jTextField2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -281,10 +319,10 @@ public class SearchFrame extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
     // End of variables declaration//GEN-END:variables
+
 }
