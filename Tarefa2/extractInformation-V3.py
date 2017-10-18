@@ -23,6 +23,9 @@ direcaoList = ["mecanica", "hidraulica", "dm", "dh"]
 opcionaisList = ['radio', 'CD', 'MP3', 'alarme', 'airbag','travas',
                  'vidro','eletrica','bluetooth','abs','sensor','couro', 'roda','liga',
                  'completo','re']
+
+negacaoList = ['sem','menos','exceto']
+arList = ['ar','arcond','ar condicionado', 'condicionado', 'ac']
 ################################## Classes ##################################################
 
 class Car(object):
@@ -211,6 +214,20 @@ for doc in newDocuments:
             fields[x] = fields[x].replace('.','')
             field = field.replace('\n','')
             
+            
+            # get air conditioning
+            if evaluateToken(fields[x],negacaoList):
+                
+                if len(fields) > 1 and evaluateToken(fields[x+1],arList):
+                    arcond = "Não"
+                    continue
+                
+            if "ar" == fields[x] and arcond != "Não":
+                arcond = "Sim"
+                continue
+            
+            
+            
             #get fuel type
             if evaluateToken(fields[x],combustivelList):
                 fuel = fields[x]
@@ -229,11 +246,6 @@ for doc in newDocuments:
                     continue
                 else:
                     preco = fields[x]+fields[x+1]
-                continue
-            
-            # get air conditioning
-            if "ar" == fields[x]:
-                arcond = "Sim"
                 continue
             
             # get steering type
@@ -305,7 +317,5 @@ for car in carros:
     print "Opcionais: "+car.opcionais
     print "\n"
 
-    
-stemmer = nltk.stem.RSLPStemmer()
     
     
