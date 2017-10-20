@@ -6,6 +6,7 @@ Created on Sat Oct 14 10:21:54 2017
 """
 
 import nltk
+import compare_output
 from removeAcentos import remover_acentos
 
 marcasList = ["wolksvagem","wv","chevrolet","ford","mercedes","ferrari","audi",
@@ -300,6 +301,8 @@ for doc in newDocuments:
     carros.append(carro)
             
 
+car_list_wrapper=[]
+car_dict={}
 print "-------------------------------------------------------------"    
         
 for car in carros:
@@ -317,5 +320,20 @@ for car in carros:
     print "Opcionais: "+car.opcionais
     print "\n"
 
-    
-    
+    car_dict["Marca"]=car.marca
+    car_dict["Modelo"]=car.modelo
+    car_dict["Motor"]=car.motor
+    car_dict["Ano"]=car.ano
+    car_dict["Combustivel"]=car.combustivel
+    car_dict["Cambio"]=car.cambio
+    car_dict["Preco"]=car.preco
+    car_dict["Ar condicionado"]=car.arCond
+    car_dict["Tipo de direcao"]=car.direcao
+    car_dict["Cor"]=car.cor
+    car_dict["Km"]=car.km
+    car_dict["Opcionais"]=car.opcionais
+
+    car_list_wrapper.append(car_dict)
+    car_dict={}
+
+compare_output.compare_outputs(car_list_wrapper)
