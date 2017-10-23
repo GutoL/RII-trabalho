@@ -54,16 +54,4 @@ def compare_outputs(car_list_wrapper):
         precision_list.append(precision)
         coverage_list.append(coverage)
 
-    print "------------------------"
-    print "Resultados:"
-    for i in range(1,11):
-
-        print str(i)+"ª extração:"
-        print "Precisão: "+str(precision_list[i-1])
-        print "Cobertura: " + str(coverage_list[i - 1])
-
-        print ""
-    print "Resultado geral"
-
-    print "Média da precisão: "+str(sum(precision_list)/len(precision_list))
-    print "Média da cobertura: "+str(sum(coverage_list)/len(coverage_list))
+    return precision_list,coverage_list

@@ -7,6 +7,7 @@ Created on Sat Oct 14 10:21:54 2017
 
 import nltk
 import compare_output
+import sys,csv
 from removeAcentos import remover_acentos
 
 marcasList = ["wolksvagem","wv","chevrolet","ford","mercedes","ferrari","audi",
@@ -23,7 +24,7 @@ direcaoList = ["mecanica", "hidraulica", "dm", "dh"]
 
 opcionaisList = ['radio', 'CD', 'MP3', 'alarme', 'airbag','travas',
                  'vidro','eletrica','bluetooth','abs','sensor','couro', 'roda','liga',
-                 'completo','re']
+                 'completo','re', 'vte', '2p','4p', '2portas', '4portas', '4pts']
 
 negacaoList = ['sem','menos','exceto']
 arList = ['ar','arcond','ar condicionado', 'condicionado', 'ac']
@@ -272,7 +273,12 @@ for doc in newDocuments:
                 
             #get optional :v
             if(evaluateToken(fields[x],opcionaisList)):
-                opcionais = opcionais + fields[x]+" "
+                if(fields[x]=='2p' or fields[x]=='4p' or fields[x]=='2portas' or fields[x]=='4portas' or fields[x]=='2pts' or fields[x]=='4pts'):
+                    num_p=fields[x][:1]
+                    fields[x]=num_p+" "+"portas"
+                elif(fields[x]=="vte"):
+                    fields[x]="vidros e travas elétricas"
+                opcionais = opcionais + fields[x] + ", "
                 continue
  
 ################################### Print ############################################################           
@@ -296,7 +302,8 @@ for doc in newDocuments:
     
     if(opcionais == ""):
         carro.opcionais = "N/I"
-    else: carro.opcionais = opcionais
+    #o -2 é para tirar a vírgula e o espaço em branco no fim
+    else: carro.opcionais = opcionais[:-2]
     
     carros.append(carro)
             
@@ -304,22 +311,9 @@ for doc in newDocuments:
 car_list_wrapper=[]
 car_dict={}
 print "-------------------------------------------------------------"    
-        
-for car in carros:
-    print "Marca: "+car.marca
-    print "Modelo: "+car.modelo
-    print "Motor: "+car.motor
-    print "Ano: "+car.ano
-    print "Combustivel: "+car.combustivel
-    print "Cambio: "+car.cambio
-    print "Preco: "+car.preco
-    print "Ar condicionado: "+car.arCond
-    print "Tipo de direcao: "+car.direcao
-    print "Cor: "+car.cor
-    print "Km: "+car.km
-    print "Opcionais: "+car.opcionais
-    print "\n"
 
+
+for car in carros:
     car_dict["Marca"]=car.marca
     car_dict["Modelo"]=car.modelo
     car_dict["Motor"]=car.motor
@@ -336,4 +330,46 @@ for car in carros:
     car_list_wrapper.append(car_dict)
     car_dict={}
 
-compare_output.compare_outputs(car_list_wrapper)
+car_list_expected=compare_output.read_expected_output()
+precision_list,coverage_list=compare_output.compare_outputs(car_list_wrapper)
+print "------------------------"
+print "Resultados:"
+for i in range(1,11):
+        #print str(i)+"ª extração:"
+        print "Extração\t{Valor esperado}"
+
+        # print "Marca: " + carros[i-1].marca +"\t\t\t\t\t\t"+car_list_expected[i-1]['Marca']
+        # print "Modelo: " + carros[i-1].modelo+"\t\t\t"+car_list_expected[i-1]['Modelo']
+        # print "Motor: " + carros[i-1].motor+"\t\t\t\t\t\t"+car_list_expected[i-1]['Motor']
+        # print "Ano: " + carros[i-1].ano+"\t\t\t\t\t\t"+car_list_expected[i-1]['Ano']
+        # print "Combustivel: " + carros[i-1].combustivel+"\t\t\t\t\t\t"+car_list_expected[i-1]['Combustivel']
+        # print "Cambio: " + carros[i-1].cambio+"\t\t\t\t\t\t"+car_list_expected[i-1]['Cambio']
+        # print "Preco: " + carros[i-1].preco+"\t\t\t\t\t\t"+car_list_expected[i-1]['Preco']
+        # print "Ar condicionado: " + carros[i-1].arCond+"\t\t\t\t\t\t"+car_list_expected[i-1]['Ar condicionado']
+        # print "Tipo de direcao: " + carros[i-1].direcao+"\t\t\t\t\t\t"+car_list_expected[i-1]['Tipo de direcao']
+        # print "Cor: " + carros[i-1].cor+"\t\t\t\t\t\t"+car_list_expected[i-1]['Cor']
+        # print "Km: " + carros[i-1].km+"\t\t\t\t\t\t"+car_list_expected[i-1]['Km']
+        # print "Opcionais: " + carros[i-1].opcionais+"\t\t\t\t\t\t"+car_list_expected[i-1]['Opcionais']
+
+        print "Marca: " + carros[i-1].marca +"\t{"+car_list_expected[i-1]['Marca']+"}"
+        print "Modelo: " + carros[i-1].modelo+"\t{"+car_list_expected[i-1]['Modelo']+"}"
+        print "Motor: " + carros[i-1].motor+"\t{"+car_list_expected[i-1]['Motor']+"}"
+        print "Ano: " + carros[i-1].ano+"\t{"+car_list_expected[i-1]['Ano']+"}"
+        print "Combustivel: " + carros[i-1].combustivel+"\t{"+car_list_expected[i-1]['Combustivel']+"}"
+        print "Cambio: " + carros[i-1].cambio+"\t{"+car_list_expected[i-1]['Cambio']+"}"
+        print "Preco: " + carros[i-1].preco+"\t{"+car_list_expected[i-1]['Preco']+"}"
+        print "Ar condicionado: " + carros[i-1].arCond+"\t{"+car_list_expected[i-1]['Ar condicionado']+"}"
+        print "Tipo de direcao: " + carros[i-1].direcao+"\t{"+car_list_expected[i-1]['Tipo de direcao']+"}"
+        print "Cor: " + carros[i-1].cor+"\t{"+car_list_expected[i-1]['Cor']+"}"
+        print "Km: " + carros[i-1].km+"\t{"+car_list_expected[i-1]['Km']+"}"
+        print "Opcionais: " + carros[i-1].opcionais+"\t{"+car_list_expected[i-1]['Opcionais']+"}"
+        print "\n"
+
+        print "Índices:"
+        print "Precisão: "+str(precision_list[i-1]*100)+"%"
+        print "Cobertura: " + str(coverage_list[i - 1]*100)+"%"
+        print "----------------------------------------"
+
+print "Resultado geral"
+print "Média da precisão: "+str((sum(precision_list)/len(precision_list))*100)+"%"
+print "Média da cobertura: "+str((sum(coverage_list)/len(coverage_list))*100)+"%"

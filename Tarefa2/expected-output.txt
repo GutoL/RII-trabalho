@@ -62,7 +62,7 @@ Ar condicionado: Não
 Tipo de direcao: N/I
 Cor: prata
 Km: 110900
-Opcionais: completo
+Opcionais: 4 portas, completo
 
 Marca: N/I
 Modelo: PALIO FIRE
@@ -75,10 +75,10 @@ Ar condicionado: N/I
 Tipo de direcao: N/I
 Cor: azul
 Km: N/I
-Opcionais: vidros e travas elétricas
+Opcionais: 2 portas, vidros e travas elétricas
 
 Marca: N/I
-Modelo: SPACEFOX
+Modelo: SPACEFOX SPORTLINE
 Motor: 1.6
 Ano: 2011
 Combustivel: N/I
@@ -88,7 +88,7 @@ Ar condicionado: N/I
 Tipo de direcao: N/I
 Cor: preto
 Km: N/I
-Opcionais: N/I
+Opcionais: 4 portas
 
 Marca: N/I
 Modelo: STRADA ADVENT
