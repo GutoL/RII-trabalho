@@ -372,7 +372,7 @@ for car in carros:
 car_list_expected=compare_output.read_expected_output()
 precision_list,coverage_list=compare_output.compare_outputs(car_list_wrapper)
 print "------------------------"
-print "Resultados:"
+print "Resultados por extração:"
 for i in xrange(1,len(car_list_wrapper)+1):
        
         print "Extração\t{Valor esperado}"
@@ -406,3 +406,22 @@ for i in xrange(1,len(car_list_wrapper)+1):
 print "Resultado geral"
 print "Média da precisão: "+str((sum(precision_list)/len(precision_list))*100)+"%"
 print "Média da cobertura: "+str((sum(coverage_list)/len(coverage_list))*100)+"%"
+
+expected_fields,filled_fields,precise_fields,cover_fields=compare_output.compare_outputs_per_field(car_list_wrapper,car_list_expected)
+#a nomenclatura é count_expected_fields (cef), count_filled_fields (cff) e assim por diante
+cef,cff,cpf,ccv=0,0,0,0
+print "------------------------------"
+print "Resultados por campo:"
+for comp in car_list_wrapper[0].keys():
+    print comp
+    print "Precisão: "+ str(precise_fields[comp]) +"/"+str(filled_fields[comp])
+    print "Cobertura: "+str(cover_fields[comp])+"/"+str(expected_fields[comp])
+    cef+=expected_fields[comp]
+    cff+=filled_fields[comp]
+    cpf+=precise_fields[comp]
+    ccv+=cover_fields[comp]
+    print ""
+
+print "Resultado geral"
+print "Média da precisão: "+str(cpf)+"/"+str(cff)
+print "Média da cobertura: "+str(ccv)+"/"+str(cef)
