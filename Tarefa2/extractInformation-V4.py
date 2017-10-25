@@ -314,6 +314,7 @@ for doc in newDocuments:
                     continue
         
         if virgula == True :
+            #print opcionais,
             opcionais = opcionais + ", "
 ################################### Print ############################################################           
     
@@ -333,11 +334,14 @@ for doc in newDocuments:
     else: carro.cor = cor
     
     carro.km = km
-    
+
     if(opcionais == "" or opcionais == " " or opcionais == ", " ):
         carro.opcionais = "N/I"
-    #o -2 é para tirar a vírgula e o espaço em branco no fim
-    else: carro.opcionais = opcionais[:-2]
+    #O opcionais.split cria uma lista separando os opcionais por virgulas
+    #filter aplica a função lambda na lista, removendo todos os espaços em branco dela
+    #map pega cada elemento b da lista e retira os espaços antes e depois deste (ex: ' basico ' se torna 'basico')
+    #finalmente, damos um join com os elementos da lista criados, criando uma string sem demasiada quantidade de virgulas e espaços
+    else: carro.opcionais = ", ".join(map(lambda b : b.strip(), filter(lambda a : a!= ' ', opcionais.split(","))))
     
     
     carros.append(carro)
@@ -369,7 +373,7 @@ car_list_expected=compare_output.read_expected_output()
 precision_list,coverage_list=compare_output.compare_outputs(car_list_wrapper)
 print "------------------------"
 print "Resultados:"
-for i in xrange(1,11):
+for i in xrange(1,len(car_list_wrapper)+1):
        
         print "Extração\t{Valor esperado}"
 

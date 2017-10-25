@@ -1,3 +1,4 @@
+from itertools import chain
 # -*- coding: utf-8 -*-
 def read_expected_output():
     output=open("expected-output.txt","r")
@@ -31,23 +32,26 @@ def compare_outputs(car_list_wrapper):
         precision_count,coverage_count=0.0,0.0
         filled_fields=0
         output_filled_fields=0
-        #print car_list_output[i]
-        #print car_list_wrapper[i]
+
         for comp in car_list_output[i].keys():
+            if (car_list_wrapper[i][comp] != "N/I"):
+                # print car_list_wrapper[i][comp]
+                filled_fields += 1
+
             if(car_list_output[i][comp]!="N/I"):
                 output_filled_fields+=1
-                #se os campos forem iguais, o contador de precisao aumenta
-                #o lado direito do or é para remover espaços posteriores, ex: comparar 'preto' e 'preto '
-                if((car_list_wrapper[i][comp]==car_list_output[i][comp]) or(car_list_wrapper[i][comp][:-1]==car_list_output[i][comp])):
-                    precision_count+=1
-                #se a lista derivada do wrapper tem um campo preenchido no componente em que a lista
-                #esperada tivesse um campo preenchido, a cobertura acresce mais um
-                #ele também é um campo preenchido, por isso acrescenta os campos preenchidos
-                if(car_list_wrapper[i][comp]!="N/I"):
-                    coverage_count+=1
-                    filled_fields += 1
+                #incrementa o contador se o campo no wrapper deveria ter sido preenchido
+                #por isso fica dentro deste if
+                if (car_list_wrapper[i][comp]!="N/I"):
+                    coverage_count += 1
 
-        #print "filled fields", filled_fields
+                wrapper_value=list(chain.from_iterable(map(lambda a : a.split(" "),map(lambda a : a.strip(),car_list_wrapper[i][comp].split(",")))))
+                expected_value=list(chain.from_iterable(map(lambda a : a.split(" "),map(lambda a : a.strip(),car_list_output[i][comp].split(",")))))
+                #se os campos forem iguais, o contador de precisao aumenta
+                #strip() é para remover espaços posteriores, ex: comparar 'preto' e 'preto '
+                if set(wrapper_value)==set(expected_value):
+                    precision_count+=1
+
         precision=precision_count/filled_fields
         coverage=coverage_count/output_filled_fields
 

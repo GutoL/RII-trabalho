@@ -10,7 +10,7 @@ Ar condicionado: N/I
 Tipo de direcao: N/I
 Cor: preto
 Km: N/I
-Opcionais: 2 portas
+Opcionais: 2 portas, basico
 
 Marca: N/I
 Modelo: PUNTO ESSENCE
@@ -18,12 +18,12 @@ Motor: 1.6
 Ano: 2011
 Combustivel: N/I
 Cambio: N/I
-Preco: R$27.900
+Preco: R$27.900,00
 Ar condicionado: N/I
 Tipo de direcao: N/I
 Cor: preto
 Km: N/I
-Opcionais: N/I
+Opcionais: onix
 
 Marca: N/I
 Modelo: SIENA
@@ -31,12 +31,12 @@ Motor: 1.0
 Ano: 2015
 Combustivel: N/I
 Cambio: N/I
-Preco: R$26.990
+Preco: R$26.990,00
 Ar condicionado: N/I
 Tipo de direcao: N/I
 Cor: branco
 Km: N/I
-Opcionais: 4 portas
+Opcionais: mpi, el, 8v, 4 portas
 
 Marca: N/I
 Modelo: FIORINO
@@ -44,7 +44,7 @@ Motor: N/I
 Ano: 2011
 Combustivel: flex
 Cambio: N/I
-Preco: R$18.000
+Preco: R$18.000,00
 Ar condicionado: N/I
 Tipo de direcao: N/I
 Cor: N/I
@@ -57,12 +57,12 @@ Motor: 1.0
 Ano: 2009
 Combustivel: flex
 Cambio: N/I
-Preco: R$20.490
+Preco: R$20.490,00
 Ar condicionado: Não
 Tipo de direcao: N/I
 Cor: prata
 Km: 110900
-Opcionais: 4 portas, completo
+Opcionais: elx, 4 portas, completo menos ac, otimo estado
 
 Marca: N/I
 Modelo: PALIO FIRE
@@ -70,12 +70,12 @@ Motor: N/I
 Ano: 2009
 Combustivel: N/I
 Cambio: N/I
-Preco: R$15.900
+Preco: R$15.900,00
 Ar condicionado: N/I
 Tipo de direcao: N/I
 Cor: azul
 Km: N/I
-Opcionais: 2 portas, vidros e travas elétricas
+Opcionais: 2 portas, vidros e travas eletricas, otimo estado
 
 Marca: N/I
 Modelo: SPACEFOX SPORTLINE
@@ -83,12 +83,12 @@ Motor: 1.6
 Ano: 2011
 Combustivel: N/I
 Cambio: N/I
-Preco: R$30.990
+Preco: R$30.990,00
 Ar condicionado: N/I
 Tipo de direcao: N/I
 Cor: preto
 Km: N/I
-Opcionais: 4 portas
+Opcionais: mi, 8v, 4 portas
 
 Marca: N/I
 Modelo: STRADA ADVENT
@@ -96,8 +96,8 @@ Motor: 1.8
 Ano: 2004
 Combustivel: N/I
 Cambio: N/I
-Preco: R$10000
-Ar condicionado: N/I
+Preco: R$10000,00
+Ar condicionado: Sim
 Tipo de direcao: N/I
 Cor: prata
 Km: N/I
@@ -109,8 +109,8 @@ Motor: 1.0
 Ano: 2005
 Combustivel: N/I
 Cambio: N/I
-Preco: R$15.990
-Ar condicionado: N/I
+Preco: R$15.990,00
+Ar condicionado: Sim
 Tipo de direcao: N/I
 Cor: preto
 Km: N/I
@@ -122,7 +122,7 @@ Motor: 1.6
 Ano: 2008
 Combustivel: flex
 Cambio: N/I
-Preco: R$19.990
+Preco: R$19.990,00
 Ar condicionado: N/I
 Tipo de direcao: N/I
 Cor: prata
