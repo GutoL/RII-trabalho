@@ -14,7 +14,7 @@ marcasList = ["wolksvagem","wv","chevrolet","ford","mercedes","ferrari","audi",
           "renault"]
           
 coresList = ["azul","vermelho","branco","prata","verde","cinza","amarelo","marinho",
-             "preto"]
+             "preto", "onix"]
 
 combustivelList = ["gasolina","flex","alcool"]
 
@@ -395,33 +395,32 @@ for i in xrange(1,len(car_list_wrapper)+1):
             carros[i-1].opcionais = carros[i-1].opcionais[:-2]
             
         print "Opcionais: " + carros[i-1].opcionais+"\t{"+car_list_expected[i-1]['Opcionais']+"}"
-        print "\n"
+        print ""
                 
         
-        print "Índices:"
-        print "Precisão: "+str(precision_list[i-1]*100)+"%"
-        print "Cobertura: " + str(coverage_list[i - 1]*100)+"%"
+        #print "Índices:"
+        #print "Precisão: "+str(precision_list[i-1]*100)+"%"
+        #print "Cobertura: " + str(coverage_list[i - 1]*100)+"%"
         print "----------------------------------------"
 
 print "Resultado geral"
 print "Média da precisão: "+str((sum(precision_list)/len(precision_list))*100)+"%"
 print "Média da cobertura: "+str((sum(coverage_list)/len(coverage_list))*100)+"%"
 
-expected_fields,filled_fields,precise_fields,cover_fields=compare_output.compare_outputs_per_field(car_list_wrapper,car_list_expected)
+expected_fields,filled_fields,precise_fields=compare_output.compare_outputs_per_field(car_list_wrapper,car_list_expected)
 #a nomenclatura é count_expected_fields (cef), count_filled_fields (cff) e assim por diante
-cef,cff,cpf,ccv=0,0,0,0
+cef,cff,cpf=0,0,0
 print "------------------------------"
 print "Resultados por campo:"
 for comp in car_list_wrapper[0].keys():
     print comp
     print "Precisão: "+ str(precise_fields[comp]) +"/"+str(filled_fields[comp])
-    print "Cobertura: "+str(cover_fields[comp])+"/"+str(expected_fields[comp])
+    print "Cobertura: "+str(precise_fields[comp])+"/"+str(expected_fields[comp])
     cef+=expected_fields[comp]
     cff+=filled_fields[comp]
     cpf+=precise_fields[comp]
-    ccv+=cover_fields[comp]
     print ""
 
 print "Resultado geral"
 print "Média da precisão: "+str(cpf)+"/"+str(cff)
-print "Média da cobertura: "+str(ccv)+"/"+str(cef)
+print "Média da cobertura: "+str(cpf)+"/"+str(cef)

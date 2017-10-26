@@ -21,16 +21,16 @@ Cambio: N/I
 Preco: R$27.900,00
 Ar condicionado: N/I
 Tipo de direcao: N/I
-Cor: preto
+Cor: preto onix
 Km: N/I
-Opcionais: onix
+Opcionais: N/I
 
 Marca: N/I
 Modelo: SIENA
 Motor: 1.0
 Ano: 2015
 Combustivel: N/I
-Cambio: N/I
+Cambio: manual
 Preco: R$26.990,00
 Ar condicionado: N/I
 Tipo de direcao: N/I
@@ -85,7 +85,7 @@ Combustivel: N/I
 Cambio: N/I
 Preco: R$30.990,00
 Ar condicionado: N/I
-Tipo de direcao: N/I
+Tipo de direcao: hidraulica
 Cor: preto
 Km: N/I
 Opcionais: mi, 8v, 4 portas
@@ -103,7 +103,7 @@ Cor: prata
 Km: N/I
 Opcionais: completa
 
-Marca: N/I
+Marca: FORD
 Modelo: FIESTA SEDAN
 Motor: 1.0
 Ano: 2005
